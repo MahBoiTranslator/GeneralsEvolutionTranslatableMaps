@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	<Includes/>
+	
+	<!-- Defaults for AudioEvents. Derive all other AudioEvents from this one -->
+	<AudioEvent id="CC_BaseSoundEffect"
+		Volume="150" 
+		MinVolume="0"
+		ShrunkenPitchModifier="2.0"
+		ShrunkenVolumeModifier="85"
+		Priority="NORMAL"
+		Limit="3"
+		MinRange="300"
+		MaxRange="1000"
+		PlayPercent="100"
+		Type="UI PLAYER"
+		ReverbEffectLevel="100"
+		ZoomedInOffscreenVolumePercent = "50"
+		ZoomedInOffscreenMinVolumePercent = "100" 
+		ZoomedInOffscreenOcclusionPercent = "20"  >
+		<!-- You might think the following was a good idea:
+			SubmixSlider ="SOUNDFX"
+			IT'S NOT. Doing this in the default sound will mess up the special 'use the speech slider if the
+			voice flag is present and no SubmixSlider entry was seen' code.		-->
+	</AudioEvent>
+	
+	<!-- Defaults for Mission Dialogue. Derive Mission Dialogue from this one -->
+	<AudioEvent id="CC_BaseMissionDialogue" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="200" 
+		MinVolume="200"
+		Limit="3"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	<!-- Defaults for unit responses. Derive unit responses responses from this one -->
+	<AudioEvent id="CC_BaseUnitResponse" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="100" 
+		MinVolume="90"
+		ShrunkenPitchModifier="1.3"
+		ShrunkenVolumeModifier="95"
+		Priority="HIGHEST"
+		Limit="3"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	
+	
+	
+	
+	
+	<!-- OVERRIDES NEED THESE -->
+	<AudioEvent
+	id="GenEvo_Ambient_BattleshipTurretTurnLoop"
+	inheritFrom="AudioEvent:CC_BaseSoundEffect"
+	Volume = "55"
+	PerFileVolumeShift = "-5"
+	Limit = "12"
+	Control = "LOOP IMMEDIATE_DECAY_ON_KILL"
+	Type = "WORLD SHROUDED EVERYONE"
+    MinRange="200"
+	MaxRange="500"
+    SubmixSlider = "AMBIENT" >
+    <PerFilePitchShift Low = "-5" High = "5" />
+		<Attack>vovelo1a</Attack>
+		<Sound>vovelo2a</Sound>
+		<Sound>vovelo2b</Sound>
+		<Decay>vovelo3a</Decay>
+	</AudioEvent>
+  
+  <!-- OVERRIDES NEED THESE -->
+
+	<AudioEvent
+	id="GenEvo_GunFire_Battleship"
+	inheritFrom="AudioEvent:CC_BaseSoundEffect"
+	Volume="100"
+	Limit="12"
+	MinRange = "100"
+	MaxRange = "2000"
+	Type="WORLD SHROUDED EVERYONE"
+	Control="INTERRUPT"
+	Priority="HIGHEST"
+	SubmixSlider="SOUNDFX">
+	<NonInterruptibleTime Low="0.0s" High="0.9s" />
+	<PitchShift
+	Low="-5"
+	High="5" />
+		<Sound>vbshweaa</Sound> <Sound>vbshweab</Sound>
+	</AudioEvent>
+	
+	
+	
+	<AudioEvent id="America_Battleship_VoiceSelect" inheritFrom="AudioEvent:CC_BaseUnitResponse"
+		Volume = "110"
+		MinVolume = "105"
+		Priority = "HIGH"
+		Type = "WORLD PLAYER VOICE"
+		SubmixSlider = "VOICE" >
+		<PitchShift Low="-1" High="1" />
+		<Sound>vshisea</Sound> 
+		<Sound>vshiseb</Sound> 
+		<Sound>vshisec</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="America_Battleship_VoiceMove" inheritFrom="AudioEvent:CC_BaseUnitResponse"
+		Volume = "110"
+		MinVolume = "105"
+		Priority = "HIGH"
+		Type = "WORLD PLAYER VOICE"
+		SubmixSlider = "VOICE" >
+		<PitchShift Low="-1" High="1" />
+		<Sound>vshimoa</Sound> 
+		<Sound>vshimob</Sound> 
+		<Sound>vshimoc</Sound> 
+		<Sound>vshimod</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="America_Battleship_VoiceAttack" inheritFrom="AudioEvent:CC_BaseUnitResponse"
+		Volume = "110"
+		MinVolume = "105"
+		Priority = "HIGH"
+		Type = "WORLD PLAYER VOICE"
+		SubmixSlider = "VOICE" >
+		<PitchShift Low="-1" High="1" />
+		<Sound>vshiata</Sound> 
+		<Sound>vshiatb</Sound> 
+		<Sound>vshiatc</Sound> 
+		<Sound>vshiatd</Sound>
+		<Sound>vshiate</Sound>
+	</AudioEvent>
+  <!-- OVERRIDES NEED THESE -->
+
+	<AudioEvent id="0tchib001" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib001</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib003" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib003</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib004" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib004</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib005" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib005</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib006" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib006</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib007" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib007</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib010" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib010</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib011" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib011</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib013" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib013</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib014" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib014</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib015" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib015</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib016" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib016</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib017" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib017</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib018" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib018</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib020" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib020</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib021" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib021</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib023" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib023</Sound> 
+	</AudioEvent><AudioEvent id="0tchib024" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib024</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib025" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib025</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib026" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib026</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib030" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib030</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib031" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib031</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib032" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib032</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib035" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib035</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib038" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib038</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib039" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib039</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib40" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib040</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib041" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib041</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib043" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib043</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib047" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib047</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib052" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib052</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib54" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib054</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib059" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib059</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib063" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib063</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib071" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib071</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib074" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib074</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib075" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib075</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib076" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib076</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib089" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib089</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib090" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib090</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib097" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib097</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib112" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib112</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tchib103" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tchib103</Sound>
+	</AudioEvent> 
+	
+
+	
+</AssetDeclaration>

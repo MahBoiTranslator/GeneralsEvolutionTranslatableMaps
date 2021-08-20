@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance">
+	<Tags/>
+	
+	<Includes>
+	
+	
+	<Include type="all" source="Code/Audio.xml"/>
+	
+	
+	
+	
+	</Includes>
+	
+	<!-- Unit Portrait -->
+	
+	
+	
+	<AudioFile id="tchib001" File="Audio/tchib001.wav" GUIPreset="Default" />
+	<AudioFile id="tchib003" File="Audio/tchib003.wav" GUIPreset="Default" />
+	<AudioFile id="tchib004" File="Audio/tchib004.wav" GUIPreset="Default" />
+	<AudioFile id="tchib005" File="Audio/tchib005.wav" GUIPreset="Default" />
+	<AudioFile id="tchib006" File="Audio/tchib006.wav" GUIPreset="Default" />
+	<AudioFile id="tchib007" File="Audio/tchib007.wav" GUIPreset="Default" />
+	<AudioFile id="tchib010" File="Audio/tchib010.wav" GUIPreset="Default" />
+	<AudioFile id="tchib011" File="Audio/tchib011.wav" GUIPreset="Default" />
+	<AudioFile id="tchib013" File="Audio/tchib013.wav" GUIPreset="Default" />
+	<AudioFile id="tchib014" File="Audio/tchib014.wav" GUIPreset="Default" />
+	<AudioFile id="tchib015" File="Audio/tchib015.wav" GUIPreset="Default" />
+	<AudioFile id="tchib016" File="Audio/tchib016.wav" GUIPreset="Default" />
+	<AudioFile id="tchib017" File="Audio/tchib017.wav" GUIPreset="Default" />
+	<AudioFile id="tchib018" File="Audio/tchib018.wav" GUIPreset="Default" />
+	<AudioFile id="tchib020" File="Audio/tchib020.wav" GUIPreset="Default" />
+	<AudioFile id="tchib021" File="Audio/tchib021.wav" GUIPreset="Default" />
+	<AudioFile id="tchib023" File="Audio/tchib023.wav" GUIPreset="Default" />
+	<AudioFile id="tchib024" File="Audio/tchib024.wav" GUIPreset="Default" />
+	<AudioFile id="tchib025" File="Audio/tchib025.wav" GUIPreset="Default" />
+	<AudioFile id="tchib026" File="Audio/tchib026.wav" GUIPreset="Default" />
+	<AudioFile id="tchib031" File="Audio/tchib031.wav" GUIPreset="Default" />
+	<AudioFile id="tchib032" File="Audio/tchib032.wav" GUIPreset="Default" />
+	<AudioFile id="tchib035" File="Audio/tchib035.wav" GUIPreset="Default" />
+	<AudioFile id="tchib038" File="Audio/tchib038.wav" GUIPreset="Default" />
+	<AudioFile id="tchib039" File="Audio/tchib039.wav" GUIPreset="Default" />
+	<AudioFile id="tchib040" File="Audio/tchib040.wav" GUIPreset="Default" />
+	<AudioFile id="tchib041" File="Audio/tchib041.wav" GUIPreset="Default" />
+	<AudioFile id="tchib043" File="Audio/tchib043.wav" GUIPreset="Default" />
+	<AudioFile id="tchib047" File="Audio/tchib047.wav" GUIPreset="Default" />
+	<AudioFile id="tchib052" File="Audio/tchib052.wav" GUIPreset="Default" />
+	<AudioFile id="tchib059" File="Audio/tchib059.wav" GUIPreset="Default" />
+	<AudioFile id="tchib063" File="Audio/tchib063.wav" GUIPreset="Default" />
+	<AudioFile id="tchib071" File="Audio/tchib071.wav" GUIPreset="Default" />
+	<AudioFile id="tchib074" File="Audio/tchib074.wav" GUIPreset="Default" />
+	<AudioFile id="tchib075" File="Audio/tchib075.wav" GUIPreset="Default" />
+	<AudioFile id="tchib076" File="Audio/tchib076.wav" GUIPreset="Default" />
+	<AudioFile id="tchib089" File="Audio/tchib089.wav" GUIPreset="Default" />
+	<AudioFile id="tchib090" File="Audio/tchib090.wav" GUIPreset="Default" />
+	<AudioFile id="tchib091" File="Audio/tchib091.wav" GUIPreset="Default" />
+	<AudioFile id="tchib097" File="Audio/tchib097.wav" GUIPreset="Default" />
+	<AudioFile id="tchib103" File="Audio/tchib103.wav" GUIPreset="Default" />
+	<AudioFile id="tchib112" File="Audio/tchib112.wav" GUIPreset="Default" />
+
+	
+
+
+	
+		
+</AssetDeclaration>

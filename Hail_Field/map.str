@@ -1,0 +1,15 @@
+
+MISSIONOBJ:HF_defend
+	"you must defend your base until the waves attacks end"
+End
+
+MISSIONOBJ:HF_attack
+	"destroy Leang's base and her superweapon !"
+End
+
+SCRIPT:aymcam_HF_Counter
+	"Waves :"
+End
+ 
+
+

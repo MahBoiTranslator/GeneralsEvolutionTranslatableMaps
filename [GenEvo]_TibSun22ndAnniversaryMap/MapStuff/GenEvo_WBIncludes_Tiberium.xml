@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xai="uri:ea.com:eala:asset:instance" xmlns:ns="uri:ea.com:eala:asset">
+
+	<!-- ######## -->
+	<!-- ######## -->
+	<!-- INCLUDES -->
+	<!-- ######## -->
+	<!-- ######## -->
+
+	<Includes>
+		<Include type="all" source="Tiberium\tiberiumblueTD_skn.w3x"/>
+		<Include type="all" source="Tiberium\tiberiumTD_AN.w3x"/>
+		<Include type="all" source="Tiberium\tiberiumTD_skn.w3x"/>
+		
+		<Include type="all" source="Tiberium\EXTIBCLUSTER.w3x"/>
+		<Include type="all" source="Tiberium\EXTIBBLUECLUSTER.w3x"/>
+	</Includes>
+	
+	<Texture id="TiberiumBlueTD" File="Tiberium\TiberiumBlueTD.dds"/>
+	<Texture id="TiberiumBlueTD_NRM" File="Tiberium\TiberiumBlueTD_NRM.dds"/>
+	<Texture id="TiberiumBlueTD_SPM" File="Tiberium\TiberiumBlueTD_SPM.dds"/>
+	<Texture id="TiberiumTD" File="Tiberium\TiberiumTD.dds"/>
+	<Texture id="TiberiumTD_NRM" File="Tiberium\TiberiumTD_NRM.dds"/>
+	<Texture id="TiberiumTD_SPM" File="Tiberium\TiberiumTD_SPM.dds"/>
+	<Texture id="TiberiumCracks01" File="Tiberium\TiberiumCracks01.dds"/>
+	<Texture id="TiberiumCracksBlue01" File="Tiberium\TiberiumCracksBlue01.dds"/>
+	<!-- <Texture id="TiberiumCrystal02Energy" File="Tiberium\TiberiumCrystal02Energy.dds"/> -->
+	
+	<Texture id="TiberiumCrysBlue01" File="Tiberium\TiberiumCrysBlue01.dds"/>
+	<Texture id="TiberiumCrysBlue01All" File="Tiberium\TiberiumCrysBlue01All.dds"/>
+	<Texture id="TiberiumCrystal01" File="Tiberium\TiberiumCrystal01.dds"/>
+	<Texture id="TiberiumCrystal01ALL" File="Tiberium\TiberiumCrystal01ALL.dds"/>
+	<Texture id="TiberiumCrystal01NRM" File="Tiberium\TiberiumCrystal01NRM.dds"/>
+	<!-- <Texture id="TiberiumCrystalEMS01" File="Tiberium\TiberiumCrystalEMS01.dds"/> -->
+	
+	<Texture id="TiberiumBlueTD_LM" File="Tiberium\TiberiumBlueTD_LM.dds"/>
+	<Texture id="TiberiumTD_LM" File="Tiberium\TiberiumTD_LM.dds"/>
+	<Texture id="FXLenzFlareTiberium" File="Tiberium\FXLenzFlareTiberium.dds"/>
+	
+	<AudioFile id="valves1b" File="Tiberium\valves1b.wav" GUIPreset="Default" />
+	
+	
+	<!-- ######## -->
+	<!-- ######## -->
+	<!-- PORTRAIT -->
+	<!-- ######## -->
+	<!-- ######## -->
+	
+	<Texture id="TiberiumPortrait_Big" File="Tiberium\TiberiumPortrait_Big.dds" OutputFormat="A8R8G8B8" GenerateMipMaps="false" AllowAutomaticResize="false"/>
+	<Texture id="TiberiumPortrait_Small" File="Tiberium\TiberiumPortrait_Small.dds" OutputFormat="A8R8G8B8" GenerateMipMaps="false" AllowAutomaticResize="false"/>
+	
+	<PackedTextureImage id="Portrait_TiberiumCrystal_SM" Texture="TiberiumPortrait_Small" Rotated="false">
+		<Dimensions x="106" y="106"/>
+		<Coords x="1" y="1"/>
+		<TextureDimensions x="128" y="128"/>
+	</PackedTextureImage>
+	<PackedTextureImage id="Portrait_TiberiumCrystal" Texture="TiberiumPortrait_Big" Rotated="false">
+		<Dimensions x="202" y="152"/>
+		<Coords x="1" y="1"/>
+		<TextureDimensions x="256" y="256"/>
+	</PackedTextureImage>
+	
+	<!-- ##### -->
+	<!-- ##### -->
+	<!-- SOUND -->
+	<!-- ##### -->
+	<!-- ##### -->
+	
+	<AudioEvent id="BaseSoundEffectTiberium"
+		Volume="100" 
+		MinVolume="0"
+		ShrunkenPitchModifier="2.0"
+		ShrunkenVolumeModifier="85"
+		Priority="NORMAL"
+		Limit="3"
+		MinRange="300"
+		MaxRange="1000"
+		PlayPercent="100"
+		Type="UI PLAYER"
+		ReverbEffectLevel="100"
+		ZoomedInOffscreenVolumePercent = "50"
+		ZoomedInOffscreenMinVolumePercent = "100" 
+		ZoomedInOffscreenOcclusionPercent = "20"  >
+		<!-- You might think the following was a good idea:
+			SubmixSlider ="SOUNDFX"
+			IT'S NOT. Doing this in the default sound will mess up the special 'use the speech slider if the
+			voice flag is present and no SubmixSlider entry was seen' code.		-->
+	</AudioEvent>
+	
+	<AudioEvent
+	id="valves1b"
+	inheritFrom="AudioEvent:BaseSoundEffectTiberium"
+	Volume="120"
+	MinRange="1"
+	MaxRange="999999"
+	Limit="1"
+	Control="LOOP"
+	Priority="HIGHEST"
+	Type="WORLD SHROUDED EVERYONE"
+	DryLevel="100"
+	SubmixSlider="MUSIC">
+	<Sound>valves1b</Sound>
+</AudioEvent>
+	
+	<AudioEvent
+	id="TiberiumCrystalDeathSound"
+	inheritFrom="AudioEvent:BaseSoundEffectTiberium"
+	Volume="80"
+	VolumeShift="-15"
+	Limit="3"
+	Control="INTERRUPT"
+	Type="WORLD SHROUDED EVERYONE"
+	SubmixSlider="SOUNDFX">
+	<NonInterruptibleTime Low="0.0s" High="0.5s" />
+	<PitchShift
+	Low="-10"
+	High="10" />
+		<Sound>WIBuild_weaImpa1i</Sound> 
+		<Sound>WIBuild_weaImpa1k</Sound> 
+		<Sound>WIBuild_weaImpa2a</Sound> 
+		<Sound>WIBuild_weaImpa2b</Sound> 
+		<Sound>WIBuild_weaImpa2c</Sound> 
+		<Sound>WIBuild_weaImpa2d</Sound> 		
+		<Sound>WIBuild_weaImpa2f</Sound> 
+		<Sound>WIBuild_weaImpa2g</Sound> 
+		<Sound>WIBuild_weaImpa2h</Sound> 
+	</AudioEvent>
+	
+	<!-- ###### -->
+	<!-- ###### -->
+	<!-- WEAPON -->
+	<!-- ###### -->
+	<!-- ###### -->
+	
+	<WeaponTemplate
+		id="TiberiumCrystalWeapon"
+		RadiusDamageAffects="ALLIES ENEMIES NEUTRALS NOT_SIMILAR" 
+		Flags="NOT_ATTRACTED_BY_MAGNETS" >
+		<PreAttackDelay
+			MinSeconds="1.0s"
+			MaxSeconds="2.5s" 
+		/>
+		<FiringDuration
+			MinSeconds="0s"
+			MaxSeconds="0s" 
+		/>
+		<Nuggets>
+			<DamageNugget 
+				Damage="0.5" 
+				Radius="20.0" 
+				DamageType="RADIATION"
+				DamageFXType="RADIATION"
+				DeathType="IRRADIATED">
+				<SpecialObjectFilter
+					   Rule="ALL"
+					   Include="INFANTRY"
+					   Exclude="TIBERIUM VEHICLE STRUCTURE">
+					<ExcludeThing>TiberiumCrystal</ExcludeThing>
+					<ExcludeThing>TiberiumCrystalBlue</ExcludeThing>
+					<ExcludeThing>KR_Wall</ExcludeThing>
+					<ExcludeThing>HB_HeidelbergCastle</ExcludeThing>
+				</SpecialObjectFilter>
+			</DamageNugget>
+		</Nuggets>
+	</WeaponTemplate>
+	
+	<WeaponTemplate
+      id="TiberiumCrystalDeathWeapon"
+      RadiusDamageAffects="ALLIES ENEMIES NEUTRALS NOT_SIMILAR"
+	  Flags="NOT_ATTRACTED_BY_MAGNETS" 
+      FireFX="FX_None">
+    <Nuggets>
+      <DamageNugget
+				Damage="200"
+				Radius="40"
+				DamageType="RADIATION"
+				DamageFXType="RADIATION"
+				DeathType="IRRADIATED">
+				<SpecialObjectFilter
+					   Rule="ALL"
+					   Exclude="TIBERIUM">
+					<ExcludeThing>TiberiumCrystal</ExcludeThing>
+					<ExcludeThing>TiberiumCrystalBlue</ExcludeThing>
+					<ExcludeThing>KR_Wall</ExcludeThing>
+					<ExcludeThing>HB_HeidelbergCastle</ExcludeThing>
+				</SpecialObjectFilter>
+      </DamageNugget>
+    </Nuggets>
+	</WeaponTemplate>
+	
+	<!-- ################ -->
+	<!-- ################ -->
+	<!-- PARTICLE EFFECTS -->
+	<!-- ################ -->
+	<!-- ################ -->
+	
+	<FXParticleSystemTemplate ParticleTexture="FXCloudCR01" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" SortLevel="1" Type="GPU_PARTICLE" id="TibCellAura">
+		<Lifetime High="50" Low="50"/>
+		<Size High="60" Low="30"/>
+		<BurstDelay High="40" Low="2"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="0.301961" g="0.509804" r="0.345098"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="3" Low="2"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<!--
+		<Draw>
+			<Gpu SpeedMultiplier="1"/>
+		</Draw>
+		-->
+		<Draw>
+			<Gpu EnableSoftParticles="true" DetailTexture="FXAbaloneEnv" FramesPerRow="1" MiscValue1="0.1" MiscValue2="0.1" MiscValue3="45" MiscValue4="0.0025" Shader="gpuparticledistort.fx" SortParticles="true" SpeedMultiplier="1" TotalFrames="1"/>
+		</Draw>
+		<Volume>
+			<Cylinder Radius="10">
+				<Offset x="0" y="0" z="10"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Outward>
+				<Speed High="0.1" Low="0.05"/>
+				<OtherSpeed High="0" Low="0"/>
+			</Outward>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRateDamping High="1" Low="1"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	<FXParticleSystemTemplate ParticleTexture="FXCloudCR01" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" SortLevel="1" Type="GPU_PARTICLE" id="TibCellAuraBlue">
+		<Lifetime High="50" Low="50"/>
+		<Size High="60" Low="30"/>
+		<BurstDelay High="40" Low="2"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="0.509804" g="0.384314" r="0.301961"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="2.5" Low="1.75"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<!--
+		<Draw>
+			<Gpu SpeedMultiplier="1"/>
+		</Draw>
+		-->
+		<Draw>
+			<Gpu EnableSoftParticles="true" DetailTexture="FXAbaloneEnv" FramesPerRow="1" MiscValue1="0.1" MiscValue2="0.1" MiscValue3="45" MiscValue4="0.0025" Shader="gpuparticledistort.fx" SortParticles="true" SpeedMultiplier="1" TotalFrames="1"/>
+		</Draw>
+		<Volume>
+			<Cylinder Radius="10">
+				<Offset x="0" y="0" z="10"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Outward>
+				<Speed High="0.1" Low="0.05"/>
+				<OtherSpeed High="0" Low="0"/>
+			</Outward>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRateDamping High="1" Low="1"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	<FXParticleSystemTemplate ParticleTexture="FXFractal01NRM" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" Shader="ALPHA" Type="GPU_PARTICLE" SortLevel="1" id="TibCellDist">
+		<Lifetime High="50" Low="50"/>
+		<Size High="60" Low="30"/>
+		<BurstDelay High="80" Low="40"/>
+		<BurstCount High="1" Low="1"/>
+		<Alphas>
+			<Alpha Frame="2" High="0.075" Low="0.05" RelativeAge="9"/>
+			<Alpha Frame="3" High="0" Low="0" RelativeAge="100"/>
+			<Alpha Frame="4" High="0" Low="0" RelativeAge="200"/>
+		</Alphas>
+		<Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="0.584314" g="1" r="0.74902"/>
+			</Color>
+			<Color Frame="2" RelativeAge="15">
+				<Color b="0.584314" g="1" r="0.74902"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0.584314" g="1" r="0.74902"/>
+			</Color>
+			<Color Frame="4" RelativeAge="200">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu DetailTexture="FXSphereNRM" Shader="GPUParticleDistortion.fx" SpeedMultiplier="1"/>
+		</Draw>
+		<Volume>
+			<Cylinder Radius="10">
+				<Offset x="0" y="0" z="10"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Outward>
+				<Speed High="0.1" Low="0.05"/>
+				<OtherSpeed High="0" Low="0"/>
+			</Outward>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRateDamping High="1" Low="1"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	<FXParticleSystemTemplate ParticleTexture="FXLenzFlareTiberium" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" Type="GPU_PARTICLE" id="TibCellDots">
+		<Lifetime High="200" Low="100"/>
+		<Size High="1" Low="0.25"/>
+		<BurstDelay High="60" Low="20"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="0.301961" g="0.609804" r="0.345098"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="15" Low="12"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+				<DriftVelocity x="0.5" y="0.5" z="0"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu SpeedMultiplier="1"/>
+		</Draw>
+		<Volume>
+			<Cylinder Length="10" Radius="35">
+				<Offset x="0" y="0" z="3"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Ortho>
+				<Position>
+					<x High="0.5" Low="-0.5"/>
+					<y High="0.5" Low="-0.5"/>
+					<z High="0.5" Low="-0.5"/>
+				</Position>
+			</Ortho>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRateDamping High="1" Low="1"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularRateZ High="0.25" Low="-0.25"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	<FXParticleSystemTemplate ParticleTexture="FXLenzFlareTiberium" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" Type="GPU_PARTICLE" id="TibCellDotsBlue">
+		<Lifetime High="200" Low="100"/>
+		<Size High="1" Low="0.25"/>
+		<BurstDelay High="60" Low="20"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="0.609804" g="0.384314" r="0.301961"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="15" Low="12"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+				<DriftVelocity x="0.5" y="0.5" z="0"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu SpeedMultiplier="1"/>
+		</Draw>
+		<Volume>
+			<Cylinder Length="10" Radius="35">
+				<Offset x="0" y="0" z="3"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Ortho>
+				<Position>
+					<x High="0.5" Low="-0.5"/>
+					<y High="0.5" Low="-0.5"/>
+					<z High="0.5" Low="-0.5"/>
+				</Position>
+			</Ortho>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRateDamping High="1" Low="1"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularRateZ High="0.25" Low="-0.25"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	<FXParticleSystemTemplate ParticleTexture="FXVapor01" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" SortLevel="1" Type="GPU_PARTICLE" id="TibCellVapor">
+		<Lifetime High="50" Low="50"/>
+		<Size High="60" Low="30"/>
+		<BurstDelay High="40" Low="2"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="0.301961" g="0.609804" r="0.345098"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="1.75" Low="1.15"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu DetailTexture="FXFracTileNRM" MiscValue1="0.1" MiscValue2="0.05" MiscValue3="45" MiscValue4="0.5" Shader="GpuParticleDistort.fx" SpeedMultiplier="1" TotalFrames="0"/>
+		</Draw>
+		<Volume>
+			<Cylinder Radius="10">
+				<Offset x="0" y="0" z="3"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Outward>
+				<Speed High="0.1" Low="0.05"/>
+				<OtherSpeed High="0" Low="0"/>
+			</Outward>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRateDamping High="1" Low="1"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	<FXParticleSystemTemplate ParticleTexture="FXVapor01" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" SortLevel="1" Type="GPU_PARTICLE" id="TibCellVaporBlue">
+		<Lifetime High="50" Low="50"/>
+		<Size High="60" Low="30"/>
+		<BurstDelay High="40" Low="2"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="0.609804" g="0.384314" r="0.301961"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="1.75" Low="1.15"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu DetailTexture="FXFracTileNRM" MiscValue1="0.1" MiscValue2="0.05" MiscValue3="45" MiscValue4="0.5" Shader="GpuParticleDistort.fx" SpeedMultiplier="1" TotalFrames="0"/>
+		</Draw>
+		<Volume>
+			<Cylinder Radius="10">
+				<Offset x="0" y="0" z="3"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Outward>
+				<Speed High="0.1" Low="0.05"/>
+				<OtherSpeed High="0" Low="0"/>
+			</Outward>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRateDamping High="1" Low="1"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	
+	
+	
+	
+	
+	<FXParticleSystemTemplate Drawable="EXTIBCLUSTER" PerParticleAttachedSystem="" Priority="ALWAYS_RENDER" Shader="W3D_ALPHA" SortLevel="1" SystemLifetime="3" Type="DRAWABLE" id="TibCellDeathCrystalsNew">
+		<Lifetime High="40" Low="40"/>
+		<Size High="1" Low="1"/>
+		<BurstCount High="10" Low="5"/>
+		<Alphas>
+			<Alpha Frame="1" High="1" Low="1" RelativeAge="0"/>
+			<Alpha Frame="2" High="1" Low="1" RelativeAge="50"/>
+			<Alpha Frame="3" High="1" Low="1" RelativeAge="100"/>
+		</Alphas>
+		<Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="0.0901961" g="0.0901961" r="0.0901961"/>
+			</Color>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="0.172549" g="0.172549" r="0.172549"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0.172549" g="0.172549" r="0.172549"/>
+			</Color>
+		</Colors>
+		<Physics>
+			<Default Gravity="-0.2">
+				<VelocityDamping High="0.95" Low="0.95"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<RenderObject>
+				<ObjectSet/>
+				<ObjectSet/>
+				<ObjectSet/>
+			</RenderObject>
+		</Draw>
+		<Volume>
+			<Cylinder Radius="15">
+				<Offset x="0" y="0" z="0"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Ortho>
+				<Position>
+					<x High="2" Low="-2"/>
+					<y High="2" Low="-2"/>
+					<z High="5" Low="2"/>
+				</Position>
+			</Ortho>
+		</Velocity>
+		<Event/>
+		<Update>
+			<RenderObject Rotation="ROTATE_IN_WORLD_SPACE">
+				<AngleZ High="7" Low="0"/>
+				<AngularRateZ High="0.2" Low="-0.2"/>
+				<AngularDamping High="1" Low="0.9"/>
+				<StartSize>
+					<x High="0.6" Low="0.1"/>
+					<y High="0.6" Low="0.1"/>
+					<z High="0.6" Low="0.1"/>
+				</StartSize>
+				<SizeRate>
+					<x High="0" Low="0"/>
+					<y High="0" Low="0"/>
+					<z High="0" Low="0"/>
+				</SizeRate>
+				<SizeDamping>
+					<x High="0.5" Low="0.5"/>
+					<y High="0.5" Low="0.5"/>
+					<z High="0.5" Low="0.5"/>
+				</SizeDamping>
+			</RenderObject>
+		</Update>
+	</FXParticleSystemTemplate>
+	<FXParticleSystemTemplate Drawable="EXTIBBLUECLUSTER" PerParticleAttachedSystem="" Priority="ALWAYS_RENDER" Shader="W3D_ALPHA" SortLevel="1" SystemLifetime="3" Type="DRAWABLE" id="TibCellDeathCrystalsBlueNew">
+		<Lifetime High="40" Low="40"/>
+		<Size High="1" Low="1"/>
+		<BurstCount High="10" Low="5"/>
+		<Alphas>
+			<Alpha Frame="1" High="1" Low="1" RelativeAge="0"/>
+			<Alpha Frame="2" High="1" Low="1" RelativeAge="50"/>
+			<Alpha Frame="3" High="1" Low="1" RelativeAge="100"/>
+		</Alphas>
+		<Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="0.0901961" g="0.0901961" r="0.0901961"/>
+			</Color>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="1" g="0.588235" r="0.466667"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0.172549" g="0.172549" r="0.172549"/>
+			</Color>
+		</Colors>
+		<Physics>
+			<Default Gravity="-0.2">
+				<VelocityDamping High="0.95" Low="0.95"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<RenderObject>
+				<ObjectSet/>
+				<ObjectSet/>
+				<ObjectSet/>
+			</RenderObject>
+		</Draw>
+		<Volume>
+			<Cylinder Radius="15">
+				<Offset x="0" y="0" z="0"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Ortho>
+				<Position>
+					<x High="2" Low="-2"/>
+					<y High="2" Low="-2"/>
+					<z High="5" Low="2"/>
+				</Position>
+			</Ortho>
+		</Velocity>
+		<Event/>
+		<Update>
+			<RenderObject Rotation="ROTATE_IN_WORLD_SPACE">
+				<AngleZ High="7" Low="0"/>
+				<AngularRateZ High="0.2" Low="-0.2"/>
+				<AngularDamping High="1" Low="0.9"/>
+				<StartSize>
+					<x High="0.6" Low="0.1"/>
+					<y High="0.6" Low="0.1"/>
+					<z High="0.6" Low="0.1"/>
+				</StartSize>
+				<SizeRate>
+					<x High="0" Low="0"/>
+					<y High="0" Low="0"/>
+					<z High="0" Low="0"/>
+				</SizeRate>
+				<SizeDamping>
+					<x High="0.5" Low="0.5"/>
+					<y High="0.5" Low="0.5"/>
+					<z High="0.5" Low="0.5"/>
+				</SizeDamping>
+			</RenderObject>
+		</Update>
+	</FXParticleSystemTemplate>
+	
+	
+	<FXParticleSystemTemplate ParticleTexture="FXSphereNRM" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" Shader="ALPHA" SystemLifetime="1" Type="GPU_PARTICLE" id="TibCellDeathDistortionNew">
+		<Lifetime High="15" Low="15"/>
+		<Size High="25" Low="25"/>
+		<BurstCount High="1" Low="1"/>
+		<Alphas>
+			<Alpha Frame="1" High="0.15" Low="0.15" RelativeAge="0"/>
+			<Alpha Frame="2" High="0.3" Low="0.3" RelativeAge="50"/>
+			<Alpha Frame="3" High="0" Low="0" RelativeAge="100"/>
+			<Alpha Frame="4" High="0" Low="0" RelativeAge="200"/>
+		</Alphas>
+		<Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="1" g="1" r="1"/>
+			</Color>
+			<Color Frame="2" RelativeAge="15">
+				<Color b="1" g="1" r="1"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="1" g="1" r="1"/>
+			</Color>
+			<Color Frame="4" RelativeAge="200">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu DetailTexture="FXSphereNRM" Shader="GPUParticleDistortion.fx" SpeedMultiplier="1"/>
+		</Draw>
+		<Volume>
+			<Cylinder>
+				<Offset x="0" y="0" z="10"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Ortho>
+				<Position>
+					<x High="0" Low="0"/>
+					<y High="0" Low="0"/>
+					<z High="0" Low="0"/>
+				</Position>
+			</Ortho>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRate High="2" Low="2"/>
+				<SizeRateDamping High="0.9" Low="0.9"/>
+				<AngleZ High="7" Low="-7"/>
+				<AngularRateZ High="0.02" Low="-0.02"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	<FXParticleSystemTemplate ParticleTexture="FXLenzFlare01" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" SystemLifetime="15" Type="GPU_PARTICLE" id="TibCellDeathFlashNew">
+		<Lifetime High="10" Low="5"/>
+		<Size High="100" Low="50"/>
+		<BurstDelay High="5" Low="0"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="0.643137" g="0.929412" r="1"/>
+			</Color>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="0.235294" g="0.666667" r="0.258824"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="3" Low="2"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu SpeedMultiplier="1"/>
+		</Draw>
+		<Volume>
+			<Cylinder Radius="15">
+				<Offset x="0" y="0" z="10"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Outward>
+				<Speed High="0.25" Low="0.1"/>
+				<OtherSpeed High="0" Low="0"/>
+			</Outward>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRateDamping High="1" Low="1"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	<FXParticleSystemTemplate ParticleTexture="FXLenzFlare01" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" SystemLifetime="15" Type="GPU_PARTICLE" id="TibCellDeathFlashBlueNew">
+		<Lifetime High="10" Low="5"/>
+		<Size High="100" Low="50"/>
+		<BurstDelay High="5" Low="0"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="1" g="0.87451" r="0.643137"/>
+			</Color>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="0.670588" g="0.294118" r="0.227451"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="3" Low="2"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu SpeedMultiplier="1"/>
+		</Draw>
+		<Volume>
+			<Cylinder Radius="15">
+				<Offset x="0" y="0" z="10"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Outward>
+				<Speed High="0.25" Low="0.1"/>
+				<OtherSpeed High="0" Low="0"/>
+			</Outward>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRateDamping High="1" Low="1"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	<FXParticleSystemTemplate ParticleTexture="FXLightning03" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" SystemLifetime="30" Type="GPU_PARTICLE" id="TibCellDeathLightningNew">
+		<Lifetime High="10" Low="5"/>
+		<Size High="50" Low="5"/>
+		<BurstDelay High="10" Low="0"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="0.643137" g="0.929412" r="1"/>
+			</Color>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="0.235294" g="0.466667" r="0.258824"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="3" Low="2"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu SpeedMultiplier="1"/>
+		</Draw>
+		<Volume>
+			<Cylinder Radius="25">
+				<Offset x="0" y="0" z="10"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Outward>
+				<Speed High="0.25" Low="0.1"/>
+				<OtherSpeed High="0" Low="0"/>
+			</Outward>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRateDamping High="1" Low="1"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	<FXParticleSystemTemplate ParticleTexture="FXLightning03" PerParticleAttachedSystem="" Priority="MEDIUM_OR_ABOVE" SystemLifetime="30" Type="GPU_PARTICLE" id="TibCellDeathLightningBlueNew">
+		<Lifetime High="10" Low="5"/>
+		<Size High="50" Low="5"/>
+		<BurstDelay High="10" Low="0"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="1" g="0.839216" r="0.643137"/>
+			</Color>
+			<Color Frame="2" RelativeAge="50">
+				<Color b="0.482353" g="0.341176" r="0.215686"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="3" Low="2"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu SpeedMultiplier="1"/>
+		</Draw>
+		<Volume>
+			<Cylinder Radius="25">
+				<Offset x="0" y="0" z="10"/>
+			</Cylinder>
+		</Volume>
+		<Velocity>
+			<Outward>
+				<Speed High="0.25" Low="0.1"/>
+				<OtherSpeed High="0" Low="0"/>
+			</Outward>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRateDamping High="1" Low="1"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	
+	<FXParticleSystemTemplate IsGroundAligned="true" ParticleTexture="FXRing01" PerParticleAttachedSystem="" Priority="ALWAYS_RENDER" SortLevel="2" SystemLifetime="1" Type="GPU_PARTICLE" id="TibCellDeathShockwave">
+		<Lifetime High="20" Low="20"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="0.301961" g="0.709804" r="0.345098"/>
+			</Color>
+			<Color Frame="2" RelativeAge="30">
+				<Color b="0.301961" g="0.709804" r="0.345098"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="3" Low="2"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu Shader="gpuparticlexy.fx" SpeedMultiplier="0.001"/>
+		</Draw>
+		<Volume>
+			<Line IsHollow="true">
+				<StartPoint x="0" y="0" z="6"/>
+				<EndPoint x="0" y="0" z="6"/>
+			</Line>
+		</Volume>
+		<Velocity>
+			<Ortho>
+				<Position>
+					<x High="0" Low="0"/>
+					<y High="0" Low="0"/>
+					<z High="0" Low="0"/>
+				</Position>
+			</Ortho>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRate High="25" Low="20"/>
+				<SizeRateDamping High="0.85" Low="0.85"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	
+	<FXParticleSystemTemplate IsGroundAligned="true" ParticleTexture="FXRing01" PerParticleAttachedSystem="" Priority="ALWAYS_RENDER" SortLevel="2" SystemLifetime="1" Type="GPU_PARTICLE" id="TibCellDeathShockwaveBlue">
+		<Lifetime High="20" Low="20"/>
+		<BurstCount High="1" Low="1"/>
+		<Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="0.701961" g="0.309804" r="0.345098"/>
+			</Color>
+			<Color Frame="2" RelativeAge="30">
+				<Color b="0.701961" g="0.309804" r="0.345098"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="3" Low="2"/>
+		</Colors>
+		<Physics>
+			<Default>
+				<VelocityDamping High="1" Low="1"/>
+			</Default>
+		</Physics>
+		<Draw>
+			<Gpu Shader="gpuparticlexy.fx" SpeedMultiplier="0.001"/>
+		</Draw>
+		<Volume>
+			<Line IsHollow="true">
+				<StartPoint x="0" y="0" z="6"/>
+				<EndPoint x="0" y="0" z="6"/>
+			</Line>
+		</Volume>
+		<Velocity>
+			<Ortho>
+				<Position>
+					<x High="0" Low="0"/>
+					<y High="0" Low="0"/>
+					<z High="0" Low="0"/>
+				</Position>
+			</Ortho>
+		</Velocity>
+		<Event/>
+		<Update>
+			<Default>
+				<SizeRate High="25" Low="20"/>
+				<SizeRateDamping High="0.85" Low="0.85"/>
+				<AngleZ High="7" Low="0"/>
+				<AngularDampingXY High="1" Low="1"/>
+			</Default>
+		</Update>
+	</FXParticleSystemTemplate>
+	
+	<FXParticleSystemTemplate ParticleTexture="FXLenzFlare01" PerParticleAttachedSystem="" Priority="ALWAYS_RENDER" SystemLifetime="1" id="TibCellDeathLight">
+    <Lifetime High="40" Low="35"/>
+    <Size High="90" Low="60"/>
+    <BurstCount High="1" Low="1"/>
+    <Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="0.301961" g="0.709804" r="0.345098"/>
+			</Color>
+			<Color Frame="2" RelativeAge="30">
+				<Color b="0.301961" g="0.709804" r="0.345098"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="3" Low="2"/>
+	</Colors>
+    <Physics>
+      <Default ParticlesAttachToBone="true">
+        <VelocityDamping High="1" Low="1"/>
+      </Default>
+    </Physics>
+    <Draw>
+      <LightSource/>
+    </Draw>
+    <Volume>
+      <Cylinder Length="30" Radius="0">
+        <Offset x="0" y="0" z="15"/>
+      </Cylinder>
+    </Volume>
+    <Velocity>
+      <Outward>
+        <Speed High="0" Low="0"/>
+        <OtherSpeed High="0" Low="0"/>
+      </Outward>
+    </Velocity>
+    <Event/>
+    <Update>
+      <Default>
+        <SizeRate High="0.5" Low="0.5"/>
+        <SizeRateDamping High="0.99" Low="0.99"/>
+        <AngleZ High="3" Low="-3"/>
+        <AngularDampingXY High="1" Low="1"/>
+      </Default>
+    </Update>
+  </FXParticleSystemTemplate>
+  
+  
+  <FXParticleSystemTemplate ParticleTexture="FXLenzFlare01" PerParticleAttachedSystem="" Priority="ALWAYS_RENDER" SystemLifetime="1" id="TibCellDeathLightBlue">
+    <Lifetime High="40" Low="35"/>
+    <Size High="90" Low="60"/>
+    <BurstCount High="1" Low="1"/>
+    <Colors>
+			<Color Frame="1" RelativeAge="0">
+				<Color b="0.701961" g="0.309804" r="0.345098"/>
+			</Color>
+			<Color Frame="2" RelativeAge="30">
+				<Color b="0.701961" g="0.309804" r="0.345098"/>
+			</Color>
+			<Color Frame="3" RelativeAge="100">
+				<Color b="0" g="0" r="0"/>
+			</Color>
+			<ColorScale High="3" Low="2"/>
+		</Colors>
+    <Physics>
+      <Default ParticlesAttachToBone="true">
+        <VelocityDamping High="1" Low="1"/>
+      </Default>
+    </Physics>
+    <Draw>
+      <LightSource/>
+    </Draw>
+    <Volume>
+      <Cylinder Length="30" Radius="0">
+        <Offset x="0" y="0" z="15"/>
+      </Cylinder>
+    </Volume>
+    <Velocity>
+      <Outward>
+        <Speed High="0" Low="0"/>
+        <OtherSpeed High="0" Low="0"/>
+      </Outward>
+    </Velocity>
+    <Event/>
+    <Update>
+      <Default>
+        <SizeRate High="0.5" Low="0.5"/>
+        <SizeRateDamping High="0.99" Low="0.99"/>
+        <AngleZ High="3" Low="-3"/>
+        <AngularDampingXY High="1" Low="1"/>
+      </Default>
+    </Update>
+  </FXParticleSystemTemplate>
+	
+	
+	
+	<FXList id="FX_TibCellDeathGreen">
+		<NuggetList>
+			<ParticleSystem
+				Particle="TibCellDeathLight">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibCellDeathShockwave">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibCellDeathCrystalsNew">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibCellDeathDistortionNew">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibCellDeathFlashNew">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibCellDeathLightningNew">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>	
+			<Sound Value="TiberiumCrystalDeathSound" />		
+
+			<DynamicDecal 
+				Decal="TiberiumCracks01" 
+				Shader="ALPHA"
+				Size="80" 
+				OrientToObject="false" 
+				OpacityStart="128" 
+				OpacityFadeTimeOne="0s" 
+				OpacityPeak="1" 
+				OpacityPeakTime="2s" 
+				OpacityFadeTimeTwo="10s" 
+				OpacityEnd="0" 
+				StartingDelay="0s" 
+				OnlyIfOnLand="true" 
+				Lifetime="15s">
+				<Color R="182" G="182" B="182" />
+				<Offset x="0" y="0"/>
+			</DynamicDecal>
+			
+		</NuggetList>
+	</FXList>
+	
+	<FXList id="FX_TibCellDeathBlue">
+		<NuggetList>
+			<ParticleSystem
+				Particle="TibCellDeathLightBlue">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibCellDeathShockwaveBlue">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibCellDeathCrystalsBlueNew">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibCellDeathDistortionNew">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibCellDeathFlashBlueNew">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<ParticleSystem
+				Particle="TibCellDeathLightningBlueNew">
+				<Offset x="0.0" y="0.0" z="1.0" />
+			</ParticleSystem>
+			<Sound Value="TiberiumCrystalDeathSound" />	
+
+			<DynamicDecal 
+				Decal="TiberiumCracksBlue01" 
+				Shader="ALPHA"
+				Size="80" 
+				OrientToObject="false" 
+				OpacityStart="128" 
+				OpacityFadeTimeOne="0s" 
+				OpacityPeak="1" 
+				OpacityPeakTime="2s" 
+				OpacityFadeTimeTwo="10s" 
+				OpacityEnd="0" 
+				StartingDelay="0s" 
+				OnlyIfOnLand="true" 
+				Lifetime="15s">
+				<Color R="182" G="182" B="182" />
+				<Offset x="0" y="0"/>
+			</DynamicDecal>
+			
+		</NuggetList>
+	</FXList>	
+	
+	
+	
+	
+	
+	
+	
+	<!-- ########### -->
+	<!-- ########### -->
+	<!-- GAME OBJECT -->
+	<!-- ########### -->
+	<!-- ########### -->
+	
+	
+	
+	
+	
+	
+	<GameObject id="TiberiumCrystal" Side="Neutral" KindOf="CLEARED_BY_BUILD SELECTABLE IMMOBILE CAN_CAST_REFLECTIONS NOT_AUTOACQUIRABLE TIBERIUM DO_NOT_CLASSIFY NO_COLLIDE IGNORE_FOR_VICTORY" EditorName="TiberiumCrystal" SelectPortrait="Portrait_TiberiumCrystal" ButtonImage="Portrait_TiberiumCrystal_SM" EditorSorting="DESTRUCTIBLE_PROPS" Browser="REGION FOR_REVIEW PROPS" Description="Desc:TiberiumCrystal">
+		<DisplayName>Name:TiberiumCrystal</DisplayName>
+		<ArmorSet Armor="NoArmor" DamageFX="VehicleDamageFX"/>
+		<Draws>
+			<ScriptedModelDraw id="ModuleTag_Draw">
+				<ModelConditionState ParseCondStateType="PARSE_DEFAULT">
+					<Model Name="tiberiumtd_skn"/>
+					<ParticleSysBone BoneName="BODY01" FXParticleSystemTemplate="TibCellAura" FollowBone="true"/>
+					<ParticleSysBone BoneName="BODY01" FXParticleSystemTemplate="TibCellDist" FollowBone="true"/>
+					<ParticleSysBone BoneName="BODY01" FXParticleSystemTemplate="TibCellDots" FollowBone="true"/>
+					<ParticleSysBone BoneName="BODY01" FXParticleSystemTemplate="TibCellVapor" FollowBone="true"/>
+				</ModelConditionState>
+			</ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+			<DestroyDie id="ModuleTag_DestroyDie">
+				<DieMuxData DeathTypes="ALL"/>
+			</DestroyDie>
+			<FXListBehavior id="ModuleTag_FXList">
+				<DieMuxData DeathTypes="ALL"/>
+				<Event FX="FX_TibCellDeathGreen" Index="onDeath"/>
+			</FXListBehavior>
+			
+<!--			<FireWeaponWhenDead id="ModuleTag_DeathWeapon" InitiallyActive="true" DeathWeapon="TiberiumCrystalDeathWeapon" ContinueToBezierDestination="false">
+				<DieMuxData DeathTypes="ALL"/>
+			</FireWeaponWhenDead>
+-->			
+			<FireWeaponUpdate id="ModuleTag_CrystalWeapon">
+				<FireWeaponNugget FireDelay="3s" WeaponName="TiberiumCrystalWeapon"/>
+			</FireWeaponUpdate>
+		</Behaviors>
+		<Body>
+			<ActiveBody id="ModuleTag_Body" MaxHealth="25.0"/>
+		</Body>
+		<Geometry IsSmall="false">
+			<Shape Height="18.0" MajorRadius="22.0" Type="CYLINDER" ContactPointGeneration="STRUCTURE">
+				<Offset x="3.0" y="0" z="0"/>
+			</Shape>
+		</Geometry>
+		<ShadowInfo OverrideLODVisibility="true" SizeX="80" SizeY="80" Texture="TiberiumCracks01" Type="ALPHA_DECAL"/>
+		<CrusherInfo id="id_CrusherInfo" CrusherLevel="0" CrushableLevel="0"/>
+	</GameObject>
+	
+	<GameObject id="TiberiumCrystalBlue" Side="Neutral" KindOf="CLEARED_BY_BUILD SELECTABLE IMMOBILE CAN_CAST_REFLECTIONS NOT_AUTOACQUIRABLE TIBERIUM DO_NOT_CLASSIFY NO_COLLIDE IGNORE_FOR_VICTORY" EditorName="TiberiumCrystalBlue" SelectPortrait="Portrait_TiberiumCrystal" ButtonImage="Portrait_TiberiumCrystal_SM" EditorSorting="DESTRUCTIBLE_PROPS" Browser="REGION FOR_REVIEW PROPS" Description="Desc:TiberiumCrystal">
+		<DisplayName>Name:TiberiumCrystal</DisplayName>
+		<ArmorSet Armor="NoArmor" DamageFX="VehicleDamageFX"/>
+		<Draws>
+			<ScriptedModelDraw id="ModuleTag_Draw">
+				<ModelConditionState ParseCondStateType="PARSE_DEFAULT">
+					<Model Name="tiberiumblueTD_skn"/>
+					<ParticleSysBone BoneName="BODY01" FXParticleSystemTemplate="TibCellAuraBlue" FollowBone="true"/>
+					<ParticleSysBone BoneName="BODY01" FXParticleSystemTemplate="TibCellDist" FollowBone="true"/>
+					<ParticleSysBone BoneName="BODY01" FXParticleSystemTemplate="TibCellDotsBlue" FollowBone="true"/>
+					<ParticleSysBone BoneName="BODY01" FXParticleSystemTemplate="TibCellVaporBlue" FollowBone="true"/>
+				</ModelConditionState>
+			</ScriptedModelDraw>
+		</Draws>
+		<Behaviors>
+			<DestroyDie id="ModuleTag_DestroyDie">
+				<DieMuxData DeathTypes="ALL"/>
+			</DestroyDie>
+			<FXListBehavior id="ModuleTag_FXList">
+				<DieMuxData DeathTypes="ALL"/>
+				<Event FX="FX_TibCellDeathBlue" Index="onDeath"/>
+			</FXListBehavior>
+			
+			<FireWeaponWhenDead id="ModuleTag_DeathWeapon" InitiallyActive="true" DeathWeapon="TiberiumCrystalDeathWeapon" ContinueToBezierDestination="false">
+				<DieMuxData DeathTypes="ALL"/>
+			</FireWeaponWhenDead>
+			
+			<FireWeaponUpdate id="ModuleTag_CrystalWeapon">
+				<FireWeaponNugget FireDelay="3s" WeaponName="TiberiumCrystalWeapon"/>
+			</FireWeaponUpdate>
+		</Behaviors>
+		<Body>
+			<ActiveBody id="ModuleTag_Body" MaxHealth="25.0"/>
+		</Body>
+		<Geometry IsSmall="false">
+			<Shape Height="18.0" MajorRadius="22.0" Type="CYLINDER">
+				<Offset x="3.0" y="0" z="0"/>
+			</Shape>
+		</Geometry>
+		<ShadowInfo OverrideLODVisibility="true" SizeX="80" SizeY="80" Texture="TiberiumCracksBlue01" Type="ALPHA_DECAL"/>
+		<CrusherInfo id="id_CrusherInfo" CrusherLevel="0" CrushableLevel="0"/>
+	</GameObject>
+	
+	<GameObject
+		id="KR_Wall"
+		inheritFrom="TiberiumCrystal"
+		EditorName="KR_Wall">
+		<EquivalentTo>TiberiumCrystal</EquivalentTo>		
+	</GameObject>
+	
+	<GameObject
+		id="HB_HeidelbergCastle"
+		inheritFrom="TiberiumCrystalBlue"
+		EditorName="HB_HeidelbergCastle">
+		<EquivalentTo>TiberiumCrystalBlue</EquivalentTo>		
+	</GameObject>
+	
+</AssetDeclaration>
