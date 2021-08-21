@@ -1,15 +1,11 @@
-
-MISSIONOBJ:HF_defend
-	"you must defend your base until the waves attacks end"
+MISSIONOBJ:aymcam:HF:Defend
+	"You must defend your base until the waves attacks end."
 End
 
-MISSIONOBJ:HF_attack
-	"destroy Leang's base and her superweapon !"
+MISSIONOBJ:aymcam:HF:Attack
+	"Destroy Leang's base and her superweapons!"
 End
 
-SCRIPT:aymcam_HF_Counter
+MISSIONSTR:aymcam:HF:Counter
 	"Waves :"
 End
- 
-
-

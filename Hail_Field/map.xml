@@ -31555,7 +31555,7 @@
 			CRC="0"
 			Description="Map:Hail_Field/Desc"
 			DisplayName="Hail_Field"
-			FileName="data\maps\hail_field\hail_field.map"
+			FileName="data"
 			Height="390"
 			IsMultiplayer="false"
 			IsOfficial="false"
