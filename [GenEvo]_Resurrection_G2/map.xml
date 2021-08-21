@@ -45873,7 +45873,7 @@
 			CRC="0"
 			Description="Map:[GenEvo]_Resurrection_G2/Desc"
 			DisplayName="[GenEvo]_Resurrection_G2"
-			FileName="data\maps\[genevo]_resurrection_g2\[genevo]_resurrection_g2.map"
+			FileName="data"
 			Height="440"
 			IsMultiplayer="false"
 			IsOfficial="false"
