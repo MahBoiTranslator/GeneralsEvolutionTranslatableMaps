@@ -71867,7 +71867,7 @@
 			CRC="0"
 			Description="Map:[GenEvo]_Red_Freeze/Desc"
 			DisplayName="[GenEvo]_Red_Freeze"
-			FileName="data\maps\[genevo]_red_freeze\[genevo]_red_freeze.map"
+			FileName="data"
 			Height="560"
 			IsMultiplayer="false"
 			IsOfficial="false"
