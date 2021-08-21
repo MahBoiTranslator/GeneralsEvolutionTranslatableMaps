@@ -1,40 +1,40 @@
-MISSIONOBJ:aymcam_FD__Primary_Objective
+MISSIONOBJ:aymcam:FD:Primary_Objective
 	"Destroy china propaganda towers in the area."
 End
 
-MISSIONOBJ:aymcam_FD__Secondary_Objective
+MISSIONOBJ:aymcam:FD:Secondary_Objective
 	"Destroy the rest of the chinese forces."
 End
 
-MISSIONDESC:aymcam_FD__Primary_Description
+MISSIONDESC:aymcam:FD:Primary_Description
 	"At first we need to destroy those propaganda towers to unleashed our revenge, they are 6 in this region."
 End
 
-MISSIONDESC:aymcam_FD__Secondary_Description
+MISSIONDESC:aymcam:FD:Secondary_Description
 	"We can now finish our enemies, kill them all general and redeem our cause."
 End
 
-MISSIONOBJ:aymcam_FD__Optional_Objective
+MISSIONOBJ:aymcam:FD:Optional_Objective
 	"Destroying those power plants, can allow us to take more easilly the chinese base."
 End
 
-MISSIONDESC:aymcam_FD__Optional_Description
-	"Destroying those power plant will allow us to take more easily the chinese base."
+MISSIONDESC:aymcam:FD:Optional_Description
+	"Destroying those Power Plant will allow us to take more easily the chinese base."
 End
 
-MISSIONOBJ:aymcam_FD__Primary_Advice
-	"Talk to the arms dealer."
+MISSIONOBJ:aymcam:FD:Primary_Advice
+	"Talk to the Arms Dealer."
 End
 
-MISSIONDESC:aymcam_FD__Primary_Advice_Desc
+MISSIONDESC:aymcam:FD:Primary_Advice_Desc
 	"Go to the arms dealer, I'm sure he can help us with his plans."
 End
 
-MISSIONOBJ:aymcam_FD__Sec_Advice
+MISSIONOBJ:aymcam:FD:Sec_Advice
 	"Capture those oil derricks will provide us more ressources to our cause."
 End
 
-MISSIONDESC:aymcam_FD__Sec_Advice_Desc
+MISSIONDESC:aymcam:FD:Sec_Advice_Desc
 	"Capturing those oil derrick will provide us more ressources to our cause."
 End
 

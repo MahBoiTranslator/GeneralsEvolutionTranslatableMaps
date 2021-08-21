@@ -31916,7 +31916,7 @@
 			CRC="0"
 			Description="Map:[GenEvo]_M1_Falling_Dragon/Desc"
 			DisplayName="[GenEvo]_M1_Falling_Dragon"
-			FileName="data\maps\[genevo]_m1_falling_dragon\[genevo]_m1_falling_dragon.map"
+			FileName="data"
 			Height="510"
 			IsMultiplayer="false"
 			IsOfficial="false"
