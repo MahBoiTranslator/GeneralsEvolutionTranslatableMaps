@@ -1,20 +1,20 @@
-MISSIONOBJ:aymcam_G3__Primary_Objective
+MISSIONOBJ:aymcam:G3:Primary_Objective
 	"Destroy their little outpost in this area."
 End
 
-MISSIONOBJ:aymcam_G3__Secondary_Objective 
-	"Finish them and take down their airfield"
+MISSIONOBJ:aymcam:G3:Secondary_Objective 
+	"Finish them and take down their Airfield."
 End
  
-MISSIONSTR:aymcam_G3__Info_Start
-	"Bienvenido a Cuba, General! We have given you the control of the Snake Bastion for this operation."
+MISSIONSTR:aymcam:G3:Info_Start
+	"Bienvenido a Cuba, General! We start your attack from this little USA outpost. Burn it to the ground!"
 End
 
-MISSIONSTR:aymcam_G3__Info_primary
-	"We have grant you access to sneack attack and GPS scrambler"
+MISSIONSTR:aymcam:G3:Info_primary
+	"We have grant you access to Sneack Attack and GPS Scrambler."
 End
 
-MISSIONSTR:aymcam_G3__Info_Secondary
-	"Good Hunting my Leader"
+MISSIONSTR:aymcam:G3:Info_Secondary
+	"Good hunting, my Leader!"
 End
 

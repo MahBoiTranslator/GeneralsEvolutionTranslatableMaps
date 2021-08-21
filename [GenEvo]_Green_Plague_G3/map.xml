@@ -62455,7 +62455,7 @@
 			CRC="0"
 			Description="Map:[GenEvo]_Green_Plague_G3/Desc"
 			DisplayName="[GenEvo]_Green_Plague_G3"
-			FileName="data\maps\[genevo]_green_plague_g3\[genevo]_green_plague_g3.map"
+			FileName="data"
 			Height="490"
 			IsMultiplayer="false"
 			IsOfficial="false"
