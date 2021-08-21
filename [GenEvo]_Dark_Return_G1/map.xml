@@ -46288,7 +46288,7 @@
 			CRC="0"
 			Description="Map:[GenEvo]_Dark_Return_G1/Desc"
 			DisplayName="[GenEvo]_Dark_Return_G1"
-			FileName="data\maps\[genevo]_dark_return_g1\[genevo]_dark_return_g1.map"
+			FileName="data"
 			Height="440"
 			IsMultiplayer="false"
 			IsOfficial="false"
