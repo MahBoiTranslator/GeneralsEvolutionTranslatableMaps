@@ -82168,7 +82168,7 @@
 			CRC="0"
 			Description="Map:[GenEvo]_Poisoned_Hope/Desc"
 			DisplayName="[GenEvo]_Poisoned_Hope"
-			FileName="data\maps\[genevo]_poisoned_hope\[genevo]_poisoned_hope.map"
+			FileName="data"
 			Height="560"
 			IsMultiplayer="false"
 			IsOfficial="false"

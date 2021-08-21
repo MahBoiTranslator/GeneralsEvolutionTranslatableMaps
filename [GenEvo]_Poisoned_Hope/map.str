@@ -10,31 +10,26 @@ Desc:AmericaVehicleBattleShip
 	"Naval Support Unit \n> Strong vs. vehicles, buildings \n> Weak vs. aircraft"
 End
 
-MISSIONOBJ:aymcam_PM__Primary_Objective
-	"Destroy the scud storm with those tomahawks and clear the first gla base."
+MISSIONOBJ:aymcam:PM:Primary_Objective
+	"Destroy the Scud Storm with those tomahawks and clear the first gla base."
 End
 
-MISSIONDESC:aymcam_PM__Primary_Description
-	"Destroy the scud storm with those tomahawks."
+MISSIONDESC:aymcam:PM:Primary_Description
+	"Destroy the Scud Storm with those tomahawks."
 End
 
-MISSIONOBJ:aymcam_PM__Secondary_Objective
+MISSIONOBJ:aymcam:PM:Secondary_Objective
 	"Destroy the Kassad fanatic, and liberate the region."
 End
 
-MISSIONDESC:aymcam_PM__Secondary_Description
+MISSIONDESC:aymcam:PM:Secondary_Description
 	"Destroy the Kassad fanatic, and liberate the region."
 End
 
-MISSIONOBJ:aymcam_PM__Primary_Advice
-	"Capture this oil derricks will provide us more ressources."
+MISSIONOBJ:aymcam:PM:Primary_Advice
+	"Capture this Oil Derricks will provide us more resources."
 End
 
-MISSIONDESC:aymcam_PM__Primary_Advice_Desc
-	"Capturing this oil derrick will provide us more ressources."
+MISSIONDESC:aymcam:PM:Primary_Advice_Desc
+	"Capturing this Oil Derrick will provide us more resources."
 End
-
-
-	
-
-
