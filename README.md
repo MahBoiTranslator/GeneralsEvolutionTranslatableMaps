@@ -12,7 +12,7 @@ List of patched maps:
 * [Nod Valves](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/tiberian-sun-22nd-anniversary-nod-valves)
 
 # Using map.str format in repository
-All strings in map.str formatted follow this template: `<Main category>:<Mapper name>:<Map name>:<String name>`
+All strings in map.str follow this template: `<Main category>:<Mapper name>:<Map name>:<String name>`
 
 * Main category:
   * `MISSIONOBJ` uses for mission objectives,
