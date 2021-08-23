@@ -31554,7 +31554,7 @@
 			BorderSize="20"
 			CRC="0"
 			Description="Map:Hail_Field/Desc"
-			DisplayName="Hail_Field"
+			DisplayName="[GenEvo] Hail Field"
 			FileName="data"
 			Height="390"
 			IsMultiplayer="false"
@@ -31597,15 +31597,15 @@
 			<IntProperty
 				Key="weather"
 				Value="5"/>
-			<IntProperty
-				Key="compression"
-				Value="1"/>
 			<StringProperty
 				Key="mapName"
-				Value=""/>
+				Value="[GenEvo] Hail Field"/>
 			<StringProperty
 				Key="mapDescription"
 				Value=""/>
+			<IntProperty
+				Key="compression"
+				Value="1"/>
 			<RealProperty
 				Key="cameraGroundMinHeight"
 				Value="0"/>

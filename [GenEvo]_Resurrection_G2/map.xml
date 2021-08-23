@@ -45872,7 +45872,7 @@
 			BorderSize="30"
 			CRC="0"
 			Description="Map:[GenEvo]_Resurrection_G2/Desc"
-			DisplayName="[GenEvo]_Resurrection_G2"
+			DisplayName="[GenEvo] GLA 2: Resurrection"
 			FileName="data"
 			Height="440"
 			IsMultiplayer="false"
@@ -45915,6 +45915,24 @@
 			<IntProperty
 				Key="weather"
 				Value="0"/>
+			<StringProperty
+				Key="mapName"
+				Value="[GenEvo] GLA 2: Resurrection"/>
+			<StringProperty
+				Key="mapDescription"
+				Value=""/>
+			<IntProperty
+				Key="compression"
+				Value="1"/>
+			<RealProperty
+				Key="cameraGroundMinHeight"
+				Value="0"/>
+			<RealProperty
+				Key="cameraGroundMaxHeight"
+				Value="2560"/>
+			<BoolProperty
+				Key="isScenarioMultiplayer"
+				Value="false"/>
 		</WorldDict>
 		<PostEffect
 			Effect="GenEvo_TropicalIsland_vol"/>

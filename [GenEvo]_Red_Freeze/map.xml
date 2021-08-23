@@ -71866,7 +71866,7 @@
 			BorderSize="30"
 			CRC="0"
 			Description="Map:[GenEvo]_Red_Freeze/Desc"
-			DisplayName="[GenEvo]_Red_Freeze"
+			DisplayName="[GenEvo] Red Freeze"
 			FileName="data"
 			Height="560"
 			IsMultiplayer="false"
@@ -71909,6 +71909,24 @@
 			<IntProperty
 				Key="weather"
 				Value="0"/>
+			<StringProperty
+				Key="mapName"
+				Value="[GenEvo] Red Freeze"/>
+			<StringProperty
+				Key="mapDescription"
+				Value=""/>
+			<IntProperty
+				Key="compression"
+				Value="1"/>
+			<RealProperty
+				Key="cameraGroundMinHeight"
+				Value="0"/>
+			<RealProperty
+				Key="cameraGroundMaxHeight"
+				Value="2560"/>
+			<BoolProperty
+				Key="isScenarioMultiplayer"
+				Value="false"/>
 		</WorldDict>
 		<PostEffect
 			Effect="GenEvo_FrozenWinter_vol"/>

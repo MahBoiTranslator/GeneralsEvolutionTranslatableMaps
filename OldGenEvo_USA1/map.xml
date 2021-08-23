@@ -18402,7 +18402,7 @@
 			BorderSize="50"
 			CRC="0"
 			Description="Map:OldGenEvo_USA1/Desc"
-			DisplayName="[Old GenEvo] Crisis on the Coast"
+			DisplayName="[GenEvo] Crisis on the Coast"
 			FileName="data"
 			Height="300"
 			IsMultiplayer="false"
@@ -18448,15 +18448,15 @@
 			<IntProperty
 				Key="weather"
 				Value="0"/>
-			<IntProperty
-				Key="compression"
-				Value="1"/>
 			<StringProperty
 				Key="mapName"
-				Value="[Old GenEvo] Crisis on the Coast"/>
+				Value="[GenEvo] Crisis on the Coast"/>
 			<StringProperty
 				Key="mapDescription"
 				Value=""/>
+			<IntProperty
+				Key="compression"
+				Value="1"/>
 			<RealProperty
 				Key="cameraGroundMinHeight"
 				Value="0"/>
