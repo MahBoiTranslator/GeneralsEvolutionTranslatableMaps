@@ -19,8 +19,8 @@ All strings in map.str follow this template: `<Main category>:<Mapper name>:<Map
   * `MISSIONDESC` uses for description of mission's objectives,
   * `MISSIONSTR` uses for any string that can be showed throw `Show Localized String` script.
 * Mapper name:
-  * Full mapper name or abbreviation.
+  * Full mapper name or abbreviation without whitespaces.
 * Map name:
-  * Full map name or it abbreviation.
+  * Full map name or it abbreviation without whitespaces.
 * String name:
-  * Just string name. No more.
+  * Just string name without whitespaces.
