@@ -1,0 +1,29 @@
+
+G7_Pri
+	"Build a base near the US War Factory"
+End
+
+G7_Sec
+	"Destroy the 3 Chinese bases the area"
+End
+
+aymcam_G7_info
+	"Thanks to the Mexico strike, we have access to the Particle Cannon"
+End
+ 
+aymcam_G7_Info_Start
+	"!!!*** Incoming transmission ***!!!"
+End
+
+aymcam_G7_Info_primary
+	"General, today is a glorious day!"
+End
+
+aymcam_G7_Info_Secondary
+	"Global domination is at our grasp, General! We must take Shanghai for a new beginning!"
+End
+
+counter
+	"Time before the Chinese attack :"
+End
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance">
+	<Tags/>
+	
+	<Includes>
+	
+	
+	<Include type="all" source="Code/MultiplayerColors.xml"/>
+	<Include type="all" source="Code/Audio.xml"/>
+	
+	
+	
+	</Includes>
+
+	<!-- Unit Portrait -->
+	
+	<AudioFile id="mu7cr111" File="Audio/mu7cr111.wav" GUIPreset="Default" />
+	<AudioFile id="mu7cr112" File="Audio/mu7cr112.wav" GUIPreset="Default" />
+ 	<AudioFile id="mu7cr215" File="Audio/mu7cr215.wav" GUIPreset="Default" />
+	<AudioFile id="mu7cr217" File="Audio/mu7cr217.wav" GUIPreset="Default" />
+	<AudioFile id="mu7ofu03" File="Audio/mu7ofu03.wav" GUIPreset="Default" />
+	<AudioFile id="xg1rb203" File="Audio/xg1rb203.wav" GUIPreset="Default" />
+	<AudioFile id="xg3xog01" File="Audio/xg3xog01.wav" GUIPreset="Default" />
+	<AudioFile id="xg4ra101" File="Audio/xg4ra101.wav" GUIPreset="Default" />
+	<AudioFile id="xg4rb115" File="Audio/xg4rb115.wav" GUIPreset="Default" />
+	<AudioFile id="xg4xog15" File="Audio/xg4xog15.wav" GUIPreset="Default" />
+	<AudioFile id="xg4xog16" File="Audio/xg4xog16.wav" GUIPreset="Default" />
+	<AudioFile id="xg5xog21" File="Audio/xg5xog21.wav" GUIPreset="Default" />
+	<AudioFile id="xg4xog26" File="Audio/xg4xog26.wav" GUIPreset="Default" />
+	<AudioFile id="tlase002" File="Audio/tlase002.wav" GUIPreset="Default" />
+	<AudioFile id="tlase014" File="Audio/tlase014.wav" GUIPreset="Default" />
+
+
+	
+
+
+	
+	
+</AssetDeclaration>

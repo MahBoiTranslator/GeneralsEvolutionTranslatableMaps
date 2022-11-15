@@ -1,0 +1,26 @@
+
+MISSIONOBJ:G6p
+	"Destroy the 3 Propaganda Towers and Chinese camps in our path"
+End
+
+MISSIONOBJ:G6s
+	"Destroy the Infantry base to the northwest"
+End
+
+MISSIONOBJ:G6t
+	"Assassinate General Juhziz and destroy his main base"
+End
+
+G6_info
+	"General, Juzhiz has betrayed us and his collaborating with the Chinese"
+End
+ 
+G6_Info_Start
+	"We need to sneak into the battlefield"
+End
+
+G6_Info_primary
+	"Good hunting, General!"
+End
+
+

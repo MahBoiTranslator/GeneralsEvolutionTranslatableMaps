@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance">
+	<Tags/>
+	
+	<Includes>
+	
+	
+	<Include type="all" source="Code/Audio.xml"/>
+	<Include type="all" source="Code/MultiplayerColors.xml"/>
+	
+	
+	
+	</Includes>
+	
+	<!-- Unit Portrait -->
+	<Texture id="GenEvo_UnitPortraits_Battleship" File="Art/USBattleShip.dds" OutputFormat="A8R8G8B8" GenerateMipMaps="false" AllowAutomaticResize="false"/>
+	
+	
+	<AudioFile id="cbaseala" File="Audio/cbaseala.wav" GUIPreset="Default" />
+	<AudioFile id="csquflaa" File="Audio/csquflaa.wav" GUIPreset="Default" />
+	<AudioFile id="csquflab" File="Audio/csquflab.wav" GUIPreset="Default" />
+	<AudioFile id="csquflac" File="Audio/csquflac.wav" GUIPreset="Default" />
+	<AudioFile id="mc2re304" File="Audio/mc2re304.wav" GUIPreset="Default" />
+	<AudioFile id="mc3bla04" File="Audio/mc3bla04.wav" GUIPreset="Default" />
+	<AudioFile id="mc3re104" File="Audio/mc3re104.wav" GUIPreset="Default" />
+	<AudioFile id="mc3re205" File="Audio/mc3re205.wav" GUIPreset="Default" />
+	<AudioFile id="mc5com03" File="Audio/mc5com03.wav" GUIPreset="Default" />
+	<AudioFile id="mg1sc201" File="Audio/mg1sc201.wav" GUIPreset="Default" />
+	<AudioFile id="mg1sc203" File="Audio/mg1sc203.wav" GUIPreset="Default" />
+	<AudioFile id="mg2sc204" File="Audio/mg2sc204.wav" GUIPreset="Default" />
+	<AudioFile id="mg2sc304" File="Audio/mg2sc304.wav" GUIPreset="Default" />
+	<AudioFile id="mg3to104" File="Audio/mg3to104.wav" GUIPreset="Default" />
+	<AudioFile id="xc5cru01" File="Audio/xc5cru01.wav" GUIPreset="Default" />
+	<AudioFile id="tnuke064" File="Audio/tnuke064.wav" GUIPreset="Default" />
+	<AudioFile id="tnuke065" File="Audio/tnuke065.wav" GUIPreset="Default" />
+	<AudioFile id="tnuke066" File="Audio/tnuke066.wav" GUIPreset="Default" />
+	<AudioFile id="tnuke082" File="Audio/tnuke082.wav" GUIPreset="Default" />
+	<AudioFile id="tnuke101" File="Audio/tnuke101.wav" GUIPreset="Default" />
+
+
+
+
+
+	
+	
+	
+
+
+	
+		
+</AssetDeclaration>

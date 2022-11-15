@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	<Includes/>
+	
+	<!-- Defaults for AudioEvents. Derive all other AudioEvents from this one -->
+	<AudioEvent id="CC_BaseSoundEffect"
+		Volume="100" 
+		MinVolume="0"
+		ShrunkenPitchModifier="2.0"
+		ShrunkenVolumeModifier="85"
+		Priority="NORMAL"
+		Limit="3"
+		MinRange="300"
+		MaxRange="1000"
+		PlayPercent="100"
+		Type="UI PLAYER"
+		ReverbEffectLevel="100"
+		ZoomedInOffscreenVolumePercent = "50"
+		ZoomedInOffscreenMinVolumePercent = "100" 
+		ZoomedInOffscreenOcclusionPercent = "20"  >
+		<!-- You might think the following was a good idea:
+			SubmixSlider ="SOUNDFX"
+			IT'S NOT. Doing this in the default sound will mess up the special 'use the speech slider if the
+			voice flag is present and no SubmixSlider entry was seen' code.		-->
+	</AudioEvent>
+	
+	<!-- Defaults for Mission Dialogue. Derive Mission Dialogue from this one -->
+	<AudioEvent id="CC_BaseMissionDialogue" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="150" 
+		MinVolume="90"
+		Limit="3"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	<!-- Defaults for unit responses. Derive unit responses responses from this one -->
+	<AudioEvent id="CC_BaseUnitResponse" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="100" 
+		MinVolume="90"
+		ShrunkenPitchModifier="1.3"
+		ShrunkenVolumeModifier="95"
+		Priority="HIGHEST"
+		Limit="3"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	
+	
+	
+	
+	
+	<!-- OVERRIDES NEED THESE -->
+	<AudioEvent
+	id="GenEvo_Ambient_BattleshipTurretTurnLoop"
+	inheritFrom="AudioEvent:CC_BaseSoundEffect"
+	Volume = "55"
+	PerFileVolumeShift = "-5"
+	Limit = "12"
+	Control = "LOOP IMMEDIATE_DECAY_ON_KILL"
+	Type = "WORLD SHROUDED EVERYONE"
+    MinRange="200"
+	MaxRange="500"
+    SubmixSlider = "AMBIENT" >
+    <PerFilePitchShift Low = "-5" High = "5" />
+		<Attack>vovelo1a</Attack>
+		<Sound>vovelo2a</Sound>
+		<Sound>vovelo2b</Sound>
+		<Decay>vovelo3a</Decay>
+	</AudioEvent>
+  
+  <!-- OVERRIDES NEED THESE -->
+
+	<AudioEvent
+	id="GenEvo_GunFire_Battleship"
+	inheritFrom="AudioEvent:CC_BaseSoundEffect"
+	Volume="100"
+	Limit="12"
+	MinRange = "100"
+	MaxRange = "2000"
+	Type="WORLD SHROUDED EVERYONE"
+	Control="INTERRUPT"
+	Priority="HIGHEST"
+	SubmixSlider="SOUNDFX">
+	<NonInterruptibleTime Low="0.0s" High="0.9s" />
+	<PitchShift
+	Low="-5"
+	High="5" />
+		<Sound>vbshweaa</Sound> <Sound>vbshweab</Sound>
+	</AudioEvent>
+	
+	
+	
+	<AudioEvent id="America_Battleship_VoiceSelect" inheritFrom="AudioEvent:CC_BaseUnitResponse"
+		Volume = "110"
+		MinVolume = "105"
+		Priority = "HIGH"
+		Type = "WORLD PLAYER VOICE"
+		SubmixSlider = "VOICE" >
+		<PitchShift Low="-1" High="1" />
+		<Sound>vshisea</Sound> 
+		<Sound>vshiseb</Sound> 
+		<Sound>vshisec</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="America_Battleship_VoiceMove" inheritFrom="AudioEvent:CC_BaseUnitResponse"
+		Volume = "110"
+		MinVolume = "105"
+		Priority = "HIGH"
+		Type = "WORLD PLAYER VOICE"
+		SubmixSlider = "VOICE" >
+		<PitchShift Low="-1" High="1" />
+		<Sound>vshimoa</Sound> 
+		<Sound>vshimob</Sound> 
+		<Sound>vshimoc</Sound> 
+		<Sound>vshimod</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="America_Battleship_VoiceAttack" inheritFrom="AudioEvent:CC_BaseUnitResponse"
+		Volume = "110"
+		MinVolume = "105"
+		Priority = "HIGH"
+		Type = "WORLD PLAYER VOICE"
+		SubmixSlider = "VOICE" >
+		<PitchShift Low="-1" High="1" />
+		<Sound>vshiata</Sound> 
+		<Sound>vshiatb</Sound> 
+		<Sound>vshiatc</Sound> 
+		<Sound>vshiatd</Sound>
+		<Sound>vshiate</Sound>
+	</AudioEvent>
+  <!-- OVERRIDES NEED THESE -->
+
+	<AudioEvent id="0cbaseala" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>cbaseala</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0csquflab" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>csquflab</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0csquflaa" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>csquflaa</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0csquflac" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>csquflac</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mc2re304" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc2re304</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mc3bla04" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc3bla04</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mc3re104" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc3re104</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mc3re205" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc3re205</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mc5com03" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc5com03</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mg1sc201" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg1sc201</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mg1sc203" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg1sc203</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mg2sc204" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg2sc204</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mg2sc304" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg2sc304</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mg3to104" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg3to104</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0xc5cru01" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>cxc5cru01</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0tnuke064" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tnuke064</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tnuke065" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tnuke065</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tnuke066" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tnuke066</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tnuke082" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tnuke082</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0tnuke101" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>tnuke101</Sound> 
+	</AudioEvent>
+	
+
+	
+
+</AssetDeclaration>
