@@ -1,0 +1,19 @@
+
+defend
+	"Ensure the escape of 100 U.S. forces"
+End
+
+SCRIPT:aymcam_Counter
+	"Escaped U.S. Forces:"
+End
+
+SCRIPT:aymcam_Intro_1
+	"Northen Kazaksthan. U.S. Forces in full retreat"
+End
+
+SCRIPT:aymcam_Intro_2
+	"Operation : Guardian Angel"
+End
+ 
+
+

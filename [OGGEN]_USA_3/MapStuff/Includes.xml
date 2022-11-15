@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	
+	<Includes>
+	
+	
+	<Include type="all" source="Code/MultiplayerColors.xml"/>
+	<Include type="all" source="Code/Audio.xml"/>
+	
+	
+	
+	<!-- OVERRIDES NEED THESE -->
+	</Includes>
+	
+	<!-- Unit Portrait -->
+	
+	
+	<AudioFile id="C_USA03" File="Audio/C_USA03.wav" GUIPreset="Default" />
+	<AudioFile id="End_USA" File="Audio/End_USA.wav" GUIPreset="Default" />
+
+	<AudioFile id="mu3xou01" File="Audio/mu3xou01.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou02" File="Audio/mu3xou02.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou03" File="Audio/mu3xou03.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou04" File="Audio/mu3xou04.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou05" File="Audio/mu3xou05.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou06" File="Audio/mu3xou06.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou07" File="Audio/mu3xou07.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou08" File="Audio/mu3xou08.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou09" File="Audio/mu3xou09.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou10" File="Audio/mu3xou10.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou11" File="Audio/mu3xou11.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou12" File="Audio/mu3xou12.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou13" File="Audio/mu3xou13.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou21" File="Audio/mu3xou21.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou15" File="Audio/mu3xou15.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou16" File="Audio/mu3xou16.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou17" File="Audio/mu3xou17.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou18" File="Audio/mu3xou18.wav" GUIPreset="Default" />
+	<AudioFile id="mu3xou20" File="Audio/mu3xou20.wav" GUIPreset="Default" />
+
+	<AudioFile id="ucheergl" File="Audio/ucheergl.wav" GUIPreset="Default" />	
+	<AudioFile id="euplvic" File="Audio/euplvic.wav" GUIPreset="Default" />
+
+	<AudioFile id="mu3co101" File="Audio/mu3co101.wav" GUIPreset="Default" />
+	<AudioFile id="mu3co102" File="Audio/mu3co102.wav" GUIPreset="Default" />
+
+	<AudioFile id="mu3ofu01" File="Audio/mu3ofu01.wav" GUIPreset="Default" />
+	<AudioFile id="mu3ofu02" File="Audio/mu3ofu01.wav" GUIPreset="Default" />
+	<AudioFile id="mu3ofu03" File="Audio/mu3ofu01.wav" GUIPreset="Default" />
+
+	<AudioFile id="mu3cr101" File="Audio/mu3cr101.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr102" File="Audio/mu3cr102.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr103" File="Audio/mu3cr103.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr104" File="Audio/mu3cr104.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr105" File="Audio/mu3cr105.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr106" File="Audio/mu3cr106.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr107" File="Audio/mu3cr107.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr108" File="Audio/mu3cr108.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr109" File="Audio/mu3cr109.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr110" File="Audio/mu3cr110.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr111" File="Audio/mu3cr111.wav" GUIPreset="Default" />
+
+	<AudioFile id="mu3cr201" File="Audio/mu3cr201.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr202" File="Audio/mu3cr202.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr203" File="Audio/mu3cr203.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr204" File="Audio/mu3cr204.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr205" File="Audio/mu3cr205.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr206" File="Audio/mu3cr206.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr207" File="Audio/mu3cr207.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr208" File="Audio/mu3cr208.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr209" File="Audio/mu3cr209.wav" GUIPreset="Default" />
+
+	<AudioFile id="mu3cr301" File="Audio/mu3cr301.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr302" File="Audio/mu3cr302.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr303" File="Audio/mu3cr303.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr304" File="Audio/mu3cr304.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr305" File="Audio/mu3cr305.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr306" File="Audio/mu3cr306.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr307" File="Audio/mu3cr307.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr308" File="Audio/mu3cr308.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr309" File="Audio/mu3cr309.wav" GUIPreset="Default" />
+	<AudioFile id="mu3cr310" File="Audio/mu3cr310.wav" GUIPreset="Default" />
+	
+	
+</AssetDeclaration>

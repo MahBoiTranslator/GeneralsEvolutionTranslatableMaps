@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	<Includes/>
+	
+	<!-- Defaults for AudioEvents. Derive all other AudioEvents from this one -->
+	<AudioEvent id="CC_BaseSoundEffect"
+		Volume="200" 
+		MinVolume="0"
+		ShrunkenPitchModifier="2.0"
+		ShrunkenVolumeModifier="85"
+		Priority="NORMAL"
+		Limit="3"
+		MinRange="300"
+		MaxRange="1000"
+		PlayPercent="100"
+		Type="UI PLAYER"
+		ReverbEffectLevel="100"
+		ZoomedInOffscreenVolumePercent = "50"
+		ZoomedInOffscreenMinVolumePercent = "100" 
+		ZoomedInOffscreenOcclusionPercent = "20"  >
+		<!-- You might think the following was a good idea:
+			SubmixSlider ="SOUNDFX"
+			IT'S NOT. Doing this in the default sound will mess up the special 'use the speech slider if the
+			voice flag is present and no SubmixSlider entry was seen' code.		-->
+	</AudioEvent>
+	
+	<!-- Defaults for Mission Dialogue. Derive Mission Dialogue from this one -->
+	<AudioEvent id="CC_BaseMissionDialogue" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="200" 
+		MinVolume="90"
+		Limit="3"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	<!-- Defaults for unit responses. Derive unit responses responses from this one -->
+	<AudioEvent id="CC_BaseUnitResponse" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="100" 
+		MinVolume="90"
+		ShrunkenPitchModifier="1.3"
+		ShrunkenVolumeModifier="95"
+		Priority="HIGHEST"
+		Limit="3"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	
+	
+	
+	
+	
+	<!-- OVERRIDES NEED THESE -->
+	<AudioEvent
+	id="GenEvo_Ambient_C130"
+	inheritFrom="AudioEvent:CC_BaseSoundEffect"
+	Volume = "80"
+	PerFileVolumeShift = "-5"
+	Limit = "3"
+	Control = "LOOP IMMEDIATE_DECAY_ON_KILL"
+	Type = "WORLD SHROUDED EVERYONE"
+    SubmixSlider = "SOUNDFX" >
+    <PerFilePitchShift Low = "-5" High = "5" />
+		<Attack>v130lo1a</Attack>
+		<Sound>v130lo2a</Sound>
+		<Sound>v130lo2b</Sound>
+		<Decay>v130lo3a</Decay>
+	</AudioEvent>
+	
+	
+
+  
+ 
+  <!-- OVERRIDES NEED THESE -->
+	
+	
+	
+	
+	
+	
+	
+	<AudioEvent id="0ucheergl" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>ucheergl</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0euplvic" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>euplvic</Sound> 
+	</AudioEvent>
+
+
+	<AudioEvent id="0mu3xou01" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou01</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou02" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou02</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou03" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou03</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou04" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou04</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou05" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou05</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou06" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou06</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou07" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou07</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou08" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou08</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou09" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou09</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou10" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou10</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou11" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou11</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou12" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou12</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou13" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou13</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou15" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou15</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0mu3xou16" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou16</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3xou17" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou17</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3xou18" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou18</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3xou20" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou20</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3xou21" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3xou21</Sound> 
+	</AudioEvent>
+
+
+	<AudioEvent id="0mu3co101" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3co101</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3co102" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3co102</Sound> 
+	</AudioEvent>
+
+
+	<AudioEvent id="0mu3ofu01" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3ofu01</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3ofu02" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3ofu02</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3ofu03" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3ofu03</Sound> 
+	</AudioEvent>
+
+
+	<AudioEvent id="0mu3cr101" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr101</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr102" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr102</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3cr103" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr103</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3cr104" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr104</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3cr105" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr105</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3cr106" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr106</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3cr107" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr107</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3cr108" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr108</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3cr109" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr109</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3cr110" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr110</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mu3cr111" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr111</Sound> 
+	</AudioEvent>
+
+
+	<AudioEvent id="0mu3cr201" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr201</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr202" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr202</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr203" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr203</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr204" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr204</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr205" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr205</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr206" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr206</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr207" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr207</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr208" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr208</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr209" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr209</Sound> 
+	</AudioEvent>
+
+
+	<AudioEvent id="0mu3cr301" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr301</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr302" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr302</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr303" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr303</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr304" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr304</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr305" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr305</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr306" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr306</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr307" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr307</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr308" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr308</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr309" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr309</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mu3cr310" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mu3cr310</Sound> 
+	</AudioEvent>
+
+
+
+
+	
+	
+	
+	
+	
+	
+	<!-- Intro music event -->
+	
+	<AudioEvent
+		id="C_USA03"
+		inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="200"
+		MinRange="1"
+		MaxRange="999999"
+		Limit="1"
+		Control="FADE_ON_KILL"
+		Priority="HIGHEST"
+		Type="WORLD SHROUDED EVERYONE"
+		DryLevel="100"
+		SubmixSlider="MUSIC">
+		<Sound>C_USA03</Sound>
+	</AudioEvent>
+
+	<AudioEvent
+		id="End_USA"
+		inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="200"
+		MinRange="1"
+		MaxRange="999999"
+		Limit="1"
+		Control="FADE_ON_KILL"
+		Priority="HIGHEST"
+		Type="WORLD SHROUDED EVERYONE"
+		DryLevel="100"
+		SubmixSlider="MUSIC">
+		<Sound>End_USA</Sound>
+	</AudioEvent>
+
+</AssetDeclaration>
