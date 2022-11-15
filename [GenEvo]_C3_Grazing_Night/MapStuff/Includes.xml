@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance">
+	<Tags/>
+	
+	<Includes>
+	
+	
+	<Include type="all" source="Code/Audio.xml"/>
+	<Include type="all" source="Code/MultiplayerColors.xml"/>
+	
+	
+	
+	</Includes>
+	
+	<!-- Unit Portrait -->
+	<Texture id="GenEvo_UnitPortraits_Battleship" File="Art/USBattleShip.dds" OutputFormat="A8R8G8B8" GenerateMipMaps="false" AllowAutomaticResize="false"/>
+	
+	
+	<AudioFile id="mc1ba301" File="Audio/mc1ba301.wav" GUIPreset="Default" />
+	<AudioFile id="mc1ba302" File="Audio/mc1ba302.wav" GUIPreset="Default" />
+	<AudioFile id="mc1ofc01" File="Audio/mc1ofc01.wav" GUIPreset="Default" />
+	<AudioFile id="mc2ba301" File="Audio/mc2ba301.wav" GUIPreset="Default" />
+	<AudioFile id="mc2re204" File="Audio/mc2re204.wav" GUIPreset="Default" />
+	<AudioFile id="mg1ofg11" File="Audio/mg1ofg11.wav" GUIPreset="Default" />
+	<AudioFile id="mg1sc201" File="Audio/mg1sc201.wav" GUIPreset="Default" />
+
+	<AudioFile id="mc3re201" File="Audio/mc3re201.wav" GUIPreset="Default" />
+	<AudioFile id="mc5xoc17" File="Audio/mc5xoc17.wav" GUIPreset="Default" />
+	<AudioFile id="mc7re111" File="Audio/mc7re111.wav" GUIPreset="Default" />
+	<AudioFile id="mc7xoc03" File="Audio/mc7xoc03.wav" GUIPreset="Default" />
+	<AudioFile id="mc7xoc19" File="Audio/mc7xoc19.wav" GUIPreset="Default" />
+
+	<AudioFile id="ecplvic" File="Audio/ecplvic.wav" GUIPreset="Default" />
+	<AudioFile id="End_Chi" File="Audio/End_Chi.wav" GUIPreset="Default" />
+	<AudioFile id="ucheergl" File="Audio/ucheergl.wav" GUIPreset="Default" />
+	
+
+
+
+
+
+
+	
+	
+	
+
+
+	
+		
+</AssetDeclaration>
