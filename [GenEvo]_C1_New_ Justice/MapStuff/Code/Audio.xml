@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	<Includes/>
+	
+	<!-- Defaults for AudioEvents. Derive all other AudioEvents from this one -->
+	<AudioEvent id="CC_BaseSoundEffect"
+		Volume="200" 
+		MinVolume="0"
+		ShrunkenPitchModifier="2.0"
+		ShrunkenVolumeModifier="85"
+		Priority="HIGHEST"
+		Limit="10"
+		MinRange="300"
+		MaxRange="1000"
+		PlayPercent="100"
+		Type="UI PLAYER"
+		ReverbEffectLevel="100"
+		ZoomedInOffscreenVolumePercent = "50"
+		ZoomedInOffscreenMinVolumePercent = "100" 
+		ZoomedInOffscreenOcclusionPercent = "20"  >
+		<!-- You might think the following was a good idea:
+			SubmixSlider ="SOUNDFX"
+			IT'S NOT. Doing this in the default sound will mess up the special 'use the speech slider if the
+			voice flag is present and no SubmixSlider entry was seen' code.		-->
+	</AudioEvent>
+	
+	<!-- Defaults for Mission Dialogue. Derive Mission Dialogue from this one -->
+	<AudioEvent id="CC_BaseMissionDialogue" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="200" 
+		MinVolume="90"
+		Limit="10"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	<!-- Defaults for unit responses. Derive unit responses responses from this one -->
+	<AudioEvent id="CC_BaseUnitResponse" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="100" 
+		MinVolume="90"
+		ShrunkenPitchModifier="1.3"
+		ShrunkenVolumeModifier="95"
+		Priority="NORMAL"
+		Limit="3"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	
+	
+
+  <!-- OVERRIDES NEED THESE -->
+
+	<AudioEvent id="0mc1re103" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc1re103</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mc3ofu01" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc3ofu01</Sound> 
+	</AudioEvent>
+
+
+	<AudioEvent id="0mc3re101" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc3re101</Sound> 
+	</AudioEvent>
+
+
+	<AudioEvent id="0mc3re301" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc3re301</Sound> 
+	</AudioEvent>
+
+
+	<AudioEvent id="0mc6ga104" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc6ga104</Sound> 
+	</AudioEvent>
+
+
+	<AudioEvent id="0mc6re103" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc6re103</Sound> 
+	</AudioEvent>
+
+
+	<AudioEvent id="0mg5bu102" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg5bu102</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0xc1xoc06" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc1xoc06</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc1xoc13" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc1xoc13</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc2re111" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc2re111</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc2xoc03" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc2xoc03</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc3xoc02" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc3xoc02</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc4re202" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc4re202</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc4re203" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc4re203</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xg2cyc01" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xg2cyc01</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0ecplvic" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>ecplvic</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0End_Chi" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>End_Chi</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ucheergl" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>ucheergl</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0xc2xoc12" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc2xoc12</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0xc3xoc22" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc3xoc22</Sound> 
+	</AudioEvent>
+
+
+	
+
+	
+
+</AssetDeclaration>
