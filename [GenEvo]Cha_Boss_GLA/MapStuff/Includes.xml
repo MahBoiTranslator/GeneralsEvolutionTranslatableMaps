@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance">
+	<Tags/>
+	
+	<Includes>
+	
+	
+
+	<Include type="all" source="Code/Audio.xml"/>
+	
+	
+	
+		
+	
+	
+	<!-- OVERRIDES NEED THESE -->
+	</Includes>
+	
+	<!-- Unit Portrait -->
+	
+	
+	<AudioFile id="tglab001" File="Audio/tglab001.wav" GUIPreset="Default" />
+	<AudioFile id="tglab002" File="Audio/tglab002.wav" GUIPreset="Default" />
+	<AudioFile id="tglab003" File="Audio/tglab003.wav" GUIPreset="Default" />
+	<AudioFile id="tglab004" File="Audio/tglab004.wav" GUIPreset="Default" />
+	<AudioFile id="tglab005" File="Audio/tglab005.wav" GUIPreset="Default" />
+	<AudioFile id="tglab006" File="Audio/tglab006.wav" GUIPreset="Default" />
+	<AudioFile id="tglab007" File="Audio/tglab007.wav" GUIPreset="Default" />
+	<AudioFile id="tglab008" File="Audio/tglab008.wav" GUIPreset="Default" />
+	<AudioFile id="tglab009" File="Audio/tglab009.wav" GUIPreset="Default" />
+	<AudioFile id="tglab010" File="Audio/tglab010.wav" GUIPreset="Default" />
+	<AudioFile id="tglab011" File="Audio/tglab011.wav" GUIPreset="Default" />
+	<AudioFile id="tglab012" File="Audio/tglab012.wav" GUIPreset="Default" />
+	<AudioFile id="tglab013" File="Audio/tglab013.wav" GUIPreset="Default" />
+	<AudioFile id="tglab014" File="Audio/tglab014.wav" GUIPreset="Default" />
+	<AudioFile id="tglab015" File="Audio/tglab015.wav" GUIPreset="Default" />
+	<AudioFile id="tglab016" File="Audio/tglab016.wav" GUIPreset="Default" />
+	<AudioFile id="tglab017" File="Audio/tglab017.wav" GUIPreset="Default" />
+	<AudioFile id="tglab018" File="Audio/tglab018.wav" GUIPreset="Default" />
+	<AudioFile id="tglab019" File="Audio/tglab019.wav" GUIPreset="Default" />
+	<AudioFile id="tglab020" File="Audio/tglab020.wav" GUIPreset="Default" />
+	<AudioFile id="tglab021" File="Audio/tglab021.wav" GUIPreset="Default" />
+	<AudioFile id="tglab022" File="Audio/tglab022.wav" GUIPreset="Default" />
+	<AudioFile id="tglab023" File="Audio/tglab023.wav" GUIPreset="Default" />
+	<AudioFile id="tglab024" File="Audio/tglab024.wav" GUIPreset="Default" />
+	<AudioFile id="tglab025" File="Audio/tglab025.wav" GUIPreset="Default" />
+	<AudioFile id="tglab026" File="Audio/tglab026.wav" GUIPreset="Default" />
+	<AudioFile id="tglab027" File="Audio/tglab027.wav" GUIPreset="Default" />
+	<AudioFile id="tglab028" File="Audio/tglab028.wav" GUIPreset="Default" />
+	<AudioFile id="tglab029" File="Audio/tglab029.wav" GUIPreset="Default" />
+	<AudioFile id="tglab030" File="Audio/tglab030.wav" GUIPreset="Default" />
+	<AudioFile id="tglab031" File="Audio/tglab031.wav" GUIPreset="Default" />
+	<AudioFile id="tglab032" File="Audio/tglab032.wav" GUIPreset="Default" />
+	<AudioFile id="tglab033" File="Audio/tglab033.wav" GUIPreset="Default" />
+	<AudioFile id="tglab034" File="Audio/tglab034.wav" GUIPreset="Default" />
+	<AudioFile id="tglab035" File="Audio/tglab035.wav" GUIPreset="Default" />
+	<AudioFile id="tglab036" File="Audio/tglab036.wav" GUIPreset="Default" />
+	<AudioFile id="tglab037" File="Audio/tglab037.wav" GUIPreset="Default" />
+	<AudioFile id="tglab038" File="Audio/tglab038.wav" GUIPreset="Default" />
+	<AudioFile id="tglab039" File="Audio/tglab039.wav" GUIPreset="Default" />
+	<AudioFile id="tglab040" File="Audio/tglab040.wav" GUIPreset="Default" />
+	<AudioFile id="tglab041" File="Audio/tglab041.wav" GUIPreset="Default" />
+	<AudioFile id="tglab042" File="Audio/tglab042.wav" GUIPreset="Default" />
+	<AudioFile id="tglab043" File="Audio/tglab043.wav" GUIPreset="Default" />
+	<AudioFile id="tglab044" File="Audio/tglab044.wav" GUIPreset="Default" />
+	<AudioFile id="tglab045" File="Audio/tglab045.wav" GUIPreset="Default" />
+	<AudioFile id="tglab046" File="Audio/tglab046.wav" GUIPreset="Default" />
+	<AudioFile id="tglab047" File="Audio/tglab047.wav" GUIPreset="Default" />
+	<AudioFile id="tglab048" File="Audio/tglab048.wav" GUIPreset="Default" />
+	<AudioFile id="tglab049" File="Audio/tglab049.wav" GUIPreset="Default" />
+	<AudioFile id="tglab050" File="Audio/tglab050.wav" GUIPreset="Default" />
+	<AudioFile id="tglab051" File="Audio/tglab051.wav" GUIPreset="Default" />
+	<AudioFile id="tglab052" File="Audio/tglab052.wav" GUIPreset="Default" />
+	<AudioFile id="tglab053" File="Audio/tglab053.wav" GUIPreset="Default" />
+	<AudioFile id="tglab054" File="Audio/tglab054.wav" GUIPreset="Default" />
+	<AudioFile id="tglab055" File="Audio/tglab055.wav" GUIPreset="Default" />
+	<AudioFile id="tglab056" File="Audio/tglab056.wav" GUIPreset="Default" />
+	<AudioFile id="tglab057" File="Audio/tglab057.wav" GUIPreset="Default" />
+	<AudioFile id="tglab058" File="Audio/tglab058.wav" GUIPreset="Default" />
+	<AudioFile id="tglab059" File="Audio/tglab059.wav" GUIPreset="Default" />
+	<AudioFile id="tglab060" File="Audio/tglab060.wav" GUIPreset="Default" />
+	<AudioFile id="tglab061" File="Audio/tglab061.wav" GUIPreset="Default" />
+	<AudioFile id="tglab062" File="Audio/tglab062.wav" GUIPreset="Default" />
+	<AudioFile id="tglab063" File="Audio/tglab063.wav" GUIPreset="Default" />
+	<AudioFile id="tglab064" File="Audio/tglab064.wav" GUIPreset="Default" />
+	<AudioFile id="tglab065" File="Audio/tglab065.wav" GUIPreset="Default" />
+	<AudioFile id="tglab066" File="Audio/tglab066.wav" GUIPreset="Default" />
+	<AudioFile id="tglab067" File="Audio/tglab067.wav" GUIPreset="Default" />
+	<AudioFile id="tglab068" File="Audio/tglab068.wav" GUIPreset="Default" />
+	<AudioFile id="tglab069" File="Audio/tglab069.wav" GUIPreset="Default" />
+	<AudioFile id="tglab070" File="Audio/tglab070.wav" GUIPreset="Default" />
+	<AudioFile id="tglab071" File="Audio/tglab071.wav" GUIPreset="Default" />
+	<AudioFile id="tglab072" File="Audio/tglab072.wav" GUIPreset="Default" />
+	<AudioFile id="tglab073" File="Audio/tglab073.wav" GUIPreset="Default" />
+	<AudioFile id="tglab074" File="Audio/tglab074.wav" GUIPreset="Default" />
+	<AudioFile id="tglab075" File="Audio/tglab075.wav" GUIPreset="Default" />
+	<AudioFile id="tglab076" File="Audio/tglab076.wav" GUIPreset="Default" />
+	<AudioFile id="tglab077" File="Audio/tglab077.wav" GUIPreset="Default" />
+	<AudioFile id="tglab078" File="Audio/tglab078.wav" GUIPreset="Default" />
+	<AudioFile id="tglab079" File="Audio/tglab079.wav" GUIPreset="Default" />
+	<AudioFile id="tglab080" File="Audio/tglab080.wav" GUIPreset="Default" />
+	<AudioFile id="tglab081" File="Audio/tglab081.wav" GUIPreset="Default" />
+	<AudioFile id="tglab082" File="Audio/tglab082.wav" GUIPreset="Default" />
+	<AudioFile id="tglab083" File="Audio/tglab083.wav" GUIPreset="Default" />
+	<AudioFile id="tglab084" File="Audio/tglab084.wav" GUIPreset="Default" />
+	<AudioFile id="tglab085" File="Audio/tglab085.wav" GUIPreset="Default" />
+	<AudioFile id="tglab086" File="Audio/tglab086.wav" GUIPreset="Default" />
+	<AudioFile id="tglab087" File="Audio/tglab087.wav" GUIPreset="Default" />
+	<AudioFile id="tglab088" File="Audio/tglab088.wav" GUIPreset="Default" />
+	<AudioFile id="tglab089" File="Audio/tglab089.wav" GUIPreset="Default" />
+	<AudioFile id="tglab090" File="Audio/tglab090.wav" GUIPreset="Default" />
+	<AudioFile id="tglab091" File="Audio/tglab091.wav" GUIPreset="Default" />
+	<AudioFile id="tglab092" File="Audio/tglab092.wav" GUIPreset="Default" />
+	<AudioFile id="tglab093" File="Audio/tglab093.wav" GUIPreset="Default" />
+	<AudioFile id="tglab094" File="Audio/tglab094.wav" GUIPreset="Default" />
+	<AudioFile id="tglab095" File="Audio/tglab095.wav" GUIPreset="Default" />
+	<AudioFile id="tglab096" File="Audio/tglab096.wav" GUIPreset="Default" />
+	<AudioFile id="tglab097" File="Audio/tglab097.wav" GUIPreset="Default" />
+	<AudioFile id="tglab098" File="Audio/tglab098.wav" GUIPreset="Default" />
+	<AudioFile id="tglab099" File="Audio/tglab099.wav" GUIPreset="Default" />
+	<AudioFile id="tglab100" File="Audio/tglab100.wav" GUIPreset="Default" />
+	<AudioFile id="tglab101" File="Audio/tglab101.wav" GUIPreset="Default" />
+	<AudioFile id="tglab102" File="Audio/tglab102.wav" GUIPreset="Default" />
+	<AudioFile id="tglab103" File="Audio/tglab103.wav" GUIPreset="Default" />
+	<AudioFile id="tglab104" File="Audio/tglab104.wav" GUIPreset="Default" />
+	<AudioFile id="tglab105" File="Audio/tglab105.wav" GUIPreset="Default" />
+
+	<AudioFile id="ecplvic" File="Audio/ecplvic.wav" GUIPreset="Default" />
+	<AudioFile id="egplvic" File="Audio/egplvic.wav" GUIPreset="Default" />
+	<AudioFile id="euplvic" File="Audio/euplvic.wav" GUIPreset="Default" />
+
+	
+	
+	
+</AssetDeclaration>
