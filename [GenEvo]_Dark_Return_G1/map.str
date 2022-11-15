@@ -1,40 +1,30 @@
-MISSIONOBJ:aymcam:G1:Primary_Objective
-	"Destroy the Chinese Propaganda Towers in the area."
+
+
+MISSIONOBJ:aymcam_G1_Primary
+	"Destroy the Chinese Propaganda Towers in the area"
 End
 
-MISSIONOBJ:aymcam:G1:Secondary_Objective
-	"Destroy the rest of the chinese forces."
+MISSIONOBJ:aymcam_G1_Secondary
+	"Destroy the rest of the chinese forces"
 End
 
-MISSIONDESC:aymcam:G1:Primary_Description
-	"Destroy those Propaganda Towers."
+MISSIONOBJ:aymcam_G1_Start
+	"we need to secure the base first !"
 End
 
-MISSIONDESC:aymcam:G1:Secondary_Description
-	"The Propaganda Towers have been taken care of. Kill the rest, General, and redeem our cause!"
+MISSIONOBJ:aymcam_G1_Advice
+	"Capture those ressources to fund this operation"
 End
 
-MISSIONOBJ:aymcam:G1:Start_Objective
-	"We need to secure the base first!"
-End
-
-MISSIONOBJ:aymcam:G1:Secondary_Advice
-	"Capture those resources to fund this operation."
-End
-
-MISSIONDESC:aymcam:G1:Secondary_Advice_Desc
-	"Capture the Oil Derricks so we can support our cause."
-End
-
-MISSIONOBJ:aymcam:G1:Hint
+MISSIONOBJ:aymcam_G1_Hint
 	"Save the POW troops! They have access to the GPS Scrambler!"
 End
 
-MISSIONSTR:aymcam:G1:China
-	"General, the chinsese have taken over Baghdad, our last bastion and our only major territory in this region!"
+MISSIONSTR:aymcam_G1__China
+	"General, the Chinsese have taken over Baghdad, our last bastion and our only major territory in this region !"
 End
 
-MISSIONSTR:aymcam:G1:Gla
-	"They have also captured our last base in the southwest. Retake it and drive these chinese infidels off the city!"
+MISSIONSTR:aymcam_G1__Gla
+	"They have also captured our last base in the southwest. Retake it and drive these Chinese infidels off the city !"
 End
 

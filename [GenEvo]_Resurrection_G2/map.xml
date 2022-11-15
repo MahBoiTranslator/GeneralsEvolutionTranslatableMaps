@@ -45872,8 +45872,8 @@
 			BorderSize="30"
 			CRC="0"
 			Description="Map:[GenEvo]_Resurrection_G2/Desc"
-			DisplayName="[GenEvo] GLA 2: Resurrection"
-			FileName="data"
+			DisplayName="[GenEvo]_Resurrection_G2"
+			FileName="data\maps\[genevo]_resurrection_g2\[genevo]_resurrection_g2.map"
 			Height="440"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -45909,30 +45909,12 @@
 			<AssetIdProperty
 				Key="musicZone"
 				Value="MusicPalette_NotSet"/>
-			<StringProperty
-				Key="terrainTextureStrings"
-				Value="TDirt_Egypt09;TDirt_Egypt09_nrm;jtv1_constructionasphalt01;jtv1_constructionasphalt01_nrm;tdirt_rhu07;tdirt_rhu07_nrm;trock_gravel02;trock_gravel02_nrm;tdirt_rhu07a;tdirt_rhu07a_nrm;TDirt_YellowZone14;TDirt_YellowZone14_nrm;jtv1_constructiondirt01;jtv1_constructiondirt01_nrm;tdirt_rhu02;tdirt_rhu02_nrm;jtv2_marsh01;jtv2_marsh01_nrm;Reef_Havana02;Reef_Havana02_NRM;tpave_redzone01;tpave_redzone01_nrm;TPave_YellowZone03;TPave_YellowZone03_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;TGrass_Yucatan05;TGrass_Yucatan05_nrm;TPave_Heidel04;TPave_Heidel04_nrm;poa_mountaingrass02;poa_mountaingrass02_nrm;TCliff_CapeCod01;TCliff_CapeCod01_nrm;TCliff_CapeCod03;TCliff_CapeCod03_nrm;RA3Grid1;RA3Grid1_NRM;TGrass_Yucatan07;TGrass_Yucatan07_nrm;TDirt_CapeCod03;TDirt_CapeCod03_nrm;Pavement_Odessa01;Pavement_Odessa01_NRM;Grass_SantaMonica01;Grass_SantaMonica01_NRM;Pavement_Heidelberg10;Pavement_Heidelberg10_nrm;jta_browndirt03;jta_browndirt03_nrm;TGrass_Yucatan06;TGrass_Yucatan06_nrm;jtv2_browndirt01;jtv2_browndirt01_nrm;Pavem"/>
 			<IntProperty
 				Key="weather"
 				Value="0"/>
 			<StringProperty
-				Key="mapName"
-				Value="[GenEvo] GLA 2: Resurrection"/>
-			<StringProperty
-				Key="mapDescription"
-				Value=""/>
-			<IntProperty
-				Key="compression"
-				Value="1"/>
-			<RealProperty
-				Key="cameraGroundMinHeight"
-				Value="0"/>
-			<RealProperty
-				Key="cameraGroundMaxHeight"
-				Value="2560"/>
-			<BoolProperty
-				Key="isScenarioMultiplayer"
-				Value="false"/>
+				Key="terrainTextureStrings"
+				Value="TDirt_Egypt09;TDirt_Egypt09_nrm;jtv1_constructionasphalt01;jtv1_constructionasphalt01_nrm;tdirt_rhu07;tdirt_rhu07_nrm;trock_gravel02;trock_gravel02_nrm;tdirt_rhu07a;tdirt_rhu07a_nrm;TDirt_YellowZone14;TDirt_YellowZone14_nrm;jtv1_constructiondirt01;jtv1_constructiondirt01_nrm;tdirt_rhu02;tdirt_rhu02_nrm;jtv2_marsh01;jtv2_marsh01_nrm;Reef_Havana02;Reef_Havana02_NRM;tpave_redzone01;tpave_redzone01_nrm;TPave_YellowZone03;TPave_YellowZone03_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;TGrass_Yucatan05;TGrass_Yucatan05_nrm;TPave_Heidel04;TPave_Heidel04_nrm;poa_mountaingrass02;poa_mountaingrass02_nrm;TCliff_CapeCod01;TCliff_CapeCod01_nrm;TCliff_CapeCod03;TCliff_CapeCod03_nrm;RA3Grid1;RA3Grid1_NRM;TGrass_Yucatan07;TGrass_Yucatan07_nrm;TDirt_CapeCod03;TDirt_CapeCod03_nrm;Pavement_Odessa01;Pavement_Odessa01_NRM;Grass_SantaMonica01;Grass_SantaMonica01_NRM;Pavement_Heidelberg10;Pavement_Heidelberg10_nrm;jta_browndirt03;jta_browndirt03_nrm;TGrass_Yucatan06;TGrass_Yucatan06_nrm;jtv2_browndirt01;jtv2_browndirt01_nrm;Pavem"/>
 		</WorldDict>
 		<PostEffect
 			Effect="GenEvo_TropicalIsland_vol"/>
@@ -46289,6 +46271,10 @@
 						Type="SET_MILLISECOND_TIMER">
 						<ParameterList/>
 					</Action>
+					<Action
+						Type="MAP_SWITCH_BORDER">
+						<ParameterList/>
+					</Action>
 				</Script>
 			</ScriptGroup>
 			<ScriptGroup
@@ -46395,6 +46381,10 @@
 							Type="PLAY_SOUND_EFFECT">
 							<ParameterList/>
 						</Action>
+						<Action
+							Type="MAP_SWITCH_BORDER">
+							<ParameterList/>
+						</Action>
 					</Script>
 					<Script
 						id="extraction">
@@ -46448,6 +46438,10 @@
 						</Action>
 						<Action
 							Type="PLAY_SOUND_EFFECT">
+							<ParameterList/>
+						</Action>
+						<Action
+							Type="MAP_SWITCH_BORDER">
 							<ParameterList/>
 						</Action>
 					</Script>

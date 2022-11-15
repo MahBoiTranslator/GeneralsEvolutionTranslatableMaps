@@ -46287,8 +46287,8 @@
 			BorderSize="30"
 			CRC="0"
 			Description="Map:[GenEvo]_Dark_Return_G1/Desc"
-			DisplayName="[GenEvo] GLA 1: Dark Return"
-			FileName="data"
+			DisplayName="[GenEvo]_Dark_Return_G1"
+			FileName="data\maps\[genevo]_dark_return_g1\[genevo]_dark_return_g1.map"
 			Height="440"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -46330,24 +46330,6 @@
 			<IntProperty
 				Key="weather"
 				Value="0"/>
-			<StringProperty
-				Key="mapName"
-				Value="[GenEvo] GLA 1: Dark Return"/>
-			<StringProperty
-				Key="mapDescription"
-				Value=""/>
-			<IntProperty
-				Key="compression"
-				Value="1"/>
-			<RealProperty
-				Key="cameraGroundMinHeight"
-				Value="0"/>
-			<RealProperty
-				Key="cameraGroundMaxHeight"
-				Value="2560"/>
-			<BoolProperty
-				Key="isScenarioMultiplayer"
-				Value="false"/>
 		</WorldDict>
 		<PostEffect
 			Effect="GenEvo_PrettyWarm_vol"/>
