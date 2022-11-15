@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	<Includes/>
+	
+	<!-- Defaults for AudioEvents. Derive all other AudioEvents from this one -->
+	<AudioEvent id="CC_BaseSoundEffect"
+		Volume="200" 
+		MinVolume="0"
+		ShrunkenPitchModifier="2.0"
+		ShrunkenVolumeModifier="85"
+		Priority="HIGHEST"
+		Limit="10"
+		MinRange="300"
+		MaxRange="1000"
+		PlayPercent="100"
+		Type="UI PLAYER"
+		ReverbEffectLevel="100"
+		ZoomedInOffscreenVolumePercent = "50"
+		ZoomedInOffscreenMinVolumePercent = "100" 
+		ZoomedInOffscreenOcclusionPercent = "20"  >
+		<!-- You might think the following was a good idea:
+			SubmixSlider ="SOUNDFX"
+			IT'S NOT. Doing this in the default sound will mess up the special 'use the speech slider if the
+			voice flag is present and no SubmixSlider entry was seen' code.		-->
+	</AudioEvent>
+	
+	<!-- Defaults for Mission Dialogue. Derive Mission Dialogue from this one -->
+	<AudioEvent id="CC_BaseMissionDialogue" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="200" 
+		MinVolume="90"
+		Limit="10"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	<!-- Defaults for unit responses. Derive unit responses responses from this one -->
+	<AudioEvent id="CC_BaseUnitResponse" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="100" 
+		MinVolume="90"
+		ShrunkenPitchModifier="1.3"
+		ShrunkenVolumeModifier="95"
+		Priority="NORMAL"
+		Limit="3"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	
+	
+	
+	
+	
+	<!-- OVERRIDES NEED THESE -->
+	
+  
+  
+  <!-- OVERRIDES NEED THESE -->
+	
+	
+	
+	
+	
+	
+	
+	<AudioEvent id="0ttoxi102" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttoxi102</Sound> 
+	</AudioEvent>
+	
+	<AudioEvent id="0ttoxi103" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttoxi103</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mc5bo202" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc5bo202</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0cbaseala" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>cbaseala</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0cradio01" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>cradio01</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0mc5bo101" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc5bo101</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc5bo102" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc5bo102</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc5re102" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc5re102</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc6re201" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc6re201</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7re101" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7re101</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7re120" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7re120</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7re122" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7re122</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7tr101" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7tr101</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mc7tr102" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mc7tr102</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mg8ha101" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg8ha101</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mg8ha102" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg8ha102</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mg8ha201" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg8ha201</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mg8ha202" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg8ha202</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mg8ofg06" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg8ofg06</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mg8ofg08" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg8ofg08</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0mg8ofg09" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>mg8ofg09</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc1re104" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc1re104</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc2bat02" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc2bat02</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc2bat05" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc2bat05</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0xc2bat11" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc2bat11</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0xc5xoc02" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc5xoc02</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0xc5xoc12" inheritFrom="AudioEvent:CC_BaseMissionDialogue">
+		<Sound>xc5xoc12</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0fucksound" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>fucksound</Sound> 
+	</AudioEvent>
+
+	<AudioEvent id="0ecplvic" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ecplvic</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0End_Chi" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>End_Chi</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ucheergl" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ucheergl</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0eclasnea" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>eclasnea</Sound> 
+	</AudioEvent>
+
+</AssetDeclaration>

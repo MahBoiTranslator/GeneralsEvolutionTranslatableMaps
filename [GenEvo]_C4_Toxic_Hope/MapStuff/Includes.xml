@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance">
+	<Tags/>
+	
+	<Includes>
+	
+	
+
+	<Include type="all" source="Code/Audio.xml"/>
+	<Include type="all" source="Code/MultiplayerColors.xml"/>
+	
+	
+		
+	
+	
+	<!-- OVERRIDES NEED THESE -->
+	</Includes>
+	
+	<!-- Unit Portrait -->
+	
+	
+	<AudioFile id="ttoxi102" File="Audio/ttoxi102.wav" GUIPreset="Default" />
+	<AudioFile id="ttoxi103" File="Audio/ttoxi103.wav" GUIPreset="Default" />
+	
+	<AudioFile id="cbaseala" File="Audio/cbaseala.wav" GUIPreset="Default" />
+	<AudioFile id="cradio01" File="Audio/cradio01.wav" GUIPreset="Default" />
+
+	<AudioFile id="mc5bo101" File="Audio/mc5bo101.wav" GUIPreset="Default" />
+	<AudioFile id="mc5bo102" File="Audio/mc5bo102.wav" GUIPreset="Default" />
+	<AudioFile id="mc5bo202" File="Audio/mc5bo202.wav" GUIPreset="Default" />
+
+	<AudioFile id="mc6re201" File="Audio/mc6re201.wav" GUIPreset="Default" />
+	<AudioFile id="mc5re102" File="Audio/mc5re102.wav" GUIPreset="Default" />
+
+	<AudioFile id="mc7re101" File="Audio/mc7re101.wav" GUIPreset="Default" />
+	<AudioFile id="mc7re120" File="Audio/mc7re120.wav" GUIPreset="Default" />
+	<AudioFile id="mc7re122" File="Audio/mc7re122.wav" GUIPreset="Default" />
+	<AudioFile id="mc7tr102" File="Audio/mc7tr102.wav" GUIPreset="Default" />
+	<AudioFile id="mc7tr101" File="Audio/mc7tr101.wav" GUIPreset="Default" />
+
+	<AudioFile id="mg8ha101" File="Audio/mg8ha101.wav" GUIPreset="Default" />
+	<AudioFile id="mg8ha102" File="Audio/mg8ha102.wav" GUIPreset="Default" />
+	<AudioFile id="mg8ha201" File="Audio/mg8ha201.wav" GUIPreset="Default" />
+	<AudioFile id="mg8ha202" File="Audio/mg8ha202.wav" GUIPreset="Default" />
+	<AudioFile id="mg8ofg06" File="Audio/mg8ofg06.wav" GUIPreset="Default" />
+	<AudioFile id="mg8ofg08" File="Audio/mg8ofg08.wav" GUIPreset="Default" />
+	<AudioFile id="mg8ofg09" File="Audio/mg8ofg09.wav" GUIPreset="Default" />
+
+	<AudioFile id="xc1re104" File="Audio/xc1re104.wav" GUIPreset="Default" />
+	<AudioFile id="xc2bat02" File="Audio/xc2bat02.wav" GUIPreset="Default" />
+	<AudioFile id="xc2bat05" File="Audio/xc2bat05.wav" GUIPreset="Default" />
+	<AudioFile id="xc2bat11" File="Audio/xc2bat11.wav" GUIPreset="Default" />
+
+	<AudioFile id="xc5xoc02" File="Audio/xc5xoc02.wav" GUIPreset="Default" />
+	<AudioFile id="xc5xoc12" File="Audio/xc5xoc12.wav" GUIPreset="Default" />
+
+	<AudioFile id="fucksound" File="Audio/fucksound.wav" GUIPreset="Default" />
+
+	<AudioFile id="ecplvic" File="Audio/ecplvic.wav" GUIPreset="Default" />
+	<AudioFile id="End_Chi" File="Audio/End_Chi.wav" GUIPreset="Default" />
+	<AudioFile id="ucheergl" File="Audio/ucheergl.wav" GUIPreset="Default" />
+
+
+	<AudioFile id="eclasnea" File="Audio/eclasnea.wav" GUIPreset="Default" />
+	
+	
+</AssetDeclaration>
