@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance">
+	<Tags/>
+	
+	<Includes>
+	
+	
+	<Include type="all" source="Code/Audio.xml"/>
+	<Include type="all" source="Code/MultiplayerColors.xml"/>
+	
+	
+	
+	</Includes>
+	
+	<!-- Unit Portrait -->
+	
+	
+	
+	<AudioFile id="xc4re106" File="Audio/xc4re106.wav" GUIPreset="Default" />
+	<AudioFile id="xc4re105" File="Audio/xc4re105.wav" GUIPreset="Default" />
+	<AudioFile id="xc4re104" File="Audio/xc4re104.wav" GUIPreset="Default" />
+	<AudioFile id="mg1sc302" File="Audio/mg1sc302.wav" GUIPreset="Default" />
+	<AudioFile id="mg1sc204" File="Audio/mg1sc204.wav" GUIPreset="Default" />
+	<AudioFile id="mg1sc106" File="Audio/mg1sc106.wav" GUIPreset="Default" />
+	<AudioFile id="mc4ofc02" File="Audio/mc4ofc02.wav" GUIPreset="Default" />
+	<AudioFile id="mc4mi108" File="Audio/mc4mi108.wav" GUIPreset="Default" />
+	<AudioFile id="mc3re304" File="Audio/mc3re304.wav" GUIPreset="Default" />
+	<AudioFile id="mc3re208" File="Audio/mc3re208.wav" GUIPreset="Default" />
+	<AudioFile id="mg2qu103" File="Audio/mg2qu103.wav" GUIPreset="Default" />
+
+	<AudioFile id="xc2bat03" File="Audio/xc2bat03.wav" GUIPreset="Default" />
+	<AudioFile id="xc2ecm03" File="Audio/xc2ecm03.wav" GUIPreset="Default" />
+	<AudioFile id="xc2re203" File="Audio/xc2re203.wav" GUIPreset="Default" />
+	<AudioFile id="xc3xoc01" File="Audio/xc3xoc01.wav" GUIPreset="Default" />
+	<AudioFile id="xc3xoc03" File="Audio/xc3xoc03.wav" GUIPreset="Default" />
+	<AudioFile id="xc4xoc10" File="Audio/xc4xoc10.wav" GUIPreset="Default" />
+
+	<AudioFile id="ecplvic" File="Audio/ecplvic.wav" GUIPreset="Default" />
+
+	<AudioFile id="End_Chi" File="Audio/End_Chi.wav" GUIPreset="Default" />
+
+	<AudioFile id="ucheergl" File="Audio/ucheergl.wav" GUIPreset="Default" />
+
+
+
+
+
+
+
+	
+	
+	
+
+
+	
+		
+</AssetDeclaration>
