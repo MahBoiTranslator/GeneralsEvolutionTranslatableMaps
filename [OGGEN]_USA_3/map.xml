@@ -25880,8 +25880,8 @@
 			BorderSize="80"
 			CRC="0"
 			Description="Map:[OGGEN]_USA_3/Desc"
-			DisplayName="[OGGEN]_USA_3"
-			FileName="data\maps\[oggen]_usa_3\[oggen]_usa_3.map"
+			DisplayName="[GenEvo] USA 3: Guardian Angel"
+			FileName="data"
 			Height="460"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -25923,6 +25923,24 @@
 			<IntProperty
 				Key="weather"
 				Value="0"/>
+			<RealProperty
+				Key="cameraGroundMinHeight"
+				Value="0"/>
+			<RealProperty
+				Key="cameraGroundMaxHeight"
+				Value="2560"/>
+			<IntProperty
+				Key="compression"
+				Value="1"/>
+			<StringProperty
+				Key="mapName"
+				Value="[GenEvo] USA 3: Guardian Angel"/>
+			<StringProperty
+				Key="mapDescription"
+				Value=""/>
+			<BoolProperty
+				Key="isScenarioMultiplayer"
+				Value="false"/>
 		</WorldDict>
 		<PostEffect
 			Effect="GenEvo_FrozenWinter_vol"/>

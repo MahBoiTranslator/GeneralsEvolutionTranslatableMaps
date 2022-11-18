@@ -1,19 +1,16 @@
 
-defend
+MISSIONDESC:aymcam:USA3:defend
 	"Ensure the escape of 100 U.S. forces"
 End
 
-SCRIPT:aymcam_Counter
+MISSIONSTR:aymcam:USA3:Counter
 	"Escaped U.S. Forces:"
 End
 
-SCRIPT:aymcam_Intro_1
+MISSIONSTR:aymcam:USA3:Intro_1
 	"Northen Kazaksthan. U.S. Forces in full retreat"
 End
 
-SCRIPT:aymcam_Intro_2
+MISSIONSTR:aymcam:USA3:Intro_2
 	"Operation : Guardian Angel"
 End
- 
-
-
