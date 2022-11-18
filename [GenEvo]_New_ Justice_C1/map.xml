@@ -490,6 +490,19 @@
 				z="0"/>
 		</Waypoint>
 		<Structure
+			Angle="-2.362451"
+			EventList=""
+			Faction="Player_1/teamPlayer_1"
+			Health="100"
+			Team="Player_1"
+			ThingTemplate="Nuke_ChinaBarracks"
+			id="Nuke_ChinaBarracks">
+			<Position
+				x="2285.155468"
+				y="2593.105604"
+				z="0"/>
+		</Structure>
+		<Structure
 			Angle="0.713055"
 			EventList=""
 			Faction="Player_1/teamPlayer_1"
@@ -630,6 +643,110 @@
 			<Position
 				x="1696.499682"
 				y="488.630122"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="0.750623"
+			EventList=""
+			Faction="PlyrCreeps/teamPlyrCreeps"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLATunnelNetwork"
+			id="Chem_GLATunnelNetwork">
+			<Position
+				x="833.334982"
+				y="510.307041"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="0.785398"
+			EventList=""
+			Faction="PlyrCreeps/teamPlyrCreeps"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLATunnelNetwork"
+			id="Chem_GLATunnelNetwork">
+			<Position
+				x="614.622528"
+				y="792.593526"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-0.785398"
+			EventList=""
+			Faction="PlyrCreeps/teamPlyrCreeps"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLATunnelNetwork"
+			id="Chem_GLATunnelNetwork">
+			<Position
+				x="130.240721"
+				y="488.536727"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="0.785398"
+			EventList=""
+			Faction="PlyrCreeps/teamPlyrCreeps"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLASupplyStash"
+			id="Chem_GLASupplyStash">
+			<Position
+				x="566.106325"
+				y="385.468246"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="2.356194"
+			EventList=""
+			Faction="PlyrCreeps/teamPlyrCreeps"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAArmsDealer"
+			id="Chem_GLAArmsDealer">
+			<Position
+				x="431.358165"
+				y="291.737066"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-0.785398"
+			EventList=""
+			Faction="PlyrCreeps/teamPlyrCreeps"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLABarracks"
+			id="Chem_GLABarracks">
+			<Position
+				x="373.683361"
+				y="728.879606"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-0.785398"
+			EventList=""
+			Faction="PlyrCreeps/teamPlyrCreeps"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLACommandCenter"
+			id="Chem_GLACommandCenter">
+			<Position
+				x="229.662602"
+				y="608.598848"
+				z="0"/>
+		</Structure>
+		<Structure
+			Angle="-2.356194"
+			EventList=""
+			Faction="Player_1/teamPlayer_1"
+			Health="100"
+			Team="Player_1"
+			ThingTemplate="Nuke_ChinaCommandCenter"
+			id="Nuke_ChinaCommandCenter">
+			<Position
+				x="2542.880426"
+				y="2593.350085"
 				z="0"/>
 		</Structure>
 		<Structure
@@ -919,6 +1036,19 @@
 				z="0"/>
 		</Structure>
 		<Structure
+			Angle="-1.578836"
+			EventList=""
+			Faction="PlyrCreeps/teamPlyrCreeps"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Nuke_ChinaWarFactory"
+			id="Nuke_ChinaWarFactory">
+			<Position
+				x="398.792727"
+				y="2309.508648"
+				z="0"/>
+		</Structure>
+		<Structure
 			Angle="-2.356194"
 			EventList=""
 			Faction="Player_1/teamPlayer_1"
@@ -1098,6 +1228,188 @@
 			<Position
 				x="588.666964"
 				y="1292.942584"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.68782"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryRebel"
+			id="Chem_GLAInfantryRebel">
+			<Position
+				x="1195.039528"
+				y="499.406007"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.88868"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryRebel"
+			id="Chem_GLAInfantryRebel">
+			<Position
+				x="1250.60106"
+				y="541.481365"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.663216"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryRebel"
+			id="Chem_GLAInfantryRebel">
+			<Position
+				x="1217.038584"
+				y="566.511124"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.993483"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryTunnelDefender"
+			id="Chem_GLAInfantryTunnelDefender">
+			<Position
+				x="1195.17578"
+				y="428.710181"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.536893"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryTunnelDefender"
+			id="Chem_GLAInfantryTunnelDefender">
+			<Position
+				x="1128.711523"
+				y="437.356203"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.490913"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryTunnelDefender"
+			id="Chem_GLAInfantryTunnelDefender">
+			<Position
+				x="1124.167927"
+				y="485.162848"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.417485"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryTunnelDefender"
+			id="Chem_GLAInfantryTunnelDefender">
+			<Position
+				x="1160.813069"
+				y="441.558585"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.868945"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryTunnelDefender"
+			id="Chem_GLAInfantryTunnelDefender">
+			<Position
+				x="1203.043605"
+				y="462.084362"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.880883"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAVehicleTechnical"
+			id="Chem_GLAVehicleTechnical">
+			<Position
+				x="1221.638242"
+				y="511.774804"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.779652"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAVehicleTechnical"
+			id="Chem_GLAVehicleTechnical">
+			<Position
+				x="1181.050241"
+				y="541.970004"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.649698"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAVehicleTechnical"
+			id="Chem_GLAVehicleTechnical">
+			<Position
+				x="1152.115605"
+				y="501.167387"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.529256"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAVehicleBombTruck"
+			id="Chem_GLAVehicleBombTruck">
+			<Position
+				x="1101.809045"
+				y="615.446528"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.716031"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAVehicleBombTruck"
+			id="Chem_GLAVehicleBombTruck">
+			<Position
+				x="1135.521862"
+				y="654.814528"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.529256"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAVehicleBombTruck"
+			id="Chem_GLAVehicleBombTruck">
+			<Position
+				x="1169.170266"
+				y="704.895124"
 				z="0"/>
 		</Unit>
 		<Unit
@@ -1319,6 +1631,227 @@
 			<Position
 				x="1862.273607"
 				y="353.644727"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-1.572656"
+			EventList=""
+			Faction="PlyrCreeps/scorp Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLATankScorpion"
+			id="Chem_GLATankScorpion">
+			<Position
+				x="2561.69344"
+				y="1100.716002"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-1.763556"
+			EventList=""
+			Faction="PlyrCreeps/scorp Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLATankScorpion"
+			id="Chem_GLATankScorpion">
+			<Position
+				x="2613.085224"
+				y="1097.021787"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-1.676713"
+			EventList=""
+			Faction="PlyrCreeps/scorp Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLATankScorpion"
+			id="Chem_GLATankScorpion">
+			<Position
+				x="2669.764266"
+				y="1097.548003"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-1.7499"
+			EventList=""
+			Faction="PlyrCreeps/scorp Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLATankScorpion"
+			id="Chem_GLATankScorpion">
+			<Position
+				x="2716.300485"
+				y="1091.785601"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-1.665919"
+			EventList=""
+			Faction="PlyrCreeps/scorp Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAVehicleScudLauncher"
+			id="Chem_GLAVehicleScudLauncher">
+			<Position
+				x="2602.640268"
+				y="1178.806006"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-1.54794"
+			EventList=""
+			Faction="PlyrCreeps/scorp Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAVehicleScudLauncher"
+			id="Chem_GLAVehicleScudLauncher">
+			<Position
+				x="2669.396008"
+				y="1171.591926"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.68782"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryRebel"
+			id="Chem_GLAInfantryRebel">
+			<Position
+				x="1294.258324"
+				y="668.885322"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.88868"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryRebel"
+			id="Chem_GLAInfantryRebel">
+			<Position
+				x="1349.819789"
+				y="710.96064"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.663216"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryRebel"
+			id="Chem_GLAInfantryRebel">
+			<Position
+				x="1316.257123"
+				y="735.9904"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.993483"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryTunnelDefender"
+			id="Chem_GLAInfantryTunnelDefender">
+			<Position
+				x="1294.394408"
+				y="598.189366"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.536893"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryTunnelDefender"
+			id="Chem_GLAInfantryTunnelDefender">
+			<Position
+				x="1227.93024"
+				y="606.83552"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.490913"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryTunnelDefender"
+			id="Chem_GLAInfantryTunnelDefender">
+			<Position
+				x="1223.386722"
+				y="654.642166"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.417485"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryTunnelDefender"
+			id="Chem_GLAInfantryTunnelDefender">
+			<Position
+				x="1260.031606"
+				y="611.03776"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.868945"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAInfantryTunnelDefender"
+			id="Chem_GLAInfantryTunnelDefender">
+			<Position
+				x="1302.262242"
+				y="631.563649"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.880883"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAVehicleTechnical"
+			id="Chem_GLAVehicleTechnical">
+			<Position
+				x="1320.857128"
+				y="681.254181"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.779652"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAVehicleTechnical"
+			id="Chem_GLAVehicleTechnical">
+			<Position
+				x="1280.269046"
+				y="711.449381"
+				z="0"/>
+		</Unit>
+		<Unit
+			Angle="-0.649698"
+			EventList=""
+			Faction="PlyrCreeps/tech Team cin"
+			Health="100"
+			Team="PlyrCreeps"
+			ThingTemplate="Chem_GLAVehicleTechnical"
+			id="Chem_GLAVehicleTechnical">
+			<Position
+				x="1251.334401"
+				y="670.646602"
 				z="0"/>
 		</Unit>
 		<Unit
@@ -13673,8 +14206,8 @@
 			BorderSize="80"
 			CRC="0"
 			Description="Map:[GenEvo]_New_Justice_C1/Desc"
-			DisplayName="[GenEvo] China 1: New Justice"
-			FileName="data"
+			DisplayName="[GenEvo]_New_Justice_C1"
+			FileName="data\maps\[genevo]_new_ justice_c1\[genevo]_new_ justice_c1.map"
 			Height="460"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -13712,7 +14245,7 @@
 				Value="MusicPalette_NotSet"/>
 			<StringProperty
 				Key="terrainTextureStrings"
-				Value="Grass_Heidelberg01;Grass_Heidelberg01_nrm;RA3Grid1;RA3Grid1_NRM;tclif_ncarolina01;tclif_ncarolina01_nrm;Grass_Heidelberg10;Grass_Heidelberg10_nrm;Grass_Heidelberg11;Grass_Heidelberg11_nrm;TPave_YellowZone03;TPave_YellowZone03_nrm;Pavement_Romania01;Pavement_Romania01_NRM;tdirt_washington_01;tdirt_washington_01_nrm;tdirt_washington_02;tdirt_washington_02_nrm;tpave_redzone01;tpave_redzone01_nrm;"/>
+				Value="Grass_Heidelberg01;Grass_Heidelberg01_nrm;RA3Grid1;RA3Grid1_NRM;tclif_ncarolina01;tclif_ncarolina01_nrm;Grass_Heidelberg10;Grass_Heidelberg10_nrm;Grass_Heidelberg11;Grass_Heidelberg11_nrm;TPave_YellowZone03;TPave_YellowZone03_nrm;TXRock02b;TXRock01b_nrm;TXRock02a;TXRock01a_nrm;TXRock01a;TXRock01a_nrm;tdirt_washington_01;tdirt_washington_01_nrm;tdirt_washington_02;tdirt_washington_02_nrm;tpave_redzone01;tpave_redzone01_nrm;tclif_ise03;tclif_ise03_nrm;"/>
 			<IntProperty
 				Key="weather"
 				Value="0"/>
@@ -13722,18 +14255,6 @@
 			<RealProperty
 				Key="cameraGroundMaxHeight"
 				Value="2560"/>
-			<IntProperty
-				Key="compression"
-				Value="1"/>
-			<StringProperty
-				Key="mapName"
-				Value="[GenEvo] China 1: New Justice"/>
-			<StringProperty
-				Key="mapDescription"
-				Value=""/>
-			<BoolProperty
-				Key="isScenarioMultiplayer"
-				Value="false"/>
 		</WorldDict>
 		<PostEffect
 			Effect="GenEvo_PrettyWarm_vol"/>
@@ -13763,17 +14284,37 @@
 			NormalTexture="ART:Terrain/tpave_redzone01_nrm.tga"
 			TextureID="797313766"/>
 		<Tile
+			BaseTexture="ART:Terrain/tclif_ise03.tga"
+			NormalTexture="ART:Terrain/tclif_ise03_nrm.tga"
+			TextureID="1162576918"/>
+		<Tile
 			BaseTexture="ART:Terrain/Grass_Heidelberg10.tga"
 			NormalTexture="ART:Terrain/Grass_Heidelberg10_nrm.tga"
 			TextureID="1179124974"/>
+		<Tile
+			BaseTexture="ART:Terrain/tdirt_washington_01.tga"
+			NormalTexture="ART:Terrain/tdirt_washington_01_nrm.tga"
+			TextureID="1748490919"/>
 		<Tile
 			BaseTexture="ART:Terrain/TPave_YellowZone03.tga"
 			NormalTexture="ART:Terrain/TPave_YellowZone03_nrm.tga"
 			TextureID="1787946311"/>
 		<Tile
+			BaseTexture="ART:Terrain/TXRock01a.tga"
+			NormalTexture="ART:Terrain/TXRock01a_nrm.tga"
+			TextureID="1881106486"/>
+		<Tile
 			BaseTexture="ART:Terrain/Grass_Heidelberg01.tga"
 			NormalTexture="ART:Terrain/Grass_Heidelberg01_nrm.tga"
 			TextureID="2683715272"/>
+		<Tile
+			BaseTexture="ART:Terrain/TXRock02b.tga"
+			NormalTexture="ART:Terrain/TXRock01b_nrm.tga"
+			TextureID="2738505530"/>
+		<Tile
+			BaseTexture="ART:Terrain/TXRock02a.tga"
+			NormalTexture="ART:Terrain/TXRock01a_nrm.tga"
+			TextureID="2790889368"/>
 		<Tile
 			BaseTexture="ART:Terrain/RA3Grid1.tga"
 			NormalTexture="ART:Terrain/RA3Grid1_NRM.tga"
@@ -14378,35 +14919,59 @@
 				id="permission gla">
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Chem_GLAInfantryBuilder_GLAArmsDealer"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Chem_GLAInfantryBuilder_GLABlackMarket"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Chem_GLAInfantryBuilder_GLAPalace"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Chem_GLAInfantryBuilder_GLAPowerPlant"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Chem_GLAInfantryBuilder_GLAScudStorm"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Chem_GLAInfantryBuilder_GLAScudStorm_Three"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Chem_GLAInfantryBuilder_GLAScudStorm_Two"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Chem_GLAInfantryBuilder_GLATunnelNetwork"/>
+					</ParameterList>
 				</Action>
 			</Script>
 			<Script
@@ -14435,59 +15000,101 @@
 				id="permission china">
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaTankDragon"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaTankECM"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="ChinaTankNuclearOverlord"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaTankGattling"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaVehicleDozer"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaVehicleNukeLauncher"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaVehicleInfernoCannon"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaAirfield"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaGattlingCannon"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaInternetCenter"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaNuclearMissileLauncher"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaSpeakerTower"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaWarFactory"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaPropagandaCenter"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="PLAYER_SET_MONEY">
@@ -14543,11 +15150,17 @@
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaNuclearMissileLauncher_Three"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="ALLOW_DISALLOW_ONE_BUILDING">
-					<ParameterList/>
+					<ParameterList>
+						<ObjectType
+							Object="Nuke_ChinaNuclearMissileLauncher_Two"/>
+					</ParameterList>
 				</Action>
 				<Action
 					Type="GIVE_PLAYER_UPGRADE">

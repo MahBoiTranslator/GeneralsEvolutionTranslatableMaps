@@ -1,23 +1,25 @@
-MISSIONDESC:aymcam:C1:C1_Pri
-	"Destroy the GLA base"
+
+C1_Pri
+	"destroy the GLA base"
 End
 
-MISSIONDESC:aymcam:C1:C1_bonus
-	"Capture the war factory, so we can be able to produce tanks "
+C1_bonus
+	"capture the war factory, so we can be able to produce tanks "
 End
 
-MISSIONSTR:aymcam:C1:C1_cin1
-	"***Transmission incoming***"
+C1_cin1
+	"!!!***transmission incoming***!!!"
 End
  
-MISSIONSTR:aymcam:C1:C1_cin2
-	"Welcome back sir, GLA troops are on the way "
+C1_cin2
+	"welcome back sir, GLA troops are on the way "
 End
 
-MISSIONSTR:aymcam:C1:C1_cin3
-	"We need to kick them out of shanghai region"
+C1_cin3
+	"we need to kick them out of shanghai region"
 End
 
-MISSIONSTR:aymcam:C1:C1_cin4
-	"We deserve you the command of this base"
+C1_cin4
+	"we deserve you the command of this base"
 End
+
