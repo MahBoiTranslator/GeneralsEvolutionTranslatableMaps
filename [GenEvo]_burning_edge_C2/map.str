@@ -1,22 +1,20 @@
 
-C2_Pri
+MISSIONDESC:aymcam:C2:C2_Pri
 	"protect the hangar and the arriving civilians"
 End
 
-C2_Sec
+MISSIONDESC:aymcam:C2:C2_Sec
 	"Great Sir, now reclame the city and the access to middle east"
 End
 
-C2_bonus
+MISSIONDESC:aymcam:C2:C2_bonus
 	"use the listening outpost to build a supply center"
 End
 
-C2_cin4
+MISSIONSTR:aymcam:C2:C2_cin4
 	"our main goal is to protect the evacuation of civilian"
 End
 
-
-
-SCRIPT:aymcam_Counter
+MISSIONSTR:aymcam:C2:Counter
 	"Civilian to help :"
 End

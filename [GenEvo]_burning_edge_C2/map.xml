@@ -25018,7 +25018,7 @@
 			CRC="0"
 			Description="Map:[GenEvo]_burning_edge_C2/Desc"
 			DisplayName="[GenEvo]_burning_edge_C2"
-			FileName="data\maps\[genevo]_burning_edge_c2\[genevo]_burning_edge_c2.map"
+			FileName="data"
 			Height="480"
 			IsMultiplayer="false"
 			IsOfficial="false"
