@@ -14206,8 +14206,8 @@
 			BorderSize="80"
 			CRC="0"
 			Description="Map:[GenEvo]_New_Justice_C1/Desc"
-			DisplayName="[GenEvo]_New_Justice_C1"
-			FileName="data\maps\[genevo]_new_ justice_c1\[genevo]_new_ justice_c1.map"
+			DisplayName="[GenEvo] China 1: New Justice"
+			FileName="data"
 			Height="460"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -14255,6 +14255,18 @@
 			<RealProperty
 				Key="cameraGroundMaxHeight"
 				Value="2560"/>
+			<IntProperty
+				Key="compression"
+				Value="1"/>
+			<StringProperty
+				Key="mapName"
+				Value="[GenEvo] China 1: New Justice"/>
+			<StringProperty
+				Key="mapDescription"
+				Value=""/>
+			<BoolProperty
+				Key="isScenarioMultiplayer"
+				Value="false"/>
 		</WorldDict>
 		<PostEffect
 			Effect="GenEvo_PrettyWarm_vol"/>
