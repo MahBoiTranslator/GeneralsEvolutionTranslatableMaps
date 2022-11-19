@@ -38453,8 +38453,8 @@
 			BorderSize="50"
 			CRC="0"
 			Description="Map:[GenEvo]_Toxic_Hope_C4/Desc"
-			DisplayName="[GenEvo]_Toxic_Hope_C4"
-			FileName="data\maps\[genevo]_toxic_hope_c4\[genevo]_toxic_hope_c4.map"
+			DisplayName="[GenEvo] China 4: Toxic Hope"
+			FileName="data"
 			Height="500"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -38496,6 +38496,24 @@
 			<IntProperty
 				Key="weather"
 				Value="0"/>
+			<IntProperty
+				Key="compression"
+				Value="1"/>
+			<StringProperty
+				Key="mapName"
+				Value="[GenEvo] China 4: Toxic Hope"/>
+			<StringProperty
+				Key="mapDescription"
+				Value=""/>
+			<RealProperty
+				Key="cameraGroundMinHeight"
+				Value="0"/>
+			<RealProperty
+				Key="cameraGroundMaxHeight"
+				Value="2560"/>
+			<BoolProperty
+				Key="isScenarioMultiplayer"
+				Value="false"/>
 		</WorldDict>
 		<PostEffect
 			Effect="GenEvo_SunnyShine_vol"/>

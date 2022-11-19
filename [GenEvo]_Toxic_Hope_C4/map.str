@@ -1,12 +1,7 @@
-
-C4_Pri
-	"destroy every thrax troops in the erea"
+MISSIONDESC:aymcam:C4:C4_Pri
+	"Destroy every thrax troops in the erea"
 End
 
-C4_capture
-	"capture those wind turbine, it will lock the baikonour lunchpad"
+MISSIONDESC:aymcam:C4:C4_capture
+	"Capture those wind turbine, it will lock the baikonour lunchpad"
 End
-
-
-
-
