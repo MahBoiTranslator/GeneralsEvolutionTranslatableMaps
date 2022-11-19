@@ -30837,8 +30837,8 @@
 			BorderSize="40"
 			CRC="0"
 			Description="Map:[GenEvo]_Grazing_night_C3/Desc"
-			DisplayName="[GenEvo]_Grazing_night_C3"
-			FileName="data\maps\[genevo]_grazing_night_c3\[genevo]_grazing_night_c3.map"
+			DisplayName="[GenEvo] China 3: Grazing Night"
+			FileName="data"
 			Height="430"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -30880,6 +30880,24 @@
 			<IntProperty
 				Key="weather"
 				Value="0"/>
+			<StringProperty
+				Key="mapName"
+				Value="[GenEvo] China 3: Grazing Night"/>
+			<StringProperty
+				Key="mapDescription"
+				Value=""/>
+			<IntProperty
+				Key="compression"
+				Value="1"/>
+			<RealProperty
+				Key="cameraGroundMinHeight"
+				Value="0"/>
+			<RealProperty
+				Key="cameraGroundMaxHeight"
+				Value="2560"/>
+			<BoolProperty
+				Key="isScenarioMultiplayer"
+				Value="false"/>
 		</WorldDict>
 		<PostEffect
 			Effect="GenEvo_NiceNight_vol"/>
