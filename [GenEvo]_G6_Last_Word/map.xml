@@ -180,7 +180,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="GenEvo_Last_Word_G6">
+		id="GenEvo_G6_Last_Word">
 		<Waypoint
 			id="Waypoint 80">
 			<Position
@@ -72275,9 +72275,9 @@
 		<MapMetaData
 			BorderSize="40"
 			CRC="0"
-			Description="Map:[GenEvo]_Last_Word_G6/Desc"
-			DisplayName="[GenEvo]_Last_Word_G6"
-			FileName="data\maps\[genevo]_last_word_g6\[genevo]_last_word_g6.map"
+			Description="Map:[GenEvo]_G6_Last_Word/Desc"
+			DisplayName="[GenEvo] GLA 6: Last Word"
+			FileName="data"
 			Height="530"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -72313,18 +72313,18 @@
 			<AssetIdProperty
 				Key="musicZone"
 				Value="MusicPalette_NotSet"/>
-			<StringProperty
-				Key="terrainTextureStrings"
-				Value="tsnow_car13;tsnow_car13_nrm;tclif_ncarolina01;tclif_ncarolina01_nrm;RA3Grid1;RA3Grid1_NRM;Pavement_Vlad10;Pavement_Vlad10_NRM;tdirt_shi07;tdirt_shi07_nrm;tsnow_ent02;tsnow_ent02_nrm;TClif_Iceland07;TClif_Iceland07_NRM;tsnow_car02;tsnow_car02_nrm;TClif_Iceland05;TClif_Iceland05_NRM;tdirt_shi05;tdirt_shi05_nrm;tsnow_car01;tsnow_car01_nrm;tsnow_car04;tsnow_car04_nrm;Pavement_Vlad06;Pavement_Vlad06_NRM;TClif_Iceland01;TClif_Iceland01_NRM;tdirt_washington_01;tdirt_washington_01_nrm;tdirt_washington_02;tdirt_washington_02_nrm;Pavement_Vlad04;Pavement_Vlad04_NRM;Pavement_Vlad01;Pavement_Vlad01_NRM;tdirt_rhu02;tdirt_rhu02_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;"/>
 			<IntProperty
 				Key="weather"
 				Value="5"/>
+			<StringProperty
+				Key="terrainTextureStrings"
+				Value="tsnow_car13;tsnow_car13_nrm;tclif_ncarolina01;tclif_ncarolina01_nrm;RA3Grid1;RA3Grid1_NRM;Pavement_Vlad10;Pavement_Vlad10_NRM;tdirt_shi07;tdirt_shi07_nrm;tsnow_ent02;tsnow_ent02_nrm;TClif_Iceland07;TClif_Iceland07_NRM;tsnow_car02;tsnow_car02_nrm;TClif_Iceland05;TClif_Iceland05_NRM;tdirt_shi05;tdirt_shi05_nrm;tsnow_car01;tsnow_car01_nrm;tsnow_car04;tsnow_car04_nrm;Pavement_Vlad06;Pavement_Vlad06_NRM;TClif_Iceland01;TClif_Iceland01_NRM;tdirt_washington_01;tdirt_washington_01_nrm;tdirt_washington_02;tdirt_washington_02_nrm;Pavement_Vlad04;Pavement_Vlad04_NRM;Pavement_Vlad01;Pavement_Vlad01_NRM;tdirt_rhu02;tdirt_rhu02_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;"/>
 			<IntProperty
 				Key="compression"
 				Value="1"/>
 			<StringProperty
 				Key="mapName"
-				Value=""/>
+				Value="[GenEvo] GLA 6: Last Word"/>
 			<StringProperty
 				Key="mapDescription"
 				Value=""/>
@@ -72352,7 +72352,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="GenEvo_Last_Word_G6">
+		id="GenEvo_G6_Last_Word">
 		<Tile
 			BaseTexture="ART:Terrain/TClif_Iceland07.tga"
 			NormalTexture="ART:Terrain/TClif_Iceland07_NRM.tga"
