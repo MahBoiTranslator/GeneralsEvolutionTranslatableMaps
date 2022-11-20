@@ -1,25 +1,23 @@
-
-MISSIONOBJ:aymcam_G4_Primary
+MISSIONOBJ:aymcam:G4:Primary
 	"Destroy their power plant in this area."
 End
 
-MISSIONOBJ:aymcam_G4_Bonus
+MISSIONOBJ:aymcam:G4:Bonus
 	"the chinese sneack near! they must pay."
 End
 
-MISSIONOBJ:aymcam_G4_Secondary
+MISSIONOBJ:aymcam:G4:Secondary
 	"capture their particle canon and destroy them"
 End
- 
-MISSIONSTR:aymcam_G4_Info_Start
+
+MISSIONSTR:aymcam:G4:Info_Start
 	"My leader, general Towns as finish to build his particle canon in mexico"
 End
 
-MISSIONSTR:aymcam_G4_Info_primary
+MISSIONSTR:aymcam:G4:Info_primary
 	"we need to take down their powers income before attacking the main base !"
 End
 
-MISSIONSTR:aymcam_G4_Info_Secondary
+MISSIONSTR:aymcam:G4:Info_Secondary
 	"buena suerte general"
 End
-

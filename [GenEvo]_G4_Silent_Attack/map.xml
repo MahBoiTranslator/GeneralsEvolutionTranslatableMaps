@@ -198,7 +198,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="GenEvo_Silent_Attack_G4">
+		id="GenEvo_G4_Silent_Attack">
 		<Waypoint
 			id="Waypoint 112">
 			<Position
@@ -65832,9 +65832,9 @@
 		<MapMetaData
 			BorderSize="30"
 			CRC="0"
-			Description="Map:[GenEvo]_Silent_Attack_G4/Desc"
-			DisplayName="[GenEvo]_Silent_Attack_G4"
-			FileName="data\maps\[genevo]_silent_attack_g4\[genevo]_silent_attack_g4.map"
+			Description="Map:[GenEvo]_G4_Silent_Attack/Desc"
+			DisplayName="[GenEvo] GLA 4: Silent Attack"
+			FileName="data"
 			Height="490"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -65870,18 +65870,18 @@
 			<AssetIdProperty
 				Key="musicZone"
 				Value="MusicPalette_NotSet"/>
-			<StringProperty
-				Key="terrainTextureStrings"
-				Value="tgrass_aus05;tgrass_aus05_nrm;RA3Grid1;RA3Grid1_NRM;tdirt_rhu07;tdirt_rhu07_nrm;tdirt_rhu02;tdirt_rhu02_nrm;jtv1_constructionasphalt01;jtv1_constructionasphalt01_nrm;tgrass_washington02;tgrass_washington02_nrm;tgrass_washington03;tgrass_washington03_nrm;tdirt_ith10;tdirt_ith10_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;jta_constructiondirt03;jta_constructiondirt03_nrm;poa_mountaingrass02;poa_mountaingrass02_nrm;poa_mountaingrass01;poa_mountaingrass01_nrm;tpave_redzone01;tpave_redzone01_nrm;tdirt_ith11;tdirt_ith11_nrm;tgras_ncarolina04;tgras_ncarolina04_nrm;tdirt_shi05;tdirt_shi05_nrm;TPave_YellowZone03;TPave_YellowZone03_nrm;tdirt_ith12;tdirt_ith12_nrm;TDirt_Egypt03;TDirt_Egypt03_nrm;"/>
 			<IntProperty
 				Key="weather"
 				Value="2"/>
+			<StringProperty
+				Key="terrainTextureStrings"
+				Value="tgrass_aus05;tgrass_aus05_nrm;RA3Grid1;RA3Grid1_NRM;tdirt_rhu07;tdirt_rhu07_nrm;tdirt_rhu02;tdirt_rhu02_nrm;jtv1_constructionasphalt01;jtv1_constructionasphalt01_nrm;tgrass_washington02;tgrass_washington02_nrm;tgrass_washington03;tgrass_washington03_nrm;tdirt_ith10;tdirt_ith10_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;jta_constructiondirt03;jta_constructiondirt03_nrm;poa_mountaingrass02;poa_mountaingrass02_nrm;poa_mountaingrass01;poa_mountaingrass01_nrm;tpave_redzone01;tpave_redzone01_nrm;tdirt_ith11;tdirt_ith11_nrm;tgras_ncarolina04;tgras_ncarolina04_nrm;tdirt_shi05;tdirt_shi05_nrm;TPave_YellowZone03;TPave_YellowZone03_nrm;tdirt_ith12;tdirt_ith12_nrm;TDirt_Egypt03;TDirt_Egypt03_nrm;"/>
 			<IntProperty
 				Key="compression"
 				Value="1"/>
 			<StringProperty
 				Key="mapName"
-				Value=""/>
+				Value="[GenEvo] GLA 4: Silent Attack"/>
 			<StringProperty
 				Key="mapDescription"
 				Value=""/>
@@ -65909,7 +65909,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="GenEvo_Silent_Attack_G4">
+		id="GenEvo_G4_Silent_Attack">
 		<Tile
 			BaseTexture="ART:Terrain/tdirt_ith11.tga"
 			NormalTexture="ART:Terrain/tdirt_ith11_nrm.tga"
