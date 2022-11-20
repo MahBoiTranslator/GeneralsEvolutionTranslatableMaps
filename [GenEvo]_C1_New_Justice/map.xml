@@ -222,7 +222,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="GenEvo_New_Justice_C1">
+		id="GenEvo_C1_New_Justice">
 		<Waypoint
 			id="Waypoint 39">
 			<Position
@@ -14205,7 +14205,7 @@
 		<MapMetaData
 			BorderSize="80"
 			CRC="0"
-			Description="Map:[GenEvo]_New_Justice_C1/Desc"
+			Description="Map:[GenEvo]_C1_New_Justice/Desc"
 			DisplayName="[GenEvo] China 1: New Justice"
 			FileName="data"
 			Height="460"
@@ -14282,7 +14282,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="GenEvo_New_Justice_C1">
+		id="GenEvo_C1_New_Justice">
 		<Tile
 			BaseTexture="ART:Terrain/tclif_ncarolina01.tga"
 			NormalTexture="ART:Terrain/tclif_ncarolina01_nrm.tga"

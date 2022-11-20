@@ -1,19 +1,19 @@
-MISSIONDESC:aymcam:C3:C3_Pri
+MISSIONDESC:aymcam:C3:primary
 	"destroy the four base in the area"
 End
 
-MISSIONSTR:aymcam:C3:C3_cin1
+MISSIONSTR:aymcam:C3:cin1
 	"!!!*** incoming transmission ***!!!"
 End
  
-MISSIONSTR:aymcam:C3:C3_cin2
+MISSIONSTR:aymcam:C3:cin2
 	"we need to hury up and extract the ambassador"
 End
 
-MISSIONSTR:aymcam:C3:C3_cin3
+MISSIONSTR:aymcam:C3:cin3
 	"this is bad general, punish those GLA fanatics"
 End
 
-MISSIONSTR:aymcam:C3:C3_cin4
+MISSIONSTR:aymcam:C3:cin4
 	"use this base to your aim"
 End

@@ -228,7 +228,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="GenEvo_Toxic_Hope_C4">
+		id="GenEvo_C4_Toxic_Hope">
 		<Waypoint
 			id="sneack">
 			<Position
@@ -38452,7 +38452,7 @@
 		<MapMetaData
 			BorderSize="50"
 			CRC="0"
-			Description="Map:[GenEvo]_Toxic_Hope_C4/Desc"
+			Description="Map:[GenEvo]_C4_Toxic_Hope/Desc"
 			DisplayName="[GenEvo] China 4: Toxic Hope"
 			FileName="data"
 			Height="500"
@@ -38496,15 +38496,15 @@
 			<IntProperty
 				Key="weather"
 				Value="0"/>
-			<IntProperty
-				Key="compression"
-				Value="1"/>
 			<StringProperty
 				Key="mapName"
 				Value="[GenEvo] China 4: Toxic Hope"/>
 			<StringProperty
 				Key="mapDescription"
 				Value=""/>
+			<IntProperty
+				Key="compression"
+				Value="1"/>
 			<RealProperty
 				Key="cameraGroundMinHeight"
 				Value="0"/>
@@ -38527,7 +38527,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="GenEvo_Toxic_Hope_C4">
+		id="GenEvo_C4_Toxic_Hope">
 		<Tile
 			BaseTexture="ART:Terrain/tclif_roh05.tga"
 			NormalTexture="ART:Terrain/tclif_roh05_nrm.tga"

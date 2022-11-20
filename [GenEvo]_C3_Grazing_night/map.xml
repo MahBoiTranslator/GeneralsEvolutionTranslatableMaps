@@ -282,7 +282,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="GenEvo_Grazing_night_C3">
+		id="GenEvo_C3_Grazing_night">
 		<Waypoint
 			id="Waypoint 36">
 			<Position
@@ -30836,7 +30836,7 @@
 		<MapMetaData
 			BorderSize="40"
 			CRC="0"
-			Description="Map:[GenEvo]_Grazing_night_C3/Desc"
+			Description="Map:[GenEvo]_C3_Grazing_night/Desc"
 			DisplayName="[GenEvo] China 3: Grazing Night"
 			FileName="data"
 			Height="430"
@@ -30913,7 +30913,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="GenEvo_Grazing_night_C3">
+		id="GenEvo_C3_Grazing_night">
 		<Tile
 			BaseTexture="ART:Terrain/tclif_ncarolina01.tga"
 			NormalTexture="ART:Terrain/tclif_ncarolina01_nrm.tga"

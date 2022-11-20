@@ -237,7 +237,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="GenEvo_burning_edge_C2">
+		id="GenEvo_C2_Burning_Edge">
 		<Waypoint
 			id="Waypoint 65">
 			<Position
@@ -25016,7 +25016,7 @@
 		<MapMetaData
 			BorderSize="40"
 			CRC="0"
-			Description="Map:[GenEvo]_burning_edge_C2/Desc"
+			Description="Map:[GenEvo]_C2_Burning_Edge/Desc"
 			DisplayName="[GenEvo] China 2: Burning Edge"
 			FileName="data"
 			Height="480"
@@ -25093,7 +25093,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="GenEvo_burning_edge_C2">
+		id="GenEvo_C2_Burning_Edge">
 		<Tile
 			BaseTexture="ART:Terrain/tclif_ncarolina01.tga"
 			NormalTexture="ART:Terrain/tclif_ncarolina01_nrm.tga"
