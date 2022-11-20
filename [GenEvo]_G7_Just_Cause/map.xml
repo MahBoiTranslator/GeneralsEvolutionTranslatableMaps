@@ -330,7 +330,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="genevoThe_Just_Cause_G7">
+		id="GenEvo_G7_Just_Cause">
 		<Waypoint
 			id="Waypoint 72">
 			<Position
@@ -74463,9 +74463,9 @@
 		<MapMetaData
 			BorderSize="40"
 			CRC="0"
-			Description="Map:[genevo]The_Just_Cause_G7/Desc"
-			DisplayName="[genevo]The_Just_Cause_G7"
-			FileName="data\maps\[genevo]the_just_cause_g7\[genevo]the_just_cause_g7.map"
+			Description="Map:[GenEvo]_G7_Just_Cause/Desc"
+			DisplayName="[GenEvo] GLA 7: Just Cause"
+			FileName="data"
 			Height="580"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -74501,12 +74501,30 @@
 			<AssetIdProperty
 				Key="musicZone"
 				Value="MusicPalette_NotSet"/>
+			<IntProperty
+				Key="weather"
+				Value="0"/>
 			<StringProperty
 				Key="terrainTextureStrings"
 				Value="tdirt_rhu02;tdirt_rhu02_nrm;Grass_Heidelberg01;Grass_Heidelberg01_nrm;tclif_ncarolina01;tclif_ncarolina01_nrm;RA3Grid1;RA3Grid1_NRM;TGrass_CapeCod05;TGrass_CapeCod05_nrm;Grass_Heidelberg09;Grass_Heidelberg09_nrm;test_grass_08;test_grass_08_nrm;Grass_Heidelberg10;Grass_Heidelberg10_nrm;TGrass_Yucatan02;TGrass_Yucatan02_nrm;TGrass_Yucatan08;TGrass_Yucatan08_nrm;tdirt_rhu07;tdirt_rhu07_nrm;TDirt_Egypt09;TDirt_Egypt09_nrm;tpave_redzone01;tpave_redzone01_nrm;TDirt_YellowZone09;TDirt_YellowZone09_nrm;Dirt_Heidelberg01;Dirt_Heidelberg01_NRM;tdirt_ith12;tdirt_ith12_nrm;TPave_TokyoHarbor06;TPave_TokyoHarbor06_NRM;tdirt_redzone10;tdirt_redzone10_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;"/>
 			<IntProperty
-				Key="weather"
+				Key="compression"
+				Value="1"/>
+			<StringProperty
+				Key="mapName"
+				Value="[GenEvo] GLA 7: Just Cause"/>
+			<StringProperty
+				Key="mapDescription"
+				Value=""/>
+			<RealProperty
+				Key="cameraGroundMinHeight"
 				Value="0"/>
+			<RealProperty
+				Key="cameraGroundMaxHeight"
+				Value="2560"/>
+			<BoolProperty
+				Key="isScenarioMultiplayer"
+				Value="false"/>
 		</WorldDict>
 		<PostEffect
 			Effect="GenEvo_SunnyShine_vol"/>
@@ -74524,7 +74542,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="genevoThe_Just_Cause_G7">
+		id="GenEvo_G7_Just_Cause">
 		<Tile
 			BaseTexture="ART:Terrain/tclif_ncarolina01.tga"
 			NormalTexture="ART:Terrain/tclif_ncarolina01_nrm.tga"
