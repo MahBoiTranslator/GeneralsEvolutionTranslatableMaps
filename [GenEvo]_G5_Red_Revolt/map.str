@@ -1,25 +1,23 @@
-
-MISSIONOBJ:G5_Pri
+MISSIONOBJ:aymcam:G5:Primary
 	"Speak with the « Forgotten General » and see if this is Dr. Thrax"
 End
 
-MISSIONOBJ:G5_Sec
+MISSIONOBJ:aymcam:G5:Secondary
 	"Wipe out these imperialist Chinese for freedom !"
 End
 
-MISSIONOBJ:aymcam_G5_info
+MISSIONSTR:aymcam:G5:info
 	"You now have access to the SCUD Luncher thanks to Dr. Thrax"
 End
  
-MISSIONSTR:aymcam_G5_Info_Start
+MISSIONSTR:aymcam:G5:Info_Start
 	"General, the « Forgotten General » has come to Sitimarki, India"
 End
 
-MISSIONSTR:aymcam_G5_Info_primary
+MISSIONSTR:aymcam:G5:Info_primary
 	"We need to know who he is, and see if this is Dr. Thrax!"
 End
 
-MISSIONSTR:aymcam_G5_Info_Secondary
+MISSIONSTR:aymcam:G5:Info_Secondary
 	"Once we identify this general, destroy the US and Chinese bases for our push to China"
 End
-

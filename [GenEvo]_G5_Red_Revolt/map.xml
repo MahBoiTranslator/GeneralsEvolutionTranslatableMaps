@@ -210,7 +210,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="GenEvoRedRevoltG5">
+		id="GenEvo_G5_Red_Revolt">
 		<Waypoint
 			id="Waypoint 54">
 			<Position
@@ -54747,9 +54747,9 @@
 		<MapMetaData
 			BorderSize="40"
 			CRC="0"
-			Description="Map:[GenEvo]RedRevoltG5/Desc"
-			DisplayName="[GenEvo]RedRevoltG5"
-			FileName="data\maps\[genevo]red revolt g5\[genevo]red revolt g5.map"
+			Description="Map:[GenEvo]_G5_Red_Revolt/Desc"
+			DisplayName="[GenEvo] GLA 5: Red Revolt"
+			FileName="data"
 			Height="520"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -54785,12 +54785,30 @@
 			<AssetIdProperty
 				Key="musicZone"
 				Value="MusicPalette_NotSet"/>
+			<IntProperty
+				Key="weather"
+				Value="2"/>
 			<StringProperty
 				Key="terrainTextureStrings"
 				Value="TDirt_Mykonos03;TDirt_Mykonos03_NRM;TDirt_Mykonos02;TDirt_Mykonos02_NRM;test_grass_08;test_grass_08_nrm;tclif_ncarolina01;tclif_ncarolina01_nrm;tdirt_rhu07a;tdirt_rhu07a_nrm;tdirt_ith06;tdirt_ith06_nrm;tdirt_rhu07;tdirt_rhu07_nrm;tdirt_ith05;tdirt_ith05_nrm;TPave_YellowZone02;TPave_YellowZone02_nrm;tgrass_aus05;tgrass_aus05_nrm;TDirt_Mykonos01;TDirt_Mykonos01_NRM;TGrass_Mykonos01;TGrass_Mykonos01_NRM;TGrass_Mykonos02;TGrass_Mykonos02_NRM;TDirt_Mykonos04;TDirt_Mykonos04_NRM;tdirt_for12;tdirt_for12_nrm;Pavement_Odessa01;Pavement_Odessa01_NRM;"/>
 			<IntProperty
-				Key="weather"
-				Value="2"/>
+				Key="compression"
+				Value="1"/>
+			<StringProperty
+				Key="mapName"
+				Value="[GenEvo] GLA 5: Red Revolt"/>
+			<StringProperty
+				Key="mapDescription"
+				Value=""/>
+			<RealProperty
+				Key="cameraGroundMinHeight"
+				Value="0"/>
+			<RealProperty
+				Key="cameraGroundMaxHeight"
+				Value="2560"/>
+			<BoolProperty
+				Key="isScenarioMultiplayer"
+				Value="false"/>
 		</WorldDict>
 		<PostEffect
 			Effect="GenEvo_VeryOrange_vol"/>
@@ -54806,7 +54824,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="GenEvoRedRevoltG5">
+		id="GenEvo_G5_Red_Revolt">
 		<Tile
 			BaseTexture="ART:Terrain/tdirt_for12.tga"
 			NormalTexture="ART:Terrain/tdirt_for12_nrm.tga"
