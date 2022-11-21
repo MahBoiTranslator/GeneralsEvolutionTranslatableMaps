@@ -1,0 +1,59 @@
+MISSIONOBJ:Khay:BadEvng:Capture_CC
+	"Capture the abandoned command center to establish your foothold in the area."
+End
+
+MISSIONDESC:Khay:BadEvng:Capture_CC
+	"With this CC we can establish foothold in the area"
+END
+
+MISSIONOBJ:Khay:BadEvng:Eliminate_GLA_Base
+	"Liberate the city from GLA. Prevent destruction of the city at any costs"
+End
+
+MISSIONDESC:Khay:BadEvng:Eliminate_GLA_Base
+	"Destroy the base and all its surrounding outposts."
+END
+
+MISSIONOBJ:Khay:BadEvng:ExtraGLAeco
+	"Destroy oil derricks of GLA to weaken GLA economy"
+End
+
+MISSIONDESC:Khay:BadEvng:ExtraGLAeco
+	"Destroy or capture oil derrics to lower GLA's income."
+END
+
+MISSIONOBJ:Khay:BadEvng:GLA_Outposts
+	"Conquer the area for additional resources"
+End
+
+MISSIONDESC:Khay:BadEvng:GLA_Outposts
+	"Destroy GLA outposts preventing you from expansion"
+END
+
+MISSIONOBJ:Khay:BadEvng:GLA_Outposts_2
+	"Conquer the area for additional resources"
+End
+
+MISSIONOBJ:Khay:BadEvng:ObsPosts
+	"Destroy GLA stinger sites preventing you from the further expansion"
+End
+
+MISSIONDESC:Khay:BadEvng:ObsPosts
+	"Destroy Observation Posts"
+END
+
+MISSIONDESC:Khay:BadEvng:OpinionINTERMEDIATE
+	"INTERNATIONAL OPINION - INTERMEDIATE - Prevent the destruction of civilian structures"
+End
+
+MISSIONDESC:Khay:BadEvng:OpinionGOOD
+	"INTERNATIONAL OPINION - GOOD - Prevent the destruction of civilian structures"
+End
+
+MISSIONDESC:Khay:BadEvng:OpinionLOW
+	"INTERNATIONAL OPINION - LOW - One more incident and you will be replayed on this mission"
+End
+
+MISSIONSTR:Khay:BadEvng:CriticalUnit
+	"Critical units needed for the mission have been lost. Mission aborted"
+End
