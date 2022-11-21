@@ -11,7 +11,7 @@ MISSIONSTR:aymcam:G7:info
 End
  
 MISSIONSTR:aymcam:G7:Info_Start
-	"!!!*** Incoming transmission ***!!!"
+	"*** INCOMING TRANSMISSION ***"
 End
 
 MISSIONSTR:aymcam:G7:Info_primary

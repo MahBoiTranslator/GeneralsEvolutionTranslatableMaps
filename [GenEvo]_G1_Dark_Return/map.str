@@ -7,7 +7,7 @@ MISSIONOBJ:aymcam:G1:Secondary
 End
 
 MISSIONOBJ:aymcam:G1:Start
-	"we need to secure the base first !"
+	"We need to secure the base first!"
 End
 
 MISSIONOBJ:aymcam:G1:Advice
@@ -19,9 +19,9 @@ MISSIONOBJ:aymcam:G1:Hint
 End
 
 MISSIONSTR:aymcam:G1:China
-	"General, the Chinsese have taken over Baghdad, our last bastion and our only major territory in this region !"
+	"General, the Chinsese have taken over Baghdad, our last bastion and our only major territory in this region!"
 End
 
 MISSIONSTR:aymcam:G1:Gla
-	"They have also captured our last base in the southwest. Retake it and drive these Chinese infidels off the city !"
+	"They have also captured our last base in the southwest. Retake it and drive these Chinese infidels off the city!"
 End

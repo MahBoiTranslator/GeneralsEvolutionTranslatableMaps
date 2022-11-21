@@ -31,7 +31,6 @@ MISSIONDESC:Sgor00:COTC:DestGLAForcesinVillD
 End
 
 
-
 MISSIONSTR:Sgor00:COTC:Intro_1
 	"General, GLA forces are attacking our sea port in this area! This base is our last hope for reinforcements. You must protect it at all costs."
 End
@@ -87,7 +86,6 @@ End
 MISSIONSTR:Sgor00:COTC:ArmadilloOutpost_BuildHint
 	"This Armadillo Outpost can help you to protect your base. Build it from War Factory and deploy as your base defence. Call an Echo Squad rocket paratroopers support to garrison its bunker!"
 End
-
 
 
 Name:AmericaVehicleBattleShip

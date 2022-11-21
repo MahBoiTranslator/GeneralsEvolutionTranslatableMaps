@@ -1,5 +1,5 @@
 MISSIONDESC:aymcam:C2:primary
-	"protect the hangar and the arriving civilians"
+	"Protect the hangar and the arriving civilians"
 End
 
 MISSIONDESC:aymcam:C2:secondary
@@ -7,13 +7,13 @@ MISSIONDESC:aymcam:C2:secondary
 End
 
 MISSIONDESC:aymcam:C2:bonus
-	"use the listening outpost to build a supply center"
+	"Use the listening outpost to build a supply center"
 End
 
 MISSIONSTR:aymcam:C2:cin4
-	"our main goal is to protect the evacuation of civilian"
+	"Our main goal is to protect the evacuation of civilian"
 End
 
 MISSIONSTR:aymcam:C2:Counter
-	"Civilian to help :"
+	"Civilian to help:"
 End

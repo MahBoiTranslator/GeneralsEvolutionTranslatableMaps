@@ -3,15 +3,15 @@ MISSIONDESC:aymcam:C1:Primary
 End
 
 MISSIONDESC:aymcam:C1:bonus
-	"Capture the war factory, so we can be able to produce tanks "
+	"Capture the war factory, so we can be able to produce tanks"
 End
 
 MISSIONSTR:aymcam:C1:cin1
-	"***Transmission incoming***"
+	"*** INCOMING TRANSMISSION ***"
 End
  
 MISSIONSTR:aymcam:C1:cin2
-	"Welcome back sir, GLA troops are on the way "
+	"Welcome back sir, GLA troops are on the way"
 End
 
 MISSIONSTR:aymcam:C1:cin3

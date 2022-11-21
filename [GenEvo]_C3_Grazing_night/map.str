@@ -1,19 +1,19 @@
 MISSIONDESC:aymcam:C3:primary
-	"destroy the four base in the area"
+	"Destroy the four base in the area"
 End
 
 MISSIONSTR:aymcam:C3:cin1
-	"!!!*** incoming transmission ***!!!"
+	"*** INCOMING TRANSMISSION ***"
 End
  
 MISSIONSTR:aymcam:C3:cin2
-	"we need to hury up and extract the ambassador"
+	"We need to hury up and extract the ambassador"
 End
 
 MISSIONSTR:aymcam:C3:cin3
-	"this is bad general, punish those GLA fanatics"
+	"This is bad general, punish those GLA fanatics"
 End
 
 MISSIONSTR:aymcam:C3:cin4
-	"use this base to your aim"
+	"Use this base to your aim"
 End

@@ -3,11 +3,11 @@ MISSIONOBJ:aymcam:G4:Primary
 End
 
 MISSIONOBJ:aymcam:G4:Bonus
-	"the chinese sneack near! they must pay."
+	"The chinese sneack near! they must pay."
 End
 
 MISSIONOBJ:aymcam:G4:Secondary
-	"capture their particle canon and destroy them"
+	"Capture their particle canon and destroy them"
 End
 
 MISSIONSTR:aymcam:G4:Info_Start
@@ -15,9 +15,9 @@ MISSIONSTR:aymcam:G4:Info_Start
 End
 
 MISSIONSTR:aymcam:G4:Info_primary
-	"we need to take down their powers income before attacking the main base !"
+	"We need to take down their powers income before attacking the main base!"
 End
 
 MISSIONSTR:aymcam:G4:Info_Secondary
-	"buena suerte general"
+	"Buena suerte general"
 End

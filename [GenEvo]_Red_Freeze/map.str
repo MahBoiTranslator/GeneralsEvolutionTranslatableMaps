@@ -22,8 +22,6 @@ MISSIONDESC:aymcam:RF:Primary_Advice_Desc
 	"Capturing this Oil Derrick will provide us more resources."
 End
 
-
-
 MISSIONSTR:aymcam:RF:Hint_1
 	"You should Capture the US base in the south west General."
 End

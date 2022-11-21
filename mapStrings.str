@@ -1,0 +1,599 @@
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONDESC:aymcam:C1:Primary
+	"Destroy the GLA base"
+End
+
+MISSIONDESC:aymcam:C1:bonus
+	"Capture the war factory, so we can be able to produce tanks"
+End
+
+MISSIONSTR:aymcam:C1:cin1
+	"*** INCOMING TRANSMISSION ***"
+End
+ 
+MISSIONSTR:aymcam:C1:cin2
+	"Welcome back sir, GLA troops are on the way"
+End
+
+MISSIONSTR:aymcam:C1:cin3
+	"We need to kick them out of shanghai region"
+End
+
+MISSIONSTR:aymcam:C1:cin4
+	"We deserve you the command of this base"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONDESC:aymcam:C2:primary
+	"Protect the hangar and the arriving civilians"
+End
+
+MISSIONDESC:aymcam:C2:secondary
+	"Great Sir, now reclame the city and the access to middle east"
+End
+
+MISSIONDESC:aymcam:C2:bonus
+	"Use the listening outpost to build a supply center"
+End
+
+MISSIONSTR:aymcam:C2:cin4
+	"Our main goal is to protect the evacuation of civilian"
+End
+
+MISSIONSTR:aymcam:C2:Counter
+	"Civilian to help:"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONDESC:aymcam:C3:primary
+	"Destroy the four base in the area"
+End
+
+MISSIONSTR:aymcam:C3:cin1
+	"*** INCOMING TRANSMISSION ***"
+End
+ 
+MISSIONSTR:aymcam:C3:cin2
+	"We need to hury up and extract the ambassador"
+End
+
+MISSIONSTR:aymcam:C3:cin3
+	"This is bad general, punish those GLA fanatics"
+End
+
+MISSIONSTR:aymcam:C3:cin4
+	"Use this base to your aim"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONDESC:aymcam:C4:primary
+	"Destroy every thrax troops in the erea"
+End
+
+MISSIONDESC:aymcam:C4:capture
+	"Capture those wind turbine, it will lock the baikonour lunchpad"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:aymcam:G1:Primary
+	"Destroy the Chinese Propaganda Towers in the area"
+End
+
+MISSIONOBJ:aymcam:G1:Secondary
+	"Destroy the rest of the chinese forces"
+End
+
+MISSIONOBJ:aymcam:G1:Start
+	"We need to secure the base first!"
+End
+
+MISSIONOBJ:aymcam:G1:Advice
+	"Capture those ressources to fund this operation"
+End
+
+MISSIONOBJ:aymcam:G1:Hint
+	"Save the POW troops! They have access to the GPS Scrambler!"
+End
+
+MISSIONSTR:aymcam:G1:China
+	"General, the Chinsese have taken over Baghdad, our last bastion and our only major territory in this region!"
+End
+
+MISSIONSTR:aymcam:G1:Gla
+	"They have also captured our last base in the southwest. Retake it and drive these Chinese infidels off the city!"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:aymcam:G2:Primary
+	"Capture the chemical facility so we can recover our lost toxin technology"
+End
+
+MISSIONOBJ:aymcam:G2:Secondary
+	"Escort the 3 chemical trucks to this location. All of them must survive."
+End
+
+MISSIONOBJ:aymcam:G2:Third
+	"Destroy the Chinese and their fleet"
+End
+
+MISSIONOBJ:aymcam:G2:HINT
+	"Help the citizens in the city rise up against this filthy Chinese propaganda !"
+End
+
+MISSIONSTR:aymcam:G2:Hint1
+	"The Chinese are getting close, General. We must punish them for their insolence!" 
+End
+
+MISSIONSTR:aymcam:G2:Hint2
+	"General, the Chinese have taken control of our chemical facility. Recapture it and get our toxin capabilities back!""
+End
+
+MISSIONSTR:aymcam:G2:Hint3
+	"Take care of the fleet. Beware of any resistance. "
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:aymcam:G3:Primary
+	"Destroy their little outpost in this area."
+End
+
+MISSIONOBJ:aymcam:G3:Secondary
+	"Finish them and take down their airfield"
+End
+ 
+MISSIONSTR:aymcam:G3:Info_Start
+	"Bienvenido a Cuba, General! We have given you the control of the Snake Bastion for this operation."
+End
+
+MISSIONSTR:aymcam:G3:Info_primary
+	"We have grant you access to sneack attack and GPS scrambler"
+End
+
+MISSIONSTR:aymcam:G3:Info_Secondary
+	"Good Hunting my Leader"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:aymcam:G4:Primary
+	"Destroy their power plant in this area."
+End
+
+MISSIONOBJ:aymcam:G4:Bonus
+	"The chinese sneack near! they must pay."
+End
+
+MISSIONOBJ:aymcam:G4:Secondary
+	"Capture their particle canon and destroy them"
+End
+
+MISSIONSTR:aymcam:G4:Info_Start
+	"My leader, general Towns as finish to build his particle canon in mexico"
+End
+
+MISSIONSTR:aymcam:G4:Info_primary
+	"We need to take down their powers income before attacking the main base!"
+End
+
+MISSIONSTR:aymcam:G4:Info_Secondary
+	"Buena suerte general"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:aymcam:G5:Primary
+	"Speak with the « Forgotten General » and see if this is Dr. Thrax"
+End
+
+MISSIONOBJ:aymcam:G5:Secondary
+	"Wipe out these imperialist Chinese for freedom !"
+End
+
+MISSIONSTR:aymcam:G5:info
+	"You now have access to the SCUD Luncher thanks to Dr. Thrax"
+End
+ 
+MISSIONSTR:aymcam:G5:Info_Start
+	"General, the « Forgotten General » has come to Sitimarki, India"
+End
+
+MISSIONSTR:aymcam:G5:Info_primary
+	"We need to know who he is, and see if this is Dr. Thrax!"
+End
+
+MISSIONSTR:aymcam:G5:Info_Secondary
+	"Once we identify this general, destroy the US and Chinese bases for our push to China"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:aymcam:G6:primary
+	"Destroy the 3 Propaganda Towers and Chinese camps in our path"
+End
+
+MISSIONOBJ:aymcam:G6:secondary
+	"Destroy the Infantry base to the northwest"
+End
+
+MISSIONOBJ:aymcam:G6:tertiary
+	"Assassinate General Juhziz and destroy his main base"
+End
+
+MISSIONSTR:aymcam:G6:info
+	"General, Juzhiz has betrayed us and his collaborating with the Chinese"
+End
+ 
+MISSIONSTR:aymcam:G6:Info_Start
+	"We need to sneak into the battlefield"
+End
+
+MISSIONSTR:aymcam:G6:Info_primary
+	"Good hunting, General!"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:aymcam:G7:primary
+	"Build a base near the US War Factory"
+End
+
+MISSIONOBJ:aymcam:G7:secondary
+	"Destroy the 3 Chinese bases the area"
+End
+
+MISSIONSTR:aymcam:G7:info
+	"Thanks to the Mexico strike, we have access to the Particle Cannon"
+End
+ 
+MISSIONSTR:aymcam:G7:Info_Start
+	"*** INCOMING TRANSMISSION ***"
+End
+
+MISSIONSTR:aymcam:G7:Info_primary
+	"General, today is a glorious day!"
+End
+
+MISSIONSTR:aymcam:G7:Info_Secondary
+	"Global domination is at our grasp, General! We must take Shanghai for a new beginning!"
+End
+
+MISSIONSTR:aymcam:G7:counter
+	"Time before the Chinese attack:"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:aymcam:HF:Defend
+	"You must defend your base until the waves attacks end."
+End
+
+MISSIONOBJ:aymcam:HF:Attack
+	"Destroy Leang's base and her superweapons!"
+End
+
+MISSIONSTR:aymcam:HF:Counter
+	"Waves:"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:aymcam:FD:Primary_Objective
+	"Destroy china propaganda towers in the area."
+End
+
+MISSIONOBJ:aymcam:FD:Secondary_Objective
+	"Destroy the rest of the chinese forces."
+End
+
+MISSIONDESC:aymcam:FD:Primary_Description
+	"At first we need to destroy those propaganda towers to unleashed our revenge, they are 6 in this region."
+End
+
+MISSIONDESC:aymcam:FD:Secondary_Description
+	"We can now finish our enemies, kill them all general and redeem our cause."
+End
+
+MISSIONOBJ:aymcam:FD:Optional_Objective
+	"Destroying those power plants, can allow us to take more easilly the chinese base."
+End
+
+MISSIONDESC:aymcam:FD:Optional_Description
+	"Destroying those Power Plant will allow us to take more easily the chinese base."
+End
+
+MISSIONOBJ:aymcam:FD:Primary_Advice
+	"Talk to the Arms Dealer."
+End
+
+MISSIONDESC:aymcam:FD:Primary_Advice_Desc
+	"Go to the arms dealer, I'm sure he can help us with his plans."
+End
+
+MISSIONOBJ:aymcam:FD:Sec_Advice
+	"Capture those oil derricks will provide us more ressources to our cause."
+End
+
+MISSIONDESC:aymcam:FD:Sec_Advice_Desc
+	"Capturing those oil derrick will provide us more ressources to our cause."
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:Sgor00:COTC:Defend_Airfield
+	"Protect your base from the incoming attack."
+End
+
+MISSIONDESC:Sgor00:COTC:Defend_AirfieldD
+	"We must keep our sea port airfield! It must not be destroyed!"
+End
+
+MISSIONOBJ:Sgor00:COTC:Defend_WarFactory
+	"Defend your War Factory."
+End
+
+MISSIONDESC:Sgor00:COTC:Defend_WarFactoryD
+	"You need to make new forces to protect your base, keep your War Factory!"
+End
+
+MISSIONOBJ:Sgor00:COTC:Destroy_EnemyWF
+	"Destroy the enemy's base."
+End
+
+MISSIONDESC:Sgor00:COTC:Destroy_EnemyWFD
+	"We've located the enemy's base. Get rid of them!"
+End
+
+MISSIONOBJ:Sgor00:COTC:DestGLAForcesinVill
+	"Destroy GLA forces in the village."
+End
+
+MISSIONDESC:Sgor00:COTC:DestGLAForcesinVillD
+	"There are some enemy units in this area. It won't be a problem for you, will it?"
+End
+
+
+MISSIONSTR:Sgor00:COTC:Intro_1
+	"General, GLA forces are attacking our sea port in this area! This base is our last hope for reinforcements. You must protect it at all costs."
+End
+
+MISSIONSTR:Sgor00:COTC:Intro_2
+	"After securing this beach, your next objective is eliminate all GLA threat there."
+End
+
+MISSIONSTR:Sgor00:COTC:Intro_3
+	"Welcome back, General!"
+End
+
+MISSIONSTR:Sgor00:COTC:Outro
+	"Congratulations General, mission accomplished!"
+End
+
+MISSIONSTR:Sgor00:COTC:Reinforcements
+	"Reinforcements have arrived, General! Prepare to defend!"
+End
+
+MISSIONSTR:Sgor00:COTC:Timer
+	"Reinforcements arriving at:"
+End
+
+MISSIONSTR:Sgor00:COTC:Wave_1
+	"Enemy forces are coming, General! Defend your base! We are sending you reinforcements."
+End
+
+MISSIONSTR:Sgor00:COTC:Wave_2
+	"Another wave incoming, keep defending!"
+End
+
+MISSIONSTR:Sgor00:COTC:Wave_3
+	"Sir, intel reports GLA sending heavy armed long-range rocket launchers. Be prepared!"
+End
+
+MISSIONSTR:Sgor00:COTC:Wave_4
+	"Sir, reinforcements are on the way! Keep protecting your base until they arrive!"
+End
+
+MISSIONSTR:Sgor00:COTC:Wave_5
+	"New GLA attacks keep coming! Hold your ground general!"
+End
+
+MISSIONSTR:Sgor00:COTC:Wave_6
+	"Another wave, sir! Keep your eyes open!"
+End
+
+MISSIONSTR:Sgor00:COTC:Wave_Fin
+	"Intel reports this is the last GLA attack. Give'em hell, General and then you'll be able to counter strike!"
+End
+
+MISSIONSTR:Sgor00:COTC:ArmadilloOutpost_BuildHint
+	"This Armadillo Outpost can help you to protect your base. Build it from War Factory and deploy as your base defence. Call an Echo Squad rocket paratroopers support to garrison its bunker!"
+End
+
+
+Name:AmericaVehicleBattleShip
+	"Battleship"
+End
+
+Type:AmericaVehicleBattleShip
+	"Naval Support"
+End
+
+Desc:AmericaVehicleBattleShip
+	"Naval Support Unit \n> Strong vs. vehicles, buildings \n> Weak vs. aircraft"
+End
+
+DESC:CC_SpecialPowerGenEvoAmericaParatroopers
+	"Drop 5 Missile Defenders from the air"
+End
+
+NAME:CC_SpecialPowerGenEvoAmericaParatroopers1
+	"Echo Squad Paradrop"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+Name:AmericaVehicleBattleShip
+	"Battleship"
+End
+
+Type:AmericaVehicleBattleShip
+	"Naval Support"
+End
+
+Desc:AmericaVehicleBattleShip
+	"Naval Support Unit \n> Strong vs. vehicles, buildings \n> Weak vs. aircraft"
+End
+
+MISSIONOBJ:aymcam:PM:Primary_Objective
+	"Destroy the Scud Storm with those tomahawks and clear the first gla base."
+End
+
+MISSIONDESC:aymcam:PM:Primary_Description
+	"Destroy the Scud Storm with those tomahawks."
+End
+
+MISSIONOBJ:aymcam:PM:Secondary_Objective
+	"Destroy the Kassad fanatic, and liberate the region."
+End
+
+MISSIONDESC:aymcam:PM:Secondary_Description
+	"Destroy the Kassad fanatic, and liberate the region."
+End
+
+MISSIONOBJ:aymcam:PM:Primary_Advice
+	"Capture this Oil Derricks will provide us more resources."
+End
+
+MISSIONDESC:aymcam:PM:Primary_Advice_Desc
+	"Capturing this Oil Derrick will provide us more resources."
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:aymcam:RF:Primary_Objective
+	"Destroy GLA Forces."
+End
+
+MISSIONOBJ:aymcam:RF:Secondary_Objective
+	"Destroy the 3 small bases first."
+End
+
+MISSIONOBJ:aymcam:RF:Primary_Advice
+	"Capture this Oil Derricks will provide us more resources."
+End
+
+MISSIONDESC:aymcam:RF:Primary_Description
+	"Destroy GLA Forces."
+End
+
+MISSIONDESC:aymcam:RF:Secondary_Description
+	"Destoy the 3 small bases first this will make the work ease."
+End
+
+MISSIONDESC:aymcam:RF:Primary_Advice_Desc
+	"Capturing this Oil Derrick will provide us more resources."
+End
+
+MISSIONSTR:aymcam:RF:Hint_1
+	"You should Capture the US base in the south west General."
+End
+
+MISSIONSTR:aymcam:RF:Hint_2
+	"Well done, now destroy all GLA remaining forces General!"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONSTR:sgor00:HappyAnniversary
+	"This map was created for Tiberian Sun 22nd Anniversary in 2021."
+End
+
+NAME:TiberiumCrystal
+	"Tiberium"
+End
+
+DESC:TiberiumCrystal
+	"Unidetified dangereous mineral. Explosive"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONSTR:Sgor00:TM:Intro_1
+	"Generals! Be on guard, these mountains are controlled by hostile GLA clan!"
+End
+
+MISSIONSTR:Sgor00:TM:Intro_2
+	"They're using tunnel network to move their forces!"
+End
+
+MISSIONSTR:Sgor00:TM:Intro_3
+	"Anyway there're good news! We've deployed additional bases for you! It will double your power!"
+End
+
+MISSIONSTR:Sgor00:TM:Intro_4
+	"To win this match you must defeat all your enemies and destroy GLA base hidden in mountains!"
+End
+
+MISSIONSTR:Sgor00:TM:Intro_5
+	"Good hunting, Generals!"
+End
+
+MISSIONOBJ:Sgor00:TM:Primary_Objective
+	"Destroy GLA base in mountains!"
+End
+
+MISSIONOBJ:Sgor00:TM:Skirmish_Objective
+	"Defeat your enemies"
+End
+
+MISSIONOBJ:Sgor00:TM:Secondary_Objective
+	"Destroy GLA Sneak Attack Tunnels"
+End
+
+MISSIONDESC:Sgor00:TM:Primary_Description
+	"Defeat all your enemies and destroy GLA base in this location to achieve victory"
+End
+
+MISSIONDESC:Sgor00:TM:Secondary_Desctiption
+	"Destroy this tunnel and you'll get resources and veterancy crates"
+End
+
+Hint_1
+	"After destroying GLA tunnels you will get some money crates! Warning: destroying all Arms Dealers will kill these tunnels without providing awards!"
+End
+
+MISSIONSTR:Sgor00:TM:Wave_1
+	"Warning! We've located tunnels near your bases. Seems GLA deploying some light vehicles and infantry in this area!"
+End
+
+MISSIONSTR:Sgor00:TM:Wave_2
+	"Warning! We've located new tunnels there with more heavier scorpions and quad cannons!"
+End
+
+MISSIONSTR:Sgor00:TM:Wave_3
+	"Warning! GLA getting elite squads from tunnels in the center of their main base!"
+End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONDESC:aymcam:USA3:defend
+	"Ensure the escape of 100 U.S. forces"
+End
+
+MISSIONSTR:aymcam:USA3:Counter
+	"Escaped U.S. Forces:"
+End
+
+MISSIONSTR:aymcam:USA3:Intro_1
+	"Northen Kazaksthan. U.S. Forces in full retreat"
+End
+
+MISSIONSTR:aymcam:USA3:Intro_2
+	"Operation : Guardian Angel"
+End
