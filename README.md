@@ -27,3 +27,8 @@ All strings in map.str follow this template: `<Main category>:<Mapper name>:<Map
   * Full map name or it abbreviation without whitespaces.
 * String name:
   * Just string name without whitespaces.
+
+There also have the file `mapStrings.str`, that you can include in your version of `gamestrings.csf`.
+
+# Support
+If you want to support me and my projects then subscribe me on [boosty](https://boosty.to/mah_boi).
