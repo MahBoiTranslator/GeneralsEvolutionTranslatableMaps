@@ -9,10 +9,11 @@ List of patched maps and campaigns:
 * [Red Freeze](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/red-freeze)
 * [Falling Dragon](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/falling-dragon)
 * [USA 3 Mission Remake](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/usa-3-remake)
-* [Hail Field](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/packmap2-3maps)
-* [Bad Evening Challenge](https://cdn.discordapp.com/attachments/829258846362533900/1040005328001060904/Bad_Evening_Challenge_v1.01.rar)
 * [Fan GLA Campaign](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/gla-campaign-pack)
 * [Fan China Campaign](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/china-campaign-first-part)
+* [Hail Field](https://www.moddb.com/mods/command-and-conquer-generals-evolution/addons/packmap2-3maps)
+* [Bad Evening Challenge](https://cdn.discordapp.com/attachments/829258846362533900/1040005328001060904/Bad_Evening_Challenge_v1.01.rar)
+* [Desert Trap Challenge](https://cdn.discordapp.com/attachments/829258846362533900/1052247650839310417/GenEvoDesert_Trap.rar)
 
 # Using map.str format in repository
 All strings in map.str follow this template: `<Main category>:<Mapper name>:<Map name>:<String name>`

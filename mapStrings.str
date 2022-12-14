@@ -597,3 +597,45 @@ End
 MISSIONSTR:aymcam:USA3:Intro_2
 	"Operation : Guardian Angel"
 End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:Khay:DesertTrap:CaptureOilsLowMID
+	"Secure the area to gain more income"
+End
+
+MISSIONOBJ:Khay:DesertTrap:TakeObservationPost
+	"Capture to get contact with our artillery squads"
+End
+
+MISSIONOBJ:Khay:DesertTrap:CaptureEnemyOilSup
+	"Capture USA oil supply depots and steal their money"
+End
+
+MISSIONOBJ:Khay:DesertTrap:CaptureRadioTower
+	"Cripple enemy communication and boost the morale of our troops"
+End
+
+MISSIONOBJ:Khay:DesertTrap:RemoveEnemyPresen
+	"Push Americans out of the region by destroying their bases"
+End
+
+MISSIONOBJ:Khay:DesertTrap:CaptureEnemyOils1
+	"Capture this oil field and receive benefits from the people of China"
+End
+
+MISSIONOBJ:Khay:DesertTrap:CaptureEnemyOils2
+	"Capture this oil field and receive benefits from the people of China"
+End
+
+MISSIONOBJ:Khay:DesertTrap:CaptureEnemyOils3
+	"Capture this oil field and receive benefits from the people of China"
+End
+
+MISSIONOBJ:Khay:DesertTrap:CaptureFacility
+	"This hybrid generator is used to power up most of the USA forces. Capture it"
+End
+
+MISSIONOBJ:Khay:DesertTrap:ProtectFacility
+	"Data of generator are being transfered. Defend it at all costs!"
+End
