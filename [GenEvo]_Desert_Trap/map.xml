@@ -141,7 +141,7 @@
 			type="all"/>
 	</Includes>
 	<GameMap
-		id="GenEvo_Desert_Trap">
+		id="GenEvoDesert_Trap">
 		<Waypoint
 			id="AP">
 			<Position
@@ -57502,9 +57502,9 @@
 		<MapMetaData
 			BorderSize="50"
 			CRC="0"
-			Description="Map:[GenEvo]_Desert_Trap/Desc"
+			Description="Map:[GenEvo]Desert_Trap/Desc"
 			DisplayName="[GenEvo] Desert Trap"
-			FileName="data\maps\[genevo]_desert_trap\[genevo]_desert_trap.map"
+			FileName="data\maps\[genevo]desert_trap\[genevo]desert_trap.map"
 			Height="710"
 			IsMultiplayer="false"
 			IsOfficial="false"
@@ -57606,7 +57606,7 @@
 	<TerrainTextureAtlas
 		AllowLossyCompression="true"
 		AtlasSize="2048"
-		id="GenEvo_Desert_Trap">
+		id="GenEvoDesert_Trap">
 		<Tile
 			BaseTexture="ART:Terrain/tdirt_for12.tga"
 			NormalTexture="ART:Terrain/tdirt_for12_nrm.tga"
@@ -57903,17 +57903,7 @@
 					<Script
 						id="L_Alowed_SW">
 						<Action
-							Type="CREATE_UNNAMED_ON_TEAM_AT_WAYPOINT">
-							<ParameterList>
-								<ObjectType
-									Object="SupW_AmericaParticleCannonUplink"/>
-							</ParameterList>
-						</Action>
-					</Script>
-					<Script
-						id="SW_Alowed_SW">
-						<Action
-							Type="CREATE_UNNAMED_ON_TEAM_AT_WAYPOINT">
+							Type="CREATE_NAMED_ON_TEAM_AT_WAYPOINT">
 							<ParameterList>
 								<ObjectType
 									Object="Lazr_AmericaParticleCannonUplink"/>
@@ -57921,10 +57911,23 @@
 						</Action>
 					</Script>
 					<Script
+						id="SW_Alowed_SW">
+						<Action
+							Type="CREATE_NAMED_ON_TEAM_AT_WAYPOINT">
+							<ParameterList>
+								<ObjectType
+									Object="SupW_AmericaParticleCannonUplink"/>
+							</ParameterList>
+						</Action>
+					</Script>
+					<Script
 						id="A_Alowed_SW">
 						<Action
-							Type="NAMED_TRANSFER_OWNERSHIP_PLAYER">
-							<ParameterList/>
+							Type="CREATE_NAMED_ON_TEAM_AT_WAYPOINT">
+							<ParameterList>
+								<ObjectType
+									Object="Airf_AmericaParticleCannonUplink"/>
+							</ParameterList>
 						</Action>
 					</Script>
 				</ScriptGroup>
@@ -58205,7 +58208,7 @@
 							<ParameterList/>
 						</Action>
 						<Action
-							Type="MARK_MISSION_OBJECTIVE_NOT_COMPLETED">
+							Type="MARK_MISSION_OBJECTIVE_COMPLETED">
 							<ParameterList/>
 						</Action>
 						<Action
@@ -58214,6 +58217,10 @@
 						</Action>
 						<Action
 							Type="PLAY_SOUND_EFFECT">
+							<ParameterList/>
+						</Action>
+						<Action
+							Type="DISPLAY_COUNTDOWN_TIMER">
 							<ParameterList/>
 						</Action>
 					</Script>
