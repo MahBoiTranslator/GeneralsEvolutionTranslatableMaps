@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration xmlns="uri:ea.com:eala:asset" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xai="uri:ea.com:eala:asset:instance">
+	<Tags/>
+	
+	<Includes>
+	
+	
+
+	<Include type="all" source="Code/Audio.xml"/>
+	
+	
+	
+		
+	
+	
+	<!-- OVERRIDES NEED THESE -->
+	</Includes>
+	
+	<!-- Unit Portrait -->
+	
+	
+	<AudioFile id="ttank001" File="Audio/ttank001.wav" GUIPreset="Default" />
+	<AudioFile id="ttank002" File="Audio/ttank002.wav" GUIPreset="Default" />
+	<AudioFile id="ttank003" File="Audio/ttank003.wav" GUIPreset="Default" />
+	<AudioFile id="ttank004" File="Audio/ttank004.wav" GUIPreset="Default" />
+	<AudioFile id="ttank005" File="Audio/ttank005.wav" GUIPreset="Default" />
+	<AudioFile id="ttank006" File="Audio/ttank006.wav" GUIPreset="Default" />
+	<AudioFile id="ttank007" File="Audio/ttank007.wav" GUIPreset="Default" />
+	<AudioFile id="ttank008" File="Audio/ttank008.wav" GUIPreset="Default" />
+	<AudioFile id="ttank009" File="Audio/ttank009.wav" GUIPreset="Default" />
+	<AudioFile id="ttank010" File="Audio/ttank010.wav" GUIPreset="Default" />
+	<AudioFile id="ttank011" File="Audio/ttank011.wav" GUIPreset="Default" />
+	<AudioFile id="ttank012" File="Audio/ttank012.wav" GUIPreset="Default" />
+	<AudioFile id="ttank013" File="Audio/ttank013.wav" GUIPreset="Default" />
+	<AudioFile id="ttank014" File="Audio/ttank014.wav" GUIPreset="Default" />
+	<AudioFile id="ttank015" File="Audio/ttank015.wav" GUIPreset="Default" />
+	<AudioFile id="ttank016" File="Audio/ttank016.wav" GUIPreset="Default" />
+	<AudioFile id="ttank017" File="Audio/ttank017.wav" GUIPreset="Default" />
+	<AudioFile id="ttank018" File="Audio/ttank018.wav" GUIPreset="Default" />
+	<AudioFile id="ttank019" File="Audio/ttank019.wav" GUIPreset="Default" />
+	<AudioFile id="ttank020" File="Audio/ttank020.wav" GUIPreset="Default" />
+	<AudioFile id="ttank021" File="Audio/ttank021.wav" GUIPreset="Default" />
+	<AudioFile id="ttank022" File="Audio/ttank022.wav" GUIPreset="Default" />
+	<AudioFile id="ttank023" File="Audio/ttank023.wav" GUIPreset="Default" />
+	<AudioFile id="ttank024" File="Audio/ttank024.wav" GUIPreset="Default" />
+	<AudioFile id="ttank025" File="Audio/ttank025.wav" GUIPreset="Default" />
+	<AudioFile id="ttank026" File="Audio/ttank026.wav" GUIPreset="Default" />
+	<AudioFile id="ttank027" File="Audio/ttank027.wav" GUIPreset="Default" />
+	<AudioFile id="ttank028" File="Audio/ttank028.wav" GUIPreset="Default" />
+	<AudioFile id="ttank029" File="Audio/ttank029.wav" GUIPreset="Default" />
+	<AudioFile id="ttank030" File="Audio/ttank030.wav" GUIPreset="Default" />
+	<AudioFile id="ttank062" File="Audio/ttank062.wav" GUIPreset="Default" />
+	<AudioFile id="ttank082" File="Audio/ttank082.wav" GUIPreset="Default" />
+	<AudioFile id="ttank083" File="Audio/ttank083.wav" GUIPreset="Default" />
+	<AudioFile id="ttank084" File="Audio/ttank084.wav" GUIPreset="Default" />
+	<AudioFile id="ttank085" File="Audio/ttank085.wav" GUIPreset="Default" />
+	<AudioFile id="ttank086" File="Audio/ttank086.wav" GUIPreset="Default" />
+	<AudioFile id="ttank087" File="Audio/ttank087.wav" GUIPreset="Default" />
+	<AudioFile id="ttank088" File="Audio/ttank088.wav" GUIPreset="Default" />
+	<AudioFile id="ttank089" File="Audio/ttank089.wav" GUIPreset="Default" />
+	<AudioFile id="ttank090" File="Audio/ttank090.wav" GUIPreset="Default" />
+	<AudioFile id="ttank091" File="Audio/ttank091.wav" GUIPreset="Default" />
+	<AudioFile id="ttank092" File="Audio/ttank092.wav" GUIPreset="Default" />
+	<AudioFile id="ttank093" File="Audio/ttank093.wav" GUIPreset="Default" />
+	<AudioFile id="ttank094" File="Audio/ttank094.wav" GUIPreset="Default" />
+	<AudioFile id="ttank095" File="Audio/ttank095.wav" GUIPreset="Default" />
+	<AudioFile id="ttank096" File="Audio/ttank096.wav" GUIPreset="Default" />
+	<AudioFile id="ttank097" File="Audio/ttank097.wav" GUIPreset="Default" />
+	<AudioFile id="ttank098" File="Audio/ttank098.wav" GUIPreset="Default" />
+	<AudioFile id="ttank099" File="Audio/ttank099.wav" GUIPreset="Default" />
+	<AudioFile id="ttank100" File="Audio/ttank100.wav" GUIPreset="Default" />
+	<AudioFile id="ttank101" File="Audio/ttank101.wav" GUIPreset="Default" />
+	
+
+	<AudioFile id="ecplvic" File="Audio/ecplvic.wav" GUIPreset="Default" />
+	<AudioFile id="egplvic" File="Audio/egplvic.wav" GUIPreset="Default" />
+	<AudioFile id="euplvic" File="Audio/euplvic.wav" GUIPreset="Default" />
+	<AudioFile id="End_Chi" File="Audio/End_Chi.wav" GUIPreset="Default" />
+	<AudioFile id="End_GLA" File="Audio/End_GLA.wav" GUIPreset="Default" />
+	<AudioFile id="End_USA" File="Audio/End_USA.wav" GUIPreset="Default" />
+	<AudioFile id="ucheergl" File="Audio/ucheergl.wav" GUIPreset="Default" />
+
+
+	
+	
+	
+</AssetDeclaration>

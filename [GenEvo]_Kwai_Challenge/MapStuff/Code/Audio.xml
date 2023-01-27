@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssetDeclaration
+	xmlns="uri:ea.com:eala:asset"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Tags/>
+	<Includes/>
+	
+	<!-- Defaults for AudioEvents. Derive all other AudioEvents from this one -->
+	<AudioEvent id="CC_BaseSoundEffect"
+		Volume="200" 
+		MinVolume="0"
+		ShrunkenPitchModifier="2.0"
+		ShrunkenVolumeModifier="85"
+		Priority="HIGHEST"
+		Limit="10"
+		MinRange="300"
+		MaxRange="1000"
+		PlayPercent="100"
+		Type="UI PLAYER"
+		ReverbEffectLevel="100"
+		ZoomedInOffscreenVolumePercent = "50"
+		ZoomedInOffscreenMinVolumePercent = "100" 
+		ZoomedInOffscreenOcclusionPercent = "20"  >
+		<!-- You might think the following was a good idea:
+			SubmixSlider ="SOUNDFX"
+			IT'S NOT. Doing this in the default sound will mess up the special 'use the speech slider if the
+			voice flag is present and no SubmixSlider entry was seen' code.		-->
+	</AudioEvent>
+	
+	<!-- Defaults for Mission Dialogue. Derive Mission Dialogue from this one -->
+	<AudioEvent id="CC_BaseMissionDialogue" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="200" 
+		MinVolume="90"
+		Limit="10"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	<!-- Defaults for unit responses. Derive unit responses responses from this one -->
+	<AudioEvent id="CC_BaseUnitResponse" inheritFrom="AudioEvent:CC_BaseSoundEffect"
+		Volume="100" 
+		MinVolume="90"
+		ShrunkenPitchModifier="1.3"
+		ShrunkenVolumeModifier="95"
+		Priority="NORMAL"
+		Limit="3"
+		Type="UI PLAYER VOICE"
+		SubmixSlider="VOICE" >
+	</AudioEvent>
+	
+	
+	
+	
+	
+	
+	<!-- OVERRIDES NEED THESE -->
+	
+  
+  
+  <!-- OVERRIDES NEED THESE -->
+	
+	<AudioEvent id="0ttank001" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank001</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank002" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank002</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank003" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank003</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank004" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank004</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank005" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank005</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank006" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank006</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank007" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank007</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank008" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank008</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank009" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank009</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank010" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank010</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank011" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank011</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank012" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank012</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank013" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank013</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank014" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank014</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank015" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank015</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank016" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank016</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank017" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank017</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank018" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank018</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank019" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank019</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank020" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank020</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank021" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank021</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank022" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank022</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank023" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank023</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank024" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank024</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank025" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank025</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank026" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank026</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank027" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank027</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank028" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank028</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank029" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank029</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank030" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank030</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank062" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank062</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank082" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank082</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank083" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank083</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank084" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank084</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank085" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank085</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank086" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank086</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank087" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank087</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank088" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank088</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank089" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank089</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank090" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank090</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank091" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank091</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank092" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank092</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank093" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank093</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank094" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank094</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank095" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank095</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank096" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank096</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank097" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank097</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttan098" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank098</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank099" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank099</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank100" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank100</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ttank101" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ttank101</Sound> 
+	</AudioEvent>
+	
+
+	<AudioEvent id="0euplvic" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>euplvic</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0egplvic" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>egplvic</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ecplvic" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ecplvic</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0End_Chi" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>End_Chi</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0End_GLA" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>End_GLA</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0End_USA" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>End_USA</Sound> 
+	</AudioEvent>
+	<AudioEvent id="0ucheergl" inheritFrom="AudioEvent:CC_BaseSoundEffect">
+		<Sound>ucheergl</Sound> 
+	</AudioEvent>
+
+
+
+
+
+
+
+	
+	
+
+</AssetDeclaration>

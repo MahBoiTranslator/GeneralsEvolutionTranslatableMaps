@@ -639,3 +639,13 @@ End
 MISSIONOBJ:Khay:DesertTrap:ProtectFacility
 	"Data of generator are being transfered. Defend it at all costs!"
 End
+
+/////////////////////////////////////////////////////////////////////////
+
+MISSIONOBJ:aymcam:KWAICH:BonusObj
+	"The PLA are sending renforcement to KWAI, Destroy there listening outpost"
+END
+
+MISSIONOBJ:aymcam:KWAICH:MainObj
+	"We need to defeat Kwai !"
+END

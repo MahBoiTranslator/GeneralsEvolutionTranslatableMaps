@@ -1,0 +1,7 @@
+MISSIONOBJ:aymcam:KWAICH:BonusObj
+	"The PLA are sending renforcement to KWAI, Destroy there listening outpost"
+END
+
+MISSIONOBJ:aymcam:KWAICH:MainObj
+	"We need to defeat Kwai !"
+END
