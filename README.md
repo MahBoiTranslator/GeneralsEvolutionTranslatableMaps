@@ -1,4 +1,6 @@
 # About Repository
+[![Support me on Boosty](https://img.shields.io/badge/boosty-50₽/month-green.svg?logo=boosty)](https://boosty.to/mah_boi)
+
 Collection of a patched maps for C&amp;C: Generals Evolution that could be translated on any language.
 
 List of patched maps and campaigns:
